@@ -1,0 +1,38 @@
+/* src/components/ShortRosary.css */
+
+.short-rosary-container {
+    background-color: #b1cdd1;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center all child elements horizontally */
+    justify-content: flex-start; /* Align items to the top of the container */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding around the container */
+  }
+  
+  .rosary-image {
+    width: 80%; /* Set the image width to 80% of its parent container */
+    max-width: 600px; /* Set a max width to avoid overly large images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow around the image */
+  }
+  
+  .rosary-prayer {
+    margin: 10px 0; /* Add margin to each prayer item */
+    padding: 15px;
+    background-color: #f9f9f9; /* Light background for each prayer box */
+    border-radius: 8px; /* Rounded corners for each prayer box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
+  }
+  
+  h1, h2 {
+    color: #4a4a4a; /* Dark grey color for headings */
+    font-family: 'Arial', sans-serif; /* Set a clean font for headings */
+  }
+  
+  p {
+    color: #666; /* Lighter grey for text */
+    font-size: 16px; /* Adjust font size for readability */
+  }

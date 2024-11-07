@@ -1,0 +1,52 @@
+/* Styling for Navbar container */
+.navbar {
+    background-color: #161718; /* Custom background color */
+    border-radius: 5px;
+  }
+  
+  /* Navbar brand */
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important; /* Ensure the brand text is white */
+  }
+  
+  /* Navbar links */
+  .navbar .navbar-nav .nav-link {
+    color: #fff !important; /* White color for the links */
+    font-size: 1.2rem;
+    padding: 12px 20px; /* Add some padding around the links */
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #d0b413c9 !important; /* Change to gold on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Active link */
+  .navbar .navbar-nav .nav-item.active .nav-link {
+    background-color: #0056b3; /* Darker background for active item */
+    border-radius: 5px;
+  }
+  
+  /* Navbar Form */
+  .navbar-form {
+    display: flex;
+    justify-content: center; /* Center search form in the navbar */
+    margin-top: 8px;
+  }
+  
+  .navbar-form .form-control {
+    width: 200px; /* Define the width of the search bar */
+  }
+  
+  .navbar-form .btn {
+    background-color: #ffd700; /* Gold button */
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+  }
+  
+  .navbar-form .btn:hover {
+    background-color: #ffdf00; /* Lighter gold on hover */
+  }
+  
