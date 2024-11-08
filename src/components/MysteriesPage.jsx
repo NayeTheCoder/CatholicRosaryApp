@@ -3,10 +3,10 @@ import React from 'react';
 const MysteriesPage = () => {
     // Define which mysteries are associated with each day
     const rosaryMystery = {
-        joyful: ['Monday', 'Saturday'],
-        luminous: ['Thursday'],
-        sorrowful: ['Tuesday', 'Friday'],
-        glorious: ['Wednesday', 'Sunday']
+        Joyful: ['Monday', 'Saturday'],
+        Luminous: ['Thursday'],
+        Sorrowful: ['Tuesday', 'Friday'],
+        Glorious: ['Wednesday', 'Sunday']
     };
 
     // Get the current day of the week
