@@ -1,7 +1,7 @@
 /* src/components/LongRosary.css */
 
 .long-rosary-container {
-    background-color: #b1cdd1;
+    background-color: #b3c7f7;
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center all child elements horizontally */
@@ -28,12 +28,12 @@
   }
   
   h1, h2 {
-    color: #4a4a4a; /* Dark grey color for headings */
+    color: #0e0d0d; 
     font-family: 'Arial', sans-serif; /* Set a clean font for headings */
   }
   
   p {
-    color: #666; /* Lighter grey for text */
+    color: #0b0909; 
     font-size: 16px; /* Adjust font size for readability */
   }
   

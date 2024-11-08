@@ -11,7 +11,7 @@ const ShortRosary = () => {
 
         <h1>The Holy Rosary</h1> 
 
-         <p>This is a shorter version of the Holy Rosary designed to help you meditate and learn from each mystery. Remember these are all meant to lead us closer to Jesus. We learn about his life through scriptural references.</p> 
+         <p>This is a shorter version of the Holy Rosary designed to help you meditate on each mystery. Remember these are all meant to lead us closer to Jesus. </p> 
           <p> Open you heart and watch how Jesus will transform your life.</p> 
 
       <img
@@ -50,24 +50,31 @@ the forgiveness of sins,
 the resurrection of the body,
 and life everlasting.
 Amen. </p>
-      </div>
-      <div className="rosary-prayer">
-        <h2> Padre nuestro</h2> 
+</div>
+<div className="rosary-prayer">
+        <h2> Our Father</h2> 
         <p> 
-        Padre nuestro, que estás en el cielo, santificado sea tu nombre, venga a nosotros tu reino, hágase tu voluntad, en la tierra como en el cielo. Danos hoy nuestro pan de cada día, perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden.
-         No nos dejes caer en la tentación, y líbranos del mal. Amén
+        Our Father, Who art in heaven, 
+Hallowed be Thy Name. 
+Thy Kingdom come. 
+Thy Will be done, 
+on earth as it is in Heaven.
+
+Give us this day our daily bread. 
+And forgive us our trespasses, 
+as we forgive those who trespass against us. 
+And lead us not into temptation, 
+but deliver us from evil. Amen.
         </p>
         </div>
-
       <div className="rosary-prayer">
         <h2> Hail Mary (x3)</h2> 
         <p> 
-Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
+        Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
 </p>
       </div>
 
@@ -77,23 +84,30 @@ Amen
       </div>
 
       <div className="rosary-prayer">
-        <h2>5. Padre nuestro</h2> 
+        <h2> Our Father</h2> 
         <p> 
-        Padre nuestro, que estás en el cielo, santificado sea tu nombre, venga a nosotros tu reino, hágase tu voluntad, en la tierra como en el cielo. Danos hoy nuestro pan de cada día, perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden.
-         No nos dejes caer en la tentación, y líbranos del mal. Amén
+        Our Father, Who art in heaven, 
+Hallowed be Thy Name. 
+Thy Kingdom come. 
+Thy Will be done, 
+on earth as it is in Heaven.
+
+Give us this day our daily bread. 
+And forgive us our trespasses, 
+as we forgive those who trespass against us. 
+And lead us not into temptation, 
+but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-  <h2> 6. 10 Hail Mary's</h2>
-  <p>
-  Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
-  </p>
-  </div>
+    <h2> Hail Mary (x10)</h2> 
+    <p> Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
+</p>
+      </div>
   <div className="rosary-prayer">
   <h2> 7. Glory Be</h2>
   <p>
@@ -135,17 +149,15 @@ And lead us not into temptation,
 but deliver us from evil. Amen.
         </p>
         </div>
-<div className="rosary-prayer">
-  <h2> 11. 10 Hail Mary's</h2>
-  <p>
-  Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
-  </p>
-  </div>
+  <div className="rosary-prayer">
+    <h2> Hail Mary (x10)</h2> 
+    <p> Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
+</p>
+      </div>
   <div className="rosary-prayer">
   <h2> 12. Glory Be</h2>
   <p>
@@ -187,16 +199,14 @@ but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-  <h2> 16. 10 Hail Mary's</h2>
-  <p>
-  Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
-  </p>
-  </div>
+    <h2> Hail Mary (x10)</h2> 
+    <p> Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
+</p>
+      </div>
   <div className="rosary-prayer">
   <h2> 17. Glory Be</h2>
   <p>
@@ -237,17 +247,16 @@ And lead us not into temptation,
 but deliver us from evil. Amen.
         </p>
         </div>
-<div className="rosary-prayer">
-  <h2> 21. 10 Hail Mary's</h2>
-  <p>
-  Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
-  </p>
-  </div>
+ <div className="rosary-prayer">
+        <h2> Hail Mary (x10)</h2> 
+        <p> 
+        Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
+</p>
+      </div>
   <div className="rosary-prayer">
   <h2> 22. Glory Be</h2>
   <p>
@@ -288,17 +297,16 @@ And lead us not into temptation,
 but deliver us from evil. Amen.
         </p>
         </div>
-<div className="rosary-prayer">
-  <h2> 26. 10 Hail Mary's</h2>
-  <p>
-  Hail Mary, full of grace, the Lord is with you.
-Blessed are you among women,
-and blessed is the fruit of your womb, Jesus.
-Holy Mary, Mother of God, pray for us sinners,
-now and at the hour of our death.
-Amen
-  </p>
-  </div>
+ <div className="rosary-prayer">
+        <h2> Hail Mary (x10)</h2> 
+        <p> 
+        Hail Mary full of Grace, the Lord is with thee.
+Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
+Holy Mary Mother of God,
+pray for us sinners now and at the hour of our death
+Amen. 
+</p>
+      </div>
   <div className="rosary-prayer">
   <h2> 27. Glory Be</h2>
   <p>

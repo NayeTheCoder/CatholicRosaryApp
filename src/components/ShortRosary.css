@@ -1,7 +1,7 @@
 /* src/components/ShortRosary.css */
 
 .short-rosary-container {
-    background-color: #b1cdd1;
+    background-color: #b51963;
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center all child elements horizontally */
@@ -28,11 +28,11 @@
   }
   
   h1, h2 {
-    color: #4a4a4a; /* Dark grey color for headings */
+    color: #000000; 
     font-family: 'Arial', sans-serif; /* Set a clean font for headings */
   }
   
   p {
-    color: #666; /* Lighter grey for text */
+    color: #151414; 
     font-size: 16px; /* Adjust font size for readability */
   }
