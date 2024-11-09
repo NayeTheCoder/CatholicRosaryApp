@@ -36,3 +36,19 @@
     color: #050505; 
     font-size: 16px; /* Adjust font size for readability */
   }
+
+  #sorrowful {
+    color: blue;
+  }
+
+  #joyful {
+    color: teal;
+  }
+
+  #luminous {
+    color: purple;
+  }
+
+  #glorious {
+    color: fuchsia
+  }
