@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState }from 'react';
 import './SpanishRosary.css';
 
 
 const SpanishRosary = () => {
+  // State to control visibility of specific mysteries (each with a unique index)
+  const [visibleMysteries, setVisibleMysteries] = useState([]);
+
+  // Function to toggle the visibility of a mystery based on its index
+  const toggleVisibility = (index) => {
+    setVisibleMysteries((prev) => 
+      prev.includes(index) ? prev.filter(item => item !== index) : [...prev, index]
+    );
+  };
+
+
   return (
     <div className="el-rosario-container">
 
@@ -11,12 +22,12 @@ const SpanishRosary = () => {
       <img
         src="https://catholic-link.com/wp-content/uploads/2017/03/7-1-2.jpg"
         alt="El Santo Rosario"
-        className="rosary-image" /* change to Spanish */
+        className="rosary-image" 
         style={{ width: '50%', height: 'auto', marginBottom: '20px'}}
       />
 
       
-      
+
       {/* Example of a prayer structure */}
       <div className="el-rosario">
         <h2>La señal de la Cruz</h2>
@@ -26,40 +37,9 @@ const SpanishRosary = () => {
       
       <div className="el-rosario">
         <h2>Credo de los Apóstoles</h2>
-        <p> Creo en un solo Dios,
-Padre Todopoderoso,
-Creador del cielo y de la tierra,
-de todo lo visible y lo invisible.
-Creo en un Solo Senor Jesucristo,
-Hijo unico de Dios,
-nacido del Padre antes de todos los siglos:
-Dios de Dios, Luz de Luz,
-Dios verdadero de Dios verdadero,
-engendrado, no creado,
-de la misma naturaleza del Padre,
-por quien todo fue hecho;
-que por nosotros los hombres, bajo del cielo,
-y por obra del Espiritu Santo
-se encarno de maria la Virgen, y se hizo hombre;
-y por nuestra causa fue cricificado
-en tiempos de Poncio Pilato,
-padecio y fue sepultado,
-y resucito al tercer dia, segun las Escrituras,
-y subio al cielo, y esta sentado a la derecha del Padre;
-y de nuevo vendra con gloria
-para juzgar vivos y muertos,
-y su reino no tendra fin.
-Creo en el Espiritu Santo, Senor y dador de vida,
-que procede del padre y del Hijo
-recibe una misma adoracion y gloria,
-y que hablo por los profetas.
-Creo en la Iglesia,
-que es una, santa, catolica y apostolica.
-Confieso que hay un solo bautismo
-para el perdon de los pecados.
-Espero la resureccion de los muertos
-y la vida del mundo futuro.
-Amen. </p>
+        <p>Creo en Dios Padre, Todopoderoso, Creador del cielo y de la tierra. Creo en Jesucristo su único Hijo, nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de
+la Santa María Virgen, padeció bajo el poder de Poncio Pilato; fué crucificado, muerto y sepultado, descendió a los infiernos, al tercer día resucitó de entre los muertos, subió al cielo y está sentado a la derecha de Dios, Padre Todopoderoso. Desde
+allí ha de venir a juzgar a vivos y muertos. Creo en el Esprítu Santo, la Santa Iglesia Católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. Amén. </p>
       </div>
       <div className="el-rosario">
         <h2>Padre Nuestro</h2> 
@@ -86,17 +66,86 @@ Amén.
   <h2> 3 Ave María</h2>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
+Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
 Santa María, Madre de Dios,
 ruega por nosotros, pecadores,
 ahora y en la hora de nuestra muerte.
 Amén 
   </p>
   </div>
+  <div className="el-rosario">
+  <h2> 7. Gloria</h2>
+  <p>
+  Gloria al Padre, y al Hijo, y al Espíritu Santo. 
+  Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
+  </p>
+  </div> 
 
-      <div className="el-rosario">
-        <h2> 1st Mystery </h2>
-        <p> * Can I make it so that each day will be different?*</p>
+     {/* This is the first Mystery section where when you click on the day it expands to show the text */}
+     <div className="el-rosario">
+        <h2>Primer Mysterio</h2>
+
+        <h2 id="glorious"
+          onClick={() => toggleVisibility(0)} 
+          style={{ cursor: 'pointer' }}
+        >
+          Misterios Gozosos (lunes y sábado)
+        </h2>
+
+     
+      {/* The Glorious Mystery clickable*/}
+        {visibleMysteries.includes(0) && (
+          <div>
+            <h3>El primer misterio gozoso: La anunciación del Angel a Maria</h3>
+            <p> </p>
+          </div>
+        )}
+
+       
+      {/* The 1st Sorrowful Mystery clickable*/}
+        <h2 id="sorrowful"
+          onClick={() => toggleVisibility(1)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Dolorosos(martes y viernes)
+        </h2>
+
+        {visibleMysteries.includes(1) && (
+          <div>
+            <h2>El primer misterio doloroso: la agonia de Jesus en el huerto</h2>
+            <p> </p>
+          </div>
+        )}
+
+      {/* The 1st Joyful Mystery clickable*/}
+        <h2 id="joyful"
+          onClick={() => toggleVisibility(2)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Gloriosos(miercoles y domingos)
+        </h2>
+
+        {visibleMysteries.includes(2) && (
+          <div>
+            <h2>El primer misterio Glorioso: La Resurreccion de Nuestro Senor Jesucristo</h2>
+            <p> </p>
+          </div>
+        )}
+          <h2 id="luminous"
+          onClick={() => toggleVisibility(3)} 
+          style={{ cursor: 'pointer' }}
+        >
+
+      {/* The 1st Luminous Mystery clickable*/}
+        Misterios Luminosos(jueves)
+        </h2>
+
+        {visibleMysteries.includes(3) && (
+          <div>
+            <h2>El primer misterio Luminoso: El Bautismo de Jesus en el Jordan</h2>
+            <p> </p>
+          </div>
+        )}
       </div>
 
       <div className="el-rosario">
@@ -123,7 +172,7 @@ Amén.
   <h2> 10 Ave María</h2>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
+Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
 Santa María, Madre de Dios,
 ruega por nosotros, pecadores,
 ahora y en la hora de nuestra muerte.
@@ -150,11 +199,73 @@ Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra mue
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 
-<div className="el-rosario">
-  <h2> 9. 2nd Mystery </h2>
-  <p> **** Can I link from the detailedMystery page???? ****</p>
-</div>
 
+{/* This is the second Mystery section where when you click on the day it expands to show the text */}
+<div className="el-rosario">
+        <h2>Segundo Mysterio</h2>
+
+        <h2 id="glorious"
+          onClick={() => toggleVisibility(4)} 
+          style={{ cursor: 'pointer' }}
+        >
+          Misterios Gozosos (lunes y sábado)
+        </h2>
+
+     
+      {/* The 2nd Glorious Mystery clickable*/}
+        {visibleMysteries.includes(4) && (
+          <div>
+            <h3>El segundo misterio gozoso: La visitacion de Maria a su prima Santa Isabel</h3>
+            <p> </p>
+          </div>
+        )}
+
+       
+      {/* The 2nd Sorrowful Mystery clickable*/}
+        <h2 id="sorrowful"
+          onClick={() => toggleVisibility(5)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Dolorosos(martes y viernes)
+        </h2>
+
+        {visibleMysteries.includes(5) && (
+          <div>
+            <h2>El segundo misterio doloroso: la flagelacion de nuestro Senor Jesucristo</h2>
+            <p> </p>
+          </div>
+        )}
+
+      {/* The 2nd Joyful Mystery clickable*/}
+        <h2 id="joyful"
+          onClick={() => toggleVisibility(6)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Gloriosos(miercoles y domingos)
+        </h2>
+
+        {visibleMysteries.includes(6) && (
+          <div>
+            <h2>El segundo misterio Glorioso: La Ascension de Nuestro Senor Jesucristo</h2>
+            <p> </p>
+          </div>
+        )}
+          <h2 id="luminous"
+          onClick={() => toggleVisibility(7)} 
+          style={{ cursor: 'pointer' }}
+        >
+
+      {/* The 2nd Luminous Mystery clickable*/}
+        Misterios Luminosos(jueves)
+        </h2>
+
+        {visibleMysteries.includes(7) && (
+          <div>
+            <h2>El segundo misterio Luminoso: La autorevelacion de Jesus en las bodas de Cana</h2>
+            <p> </p>
+          </div>
+        )}
+      </div>
 <div className="el-rosario">
         <h2>Padre Nuestro</h2> 
         <p> 
@@ -179,7 +290,7 @@ Amén.
   <h2> 10 Ave María</h2>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
+Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
 Santa María, Madre de Dios,
 ruega por nosotros, pecadores,
 ahora y en la hora de nuestra muerte.
@@ -205,10 +316,73 @@ Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra mue
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
+{/* This is the third Mystery section where when you click on the day it expands to show the text */}
 <div className="el-rosario">
-  <h2> 14. 3rd Mystery </h2>
-  <p> **** Can I link from the detailedMystery page???? ****</p>
-</div>
+        <h2>Tercer Mysterio</h2>
+
+        <h2 id="glorious"
+          onClick={() => toggleVisibility(8)} 
+          style={{ cursor: 'pointer' }}
+        >
+          Misterios Gozosos (lunes y sábado)
+        </h2>
+
+     
+      {/* The 3rd Glorious Mystery clickable*/}
+        {visibleMysteries.includes(8) && (
+          <div>
+            <h3>El tercer misterio gozoso: El nacimiento de Jesus en Belen </h3>
+            <p> </p>
+          </div>
+        )}
+
+       
+      {/* The 3rd Sorrowful Mystery clickable*/}
+        <h2 id="sorrowful"
+          onClick={() => toggleVisibility(9)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Dolorosos(martes y viernes)
+        </h2>
+
+        {visibleMysteries.includes(9) && (
+          <div>
+            <h2>El tercer misterio doloroso: La Coronacion de espinas a Nuestro Senor Jesucristo </h2>
+            <p> </p>
+          </div>
+        )}
+
+      {/* The 3rd Joyful Mystery clickable*/}
+        <h2 id="joyful"
+          onClick={() => toggleVisibility(10)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Gloriosos(miercoles y domingos)
+        </h2>
+
+        {visibleMysteries.includes(10) && (
+          <div>
+            <h2>El tercer misterio Glorioso: La Resurreccion de Nuestro Senor Jesucristo</h2>
+            <p> </p>
+          </div>
+        )}
+          <h2 id="luminous"
+          onClick={() => toggleVisibility(11)} 
+          style={{ cursor: 'pointer' }}
+        >
+
+      {/* The 3rd Luminous Mystery clickable*/}
+        Misterios Luminosos(jueves)
+        </h2>
+
+        {visibleMysteries.includes(11) && (
+          <div>
+            <h2>El tercer misterio Luminoso: Jesus anuncia el Reino de Dios e invita a la Conversion</h2>
+            <p> </p>
+          </div>
+        )}
+      </div>
+
 
 <div className="el-rosario">
         <h2>Padre Nuestro</h2> 
@@ -395,15 +569,3 @@ export default SpanishRosary;
 
 
 
-// Other Credo
-//Creo en Dios Padre, Todopoderoso, Creador del cielo y de la
-//tierra. Y en Jesucristo su único Hijo, Nuestro Señor; que fue
-//concebido por obra y gracia del Espíritu Santo; y nació de
-//la Santa María Virgen; padeció bajo el poder de Poncio Pilato;
-//fué crucificado, muerto y sepultado; descendió a los infiernos;
-//al tercer día resucitó de entre los muertos; subió a los cielos y
-//está sentado a la diestra de Dios Padre Todopoderoso; desde
-//allí ha de venir a juzgar a los vivos y a los muertos. Creo en el
-//Esprítu Santo, en la Santa Iglesia Católica; la comunión de
-//los santos; el perdón de los pecados; la resurrección de la
-//carne y la vida eterna. Amén.
