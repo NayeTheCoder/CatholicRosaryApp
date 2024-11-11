@@ -434,10 +434,74 @@ Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra mue
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
+
+<div>
+{/* This is the fourth Mystery section where when you click on the day it expands to show the text */}
 <div className="el-rosario">
-  <h2> 19. 4th Mystery </h2>
-  <p> **** Can I link from the detailedMystery page???? ****</p>
-</div>
+        <h2>Cuarto Mysterio</h2>
+
+        <h2 id="glorious"
+          onClick={() => toggleVisibility(12)} 
+          style={{ cursor: 'pointer' }}
+        >
+          Misterios Gozosos (lunes y sábado)
+        </h2>
+
+     
+      {/* The 3rd Glorious Mystery clickable*/}
+        {visibleMysteries.includes(12) && (
+          <div>
+            <h3>El cuarto misterio gozoso:  </h3>
+            <p> </p>
+          </div>
+        )}
+
+       
+      {/* The 4th Sorrowful Mystery clickable*/}
+        <h2 id="sorrowful"
+          onClick={() => toggleVisibility(13)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Dolorosos(martes y viernes)
+        </h2>
+
+        {visibleMysteries.includes(13) && (
+          <div>
+            <h2>El cuarto misterio doloroso:  </h2>
+            <p> </p>
+          </div>
+        )}
+
+      {/* The 4th Joyful Mystery clickable*/}
+        <h2 id="joyful"
+          onClick={() => toggleVisibility(14)} 
+          style={{ cursor: 'pointer' }}
+        >
+        Misterios Gloriosos(miercoles y domingos)
+        </h2>
+
+        {visibleMysteries.includes(14) && (
+          <div>
+            <h2>El tercer misterio Glorioso: La Resurreccion de Nuestro Senor Jesucristo</h2>
+            <p> </p>
+          </div>
+        )}
+          <h2 id="luminous"
+          onClick={() => toggleVisibility(15)} 
+          style={{ cursor: 'pointer' }}
+        >
+
+      {/* The 4th Luminous Mystery clickable*/}
+        Misterios Luminosos(jueves)
+        </h2>
+
+        {visibleMysteries.includes(15) && (
+          <div>
+            <h2>El cuarto misterio Luminoso:</h2>
+            <p> </p>
+          </div>
+        )}
+      </div>
 
 <div className="el-rosario">
         <h2>Padre Nuestro</h2> 
