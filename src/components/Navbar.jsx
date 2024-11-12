@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
         <ul className="nav navbar-nav">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/long-rosary"> The Holy Rosary With Meditations</Link></li>
-          <li><Link to="/short-rosary"> The Holy Rosary without Meditations</Link></li>
+          <li><Link to="/long-rosary"> The Holy Rosary With Bible Verses</Link></li>
+          <li><Link to="/short-rosary"> The Holy Rosary</Link></li>
           <li><Link to="/spanish-rosary"> El Santo Rosario</Link></li>
           <li><Link to="/prayers">Prayers</Link></li> {/* Link to the Prayers page */}
           <li><Link to="/rosary-facts"> Rosary Info</Link></li>
