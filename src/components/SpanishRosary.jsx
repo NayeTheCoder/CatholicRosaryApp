@@ -74,7 +74,7 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> 7. Gloria</h2>
+  <h2> Gloria</h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
@@ -143,7 +143,7 @@ Amén
         {visibleMysteries.includes(3) && (
           <div>
             <h2>El primer misterio Luminoso: El Bautismo de Jesus en el Jordan</h2>
-            <p> </p>
+            <p>  </p>
           </div>
         )}
       </div>
@@ -698,6 +698,13 @@ export default SpanishRosary;
 
 
 // links to different litany's at the end !!
+// Going to finish mysteries on all first but then will add litanys
+// I am thinking going to use same format as mysteries but there is <p> </p> section under where
+// I can insert actual prayers for diff. litanys
+// Litany of Mary
+// Litany for Souls in purgatory
+// Litany for sacred heart of Jesus??
+// Going to see. 
 
 
 
