@@ -440,7 +440,7 @@ Amen.</p>
       {/* The Glorious Mystery clickable*/}
         {visibleMysteries.includes(12) && (
           <div>
-            <h3>4th Joyful Mystery: </h3>
+            <h3>4th Joyful Mystery: The Presentation of the Child Jesus in the Temple </h3>
             <p> </p>
           </div>
         )}
@@ -456,7 +456,7 @@ Amen.</p>
 
         {visibleMysteries.includes(13) && (
           <div>
-            <h2>4th Sorrowful Mystery:  </h2>
+            <h2>4th Sorrowful Mystery: The Carrying of The Cross </h2>
             <p> </p>
           </div>
         )}
@@ -486,7 +486,7 @@ Amen.</p>
 
         {visibleMysteries.includes(15) && (
           <div>
-            <h2> 4th Luminous Mystery:  </h2>
+            <h2> 4th Luminous Mystery: The Transfiguration  </h2>
             <p> </p>
           </div>
         )}
@@ -552,7 +552,7 @@ Amen.</p>
       {/* The Glorious Mystery clickable*/}
         {visibleMysteries.includes(16) && (
           <div>
-            <h3>5th Joyful Mystery: </h3>
+            <h3>5th Joyful Mystery: The Finding of the Child Jesus in the Temple </h3>
             <p> </p>
           </div>
         )}
@@ -568,7 +568,7 @@ Amen.</p>
 
         {visibleMysteries.includes(17) && (
           <div>
-            <h2>5th Sorrowful Mystery:  </h2>
+            <h2>5th Sorrowful Mystery: The Crucifixion  </h2>
             <p> </p>
           </div>
         )}
@@ -598,7 +598,7 @@ Amen.</p>
 
         {visibleMysteries.includes(19) && (
           <div>
-            <h2> 5th Luminous Mystery:  </h2>
+            <h2> 5th Luminous Mystery: The Institution of the Eucharist  </h2>
             <p> </p>
           </div>
         )}
