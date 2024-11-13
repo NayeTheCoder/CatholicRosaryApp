@@ -1,0 +1,9 @@
+prayer-box {
+    background-color: #b3c7f7;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center all child elements horizontally */
+    justify-content: flex-start; /* Align items to the top of the container */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding around the container */
+}

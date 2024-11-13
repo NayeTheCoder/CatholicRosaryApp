@@ -1,0 +1,16 @@
+h1, h2, p {
+    color: #000000; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.page-container {
+    background-color: #ffc60c;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+{/* For some reason this is not working. Not updating to Yellow for English Info pg */}
+
