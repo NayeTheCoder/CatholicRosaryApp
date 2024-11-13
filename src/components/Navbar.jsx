@@ -15,6 +15,7 @@ const Navbar = () => {
           <li><Link to="/short-rosary"> The Holy Rosary</Link></li>
           <li><Link to="/spanish-rosary"> El Santo Rosario</Link></li>
           <li><Link to="/prayers">Prayers</Link></li> {/* Link to the Prayers page */}
+          <li><Link to="/rosary-facts-spanish"> Informacion del santo rosario</Link></li>
           <li><Link to="/rosary-facts"> Rosary Info</Link></li>
         </ul>
       </div>

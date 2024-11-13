@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './PrayersPage.css';
 
 const PrayersPage = () => {
   const [prayers, setPrayers] = useState([]);
@@ -42,7 +43,7 @@ const PrayersPage = () => {
   }
 
   return (
-    <div>
+    <div className="prayer-box">
       <h1>Basic Prayers</h1>
       <ul>
         {prayers.map((prayer) => (
