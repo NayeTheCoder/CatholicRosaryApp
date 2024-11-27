@@ -3,7 +3,7 @@ import './RosaryFacts.css';
 
 const RosaryFacts = () => {
     return (
-        <div className="page-container">
+        <div className="page-container" style={{backgroundColor: "#ffc60c"}}>
             <h1>Rosary Information</h1>    
             <h2>The 15 Promises of Our Lady to Those Who Pray the Rosary</h2>
 
