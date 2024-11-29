@@ -23,7 +23,7 @@ const SpanishRosary = () => {
         src="https://catholic-link.com/wp-content/uploads/2017/03/7-1-2.jpg"
         alt="El Santo Rosario"
         className="rosary-image" 
-        style={{ width: '50%', height: 'auto', marginBottom: '20px'}}
+        style={{ width: '75%', height: 'auto', marginBottom: '20px'}}
       />
 
       
@@ -190,7 +190,7 @@ Amén
   <h2> Maria Madre de Gracias</h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
-Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén.
+  En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
@@ -298,7 +298,7 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> 7. Gloria</h2>
+  <h2> Gloria</h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
@@ -308,7 +308,7 @@ Amén
   <h2> Maria Madre de Gracias</h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
-Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén.
+  En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>   
   <div className="el-rosario">
@@ -417,7 +417,7 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Glory Be</h2>
+  <h2> Gloria </h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
@@ -427,7 +427,7 @@ Amén
   <h2> Maria Madre de Gracias</h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
-Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén.
+  En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
@@ -547,7 +547,7 @@ Amén
   <h2> Maria Madre de Gracias</h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
-Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén.
+  En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
@@ -618,7 +618,7 @@ Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra mue
 
         {visibleMysteries.includes(19) && (
           <div>
-            <h2>El quinto misterio Luminoso: Jesus Anuncia el Reino de Dios e invita a la Conversion</h2>
+            <h2>El quinto misterio Luminoso: La Institucion de La Eucaristia</h2>
             <p> </p>
           </div>
         )}
@@ -666,7 +666,7 @@ Amén
   <h2> Maria Madre de Gracias</h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
-Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén.
+  En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>    
   <div className="el-rosario">

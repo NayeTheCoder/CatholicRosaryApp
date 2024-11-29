@@ -9,6 +9,7 @@ import PrayersPage from './components/PrayersPage';  // Import PrayersPage compo
 import RosaryFacts from './components/RosaryFacts';
 import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
+import Resources from './components/Resources';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
         <Route path="/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
         <Route path="/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
+        <Route path="/Resources" element={<Resources/>} />
       </Routes>
     </Router>
   );
