@@ -4,7 +4,7 @@ import './RosaryFactsSpanish.css';
 const RosaryFactsSpanish = () => {
     return (
         <div className="page-container">
-            <h1>Informacion del Santo Rosario</h1>    
+            <h1>Informacion Del Santo Rosario</h1>    
             <h2>Las 15 Promesas de Nuestra Señora para los que recan el Rosario</h2>
 
             <div>

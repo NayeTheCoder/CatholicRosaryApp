@@ -1,13 +1,18 @@
 import react from 'react';
+import './Resources.css';
 
 const Resources = () => {
     return (
         <div>
-        <h1> Resources </h1>    
+        <h1 className="resource-page"> Resources </h1>    
 
-<p> For the 15 promises https://marian.org/13th/the-fifteen-promises-of-our-lady</p>
-        
-        </div>
+        <p>For the 15 promises: Reading these gives a lot of hope and they are consistent over many different websites. If you are hesitant I suggest you open your heart and try for yourself!</p> 
+
+{/* Make the URL clickable */}
+<a classname="resource-links" href="https://marian.org/13th/the-fifteen-promises-of-our-lady" target="_blank" rel="noopener noreferrer">
+  15 Promises of Our Lady
+</a>
+</div>
     )
   };
   
