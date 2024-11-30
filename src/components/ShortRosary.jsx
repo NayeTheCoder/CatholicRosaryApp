@@ -93,7 +93,7 @@ Amen.
       <div className="rosary-prayer">
         <h2>The First Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(0)} 
           style={{ cursor: 'pointer' }}
         >
@@ -105,7 +105,7 @@ Amen.
         {visibleMysteries.includes(0) && (
           <div>
             <h3>1st Joyful Mystery: The Annunciation to Mary</h3>
-            <p> </p>
+            <p>  Fruit of the mystery: Humility </p>
           </div>
         )}
 
@@ -121,12 +121,12 @@ Amen.
         {visibleMysteries.includes(1) && (
           <div>
             <h2>1st Sorrowful Mystery: The Agony in the Garden</h2>
-            <p> </p>
+            <p>Fruit of the mystery: Obedience to God’s Will</p>
           </div>
         )}
 
-      {/* The 1st Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 1st glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(2)} 
           style={{ cursor: 'pointer' }}
         >
@@ -136,7 +136,7 @@ Amen.
         {visibleMysteries.includes(2) && (
           <div>
             <h2>1st Glorious Mystery: The Resurrection of Our Lord</h2>
-            <p> </p>
+            <p>Fruit of the mystery: Faith</p>
           </div>
         )}
           <h2 id="luminous"
@@ -151,7 +151,7 @@ Amen.
         {visibleMysteries.includes(3) && (
           <div>
             <h2> 1st Luminous Mystery: The Baptism of Jesus in the Jordan</h2>
-            <p> </p>
+            <p>Fruit of the mystery: Openness to the Holy Spirit</p>
           </div>
         )}
       </div>
@@ -206,7 +206,7 @@ Amen.</p>
       <div className="rosary-prayer">
         <h2>The Second Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(4)} 
           style={{ cursor: 'pointer' }}
         >
@@ -214,11 +214,11 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(4) && (
           <div>
             <h3>2nd Joyful Mystery: The Visitation of Mary</h3>
-            <p> </p>
+            <p>Fruit of the mystery: Love of Neighbor</p>
           </div>
         )}
 
@@ -234,12 +234,12 @@ Amen.</p>
         {visibleMysteries.includes(5) && (
           <div>
             <h2>2nd Sorrowful Mystery: The Scourging at the Pillar</h2>
-            <p> </p>
+            <p> Fruit of the mystery: Mortification, Purity </p>
           </div>
         )}
 
-      {/* The 2nd Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 2nd glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(6)} 
           style={{ cursor: 'pointer' }}
         >
@@ -249,7 +249,7 @@ Amen.</p>
         {visibleMysteries.includes(6) && (
           <div>
             <h2>2nd Glorious Mystery: The Ascension of Our Lord</h2>
-            <p> </p>
+            <p>Fruit of the mystery: Hope, Desire for Heaven</p>
           </div>
         )}
           <h2 id="luminous"
@@ -264,13 +264,13 @@ Amen.</p>
         {visibleMysteries.includes(7) && (
           <div>
             <h2> 2nd Luminous Mystery: The Wedding Feast at Cana</h2>
-            <p> </p>
+            <p>Fruit of the mystery: To Jesus through Mary</p>
           </div>
         )}
       </div>
 
 <div className="rosary-prayer">
-        <h2>10. Our Father</h2> 
+        <h2>Our Father</h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -317,7 +317,7 @@ Amen.</p>
    <div className="rosary-prayer">
         <h2>The Third Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(8)} 
           style={{ cursor: 'pointer' }}
         >
@@ -325,11 +325,11 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(8) && (
           <div>
             <h3>3rd Joyful Mystery: The Nativity of Our Lord </h3>
-            <p> </p>
+           <p>Fruit of the mystery: Poverty of Spirit, Detachment from the things of the world</p>
           </div>
         )}
 
@@ -345,12 +345,12 @@ Amen.</p>
         {visibleMysteries.includes(9) && (
           <div>
             <h2>3rd Sorrowful Mystery: The Crowning with Thorns </h2>
-            <p> </p>
+            <p>Fruit of the mystery: Courage</p>
           </div>
         )}
 
-      {/* The 3rd Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 3rd glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(10)} 
           style={{ cursor: 'pointer' }}
         >
@@ -360,7 +360,7 @@ Amen.</p>
         {visibleMysteries.includes(10) && (
           <div>
             <h2>3rd Glorious Mystery: The Descent of the Holy Spirit upon the Apostles </h2>
-            <p> </p>
+            <p> Fruit of the mystery: Wisdom, Love of God</p>
           </div>
         )}
           <h2 id="luminous"
@@ -375,7 +375,7 @@ Amen.</p>
         {visibleMysteries.includes(11) && (
           <div>
             <h2> 3rd Luminous Mystery: The Proclamation of the Kingdom </h2>
-            <p> </p>
+            <p> Fruit of the mystery: Repentance, Trust in God </p>
           </div>
         )}
       </div>
@@ -429,7 +429,7 @@ Amen.</p>
    <div className="rosary-prayer">
         <h2>The Fourth Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(12)} 
           style={{ cursor: 'pointer' }}
         >
@@ -437,11 +437,11 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(12) && (
           <div>
             <h3>4th Joyful Mystery: The Presentation of the Child Jesus in the Temple </h3>
-            <p> </p>
+            <p>Fruit of the mystery: Purity of Heart and Body, obedience</p>
           </div>
         )}
 
@@ -457,12 +457,12 @@ Amen.</p>
         {visibleMysteries.includes(13) && (
           <div>
             <h2>4th Sorrowful Mystery: The Carrying of The Cross </h2>
-            <p> </p>
+            <p>Fruit of the mystery: Patience</p>
           </div>
         )}
 
-      {/* The 4th Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 4th glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(14)} 
           style={{ cursor: 'pointer' }}
         >
@@ -472,7 +472,7 @@ Amen.</p>
         {visibleMysteries.includes(14) && (
           <div>
             <h2>4th Glorious Mystery: The Assumption of the Blessed Virgin Mary </h2>
-            <p> </p>
+            <p> Fruit of the mystery: Devotion to Mary</p>
           </div>
         )}
           <h2 id="luminous"
@@ -487,7 +487,7 @@ Amen.</p>
         {visibleMysteries.includes(15) && (
           <div>
             <h2> 4th Luminous Mystery: The Transfiguration  </h2>
-            <p> </p>
+            <p>Fruit of the mystery: Desire for holiness</p>
           </div>
         )}
       </div>
@@ -541,7 +541,7 @@ Amen.</p>
   <div className="rosary-prayer">
         <h2>The Fifth Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(16)} 
           style={{ cursor: 'pointer' }}
         >
@@ -549,11 +549,11 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(16) && (
           <div>
             <h3>5th Joyful Mystery: The Finding of the Child Jesus in the Temple </h3>
-            <p> </p>
+            <p>Fruit of the mystery: Devotion to Jesus</p>
           </div>
         )}
 
@@ -569,12 +569,12 @@ Amen.</p>
         {visibleMysteries.includes(17) && (
           <div>
             <h2>5th Sorrowful Mystery: The Crucifixion  </h2>
-            <p> </p>
+            <p>Fruit of the mystery: Sorrow for our Sins, Salvation</p>
           </div>
         )}
 
-      {/* The 5th Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 5th glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(18)} 
           style={{ cursor: 'pointer' }}
         >
@@ -584,7 +584,7 @@ Amen.</p>
         {visibleMysteries.includes(18) && (
           <div>
             <h2>5th Glorious Mystery: The Coronation of our Lady </h2>
-            <p> </p>
+            <p> Fruit of the mystery: Eternal Happiness </p>
           </div>
         )}
           <h2 id="luminous"
@@ -599,7 +599,7 @@ Amen.</p>
         {visibleMysteries.includes(19) && (
           <div>
             <h2> 5th Luminous Mystery: The Institution of the Eucharist  </h2>
-            <p> </p>
+            <p> Fruit of the mystery: Adoration, Active Participation at Mass </p>
           </div>
         )}
       </div>

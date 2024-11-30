@@ -92,7 +92,7 @@ Amen.
       <div className="rosary-prayer">
         <h2>The First Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(0)} 
           style={{ cursor: 'pointer' }}
         >
@@ -100,7 +100,7 @@ Amen.
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The Joyful Mystery clickable*/}
         {visibleMysteries.includes(0) && (
           <div>
             <h3>1st Joyful Mystery: The Annunciation to Mary</h3>
@@ -133,8 +133,8 @@ Amen.
           </div>
         )}
 
-      {/* The 1st Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 1st Glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(2)} 
           style={{ cursor: 'pointer' }}
         >
@@ -222,7 +222,7 @@ Amen.</p>
  <div className="rosary-prayer">
         <h2>The Second Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(4)} 
           style={{ cursor: 'pointer' }}
         >
@@ -261,8 +261,8 @@ Amen.</p>
           </div>
         )}
 
-      {/* The 2nd Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 2nd glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(6)} 
           style={{ cursor: 'pointer' }}
         >
@@ -347,7 +347,7 @@ Amen.</p>
  <div className="rosary-prayer">
         <h2>The Third Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(8)} 
           style={{ cursor: 'pointer' }}
         >
@@ -355,7 +355,7 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(8) && (
           <div>
             <h3>3rd Joyful Mystery: The Nativity of Our Lord </h3>
@@ -390,8 +390,8 @@ Amen.</p>
           </div>
         )}
 
-      {/* The 3rd Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 3rd glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(10)} 
           style={{ cursor: 'pointer' }}
         >
@@ -478,7 +478,7 @@ Amen.</p>
    <div className="rosary-prayer">
         <h2>The Fourth Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(12)} 
           style={{ cursor: 'pointer' }}
         >
@@ -486,7 +486,7 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(12) && (
           <div>
             <h3>4th Joyful Mystery: The Presentation of the Child Jesus in the Temple </h3>
@@ -520,7 +520,7 @@ Amen.</p>
           </div>
         )}
 
-      {/* The 4th Joyful Mystery clickable*/}
+      {/* The 4th glorious Mystery clickable*/}
         <h2 id="joyful"
           onClick={() => toggleVisibility(14)} 
           style={{ cursor: 'pointer' }}
@@ -605,7 +605,7 @@ Amen.</p>
 <div className="rosary-prayer">
         <h2>The Fifth Mystery</h2>
 
-        <h2 id="glorious"
+        <h2 id="joyful"
           onClick={() => toggleVisibility(16)} 
           style={{ cursor: 'pointer' }}
         >
@@ -613,7 +613,7 @@ Amen.</p>
         </h2>
 
      
-      {/* The Glorious Mystery clickable*/}
+      {/* The joyful Mystery clickable*/}
         {visibleMysteries.includes(16) && (
           <div>
             <h3>5th Joyful Mystery: The Finding of the Child Jesus in the Temple </h3>
@@ -657,8 +657,8 @@ Amen.</p>
           </div>
         )}
 
-      {/* The 5th Joyful Mystery clickable*/}
-        <h2 id="joyful"
+      {/* The 5th glorious Mystery clickable*/}
+        <h2 id="glorious"
           onClick={() => toggleVisibility(18)} 
           style={{ cursor: 'pointer' }}
         >
