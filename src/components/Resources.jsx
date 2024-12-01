@@ -33,3 +33,8 @@ const Resources = () => {
   };
   
   export default Resources;
+
+
+  // Divine Mercy resource http://saintfrancischurch.org/app/uploads/2020/04/The-Divine-Mercy-Chaplet.pdf
+// 2nd Resource https://www.thedivinemercy.org/message/devotions/pray-the-chaplet
+// an image to add https://duckduckgo.com/?t=ffab&q=the+chaplet+of+divine+mercy+jesus+image&atb=v383-1&iax=images&ia=images&iai=http%3A%2F%2Fwww.sangiovannipaoloii.org%2Fchaplet.png
