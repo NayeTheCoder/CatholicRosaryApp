@@ -10,6 +10,7 @@ import RosaryFacts from './components/RosaryFacts';
 import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
 import Resources from './components/Resources';
+import DivineMercy from './components/DivineMercy';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/" element={<h1 align="center">Welcome to the Catholic Resource App</h1>} /> {/* Use element */}
         <Route path="/long-rosary" element={<LongRosary />} /> {/* Use element */}
         <Route path="/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
+        <Route path="/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
         <Route path="/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
         <Route path="/prayers" element={<PrayersPage />} /> {/* Use element */}
         <Route path="/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
