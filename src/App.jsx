@@ -17,16 +17,16 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>  {/* Use Routes instead of Switch */}
-        <Route path="/" element={<h1 align="center">Welcome to the Catholic Resource App</h1>} /> {/* Use element */}
-        <Route path="/long-rosary" element={<LongRosary />} /> {/* Use element */}
-        <Route path="/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
-        <Route path="/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
-        <Route path="/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
-        <Route path="/prayers" element={<PrayersPage />} /> {/* Use element */}
-        <Route path="/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
-        <Route path="/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
-        <Route path="/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
-        <Route path="/Resources" element={<Resources/>} />
+        <Route path="/CatholicRosaryApp" element={<h1 align="center">Welcome to the Catholic Resource App</h1>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/long-rosary" element={<LongRosary />} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
+        <Route path="/CatholicRosaryApp/prayers" element={<PrayersPage />} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
+        <Route path="/CatholicRosaryApp/Resources" element={<Resources/>} />
       </Routes>
     </Router>
   );
