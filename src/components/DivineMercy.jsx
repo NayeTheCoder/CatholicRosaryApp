@@ -37,13 +37,21 @@ const DivineMercy = () => {
       <p>
         A daily prayer for the reparation of sins committed in the United States on the daily.
       </p>
-
-      <img
-        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd9%2Fc7%2F6a%2Fd9c76abaca6d72c2603173c2bdb9d871.jpg&f=1&nofb=1&ipt=6251d15a2ae7683b41491b5baa566e8d6c4c2942e1182a69dc6bb0d6526bb355&ipo=images"
-        alt="Divine Mercy, Jesus I trust in You Image"
-        className="Divine-Mercy-image"
-        style={{ width: '40%', height: 'auto', marginBottom: '20px' }}
-      />
+    {/* Images side by side */}
+    <div className="Divine-Mercy-images-container">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd9%2Fc7%2F6a%2Fd9c76abaca6d72c2603173c2bdb9d871.jpg&f=1&nofb=1&ipt=6251d15a2ae7683b41491b5baa566e8d6c4c2942e1182a69dc6bb0d6526bb355&ipo=images"
+          alt="Divine Mercy Image, Jesus I Trust In You"
+          className="Divine-Mercy-image"
+        />
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4VUoKE-s94DiW7UqPyGCLwHaJl%26pid%3DApi&f=1&ipt=834f322c00d3e36e391011fa23545ef99cbaad81dd015e6954ed358c29fd1958&ipo=images" 
+          alt="Divine Mercy Rosary Guide"
+          className="Divine-Mercy-image"
+        />
+      </div>
+    
+      
 
       {/* The opening prayers */}
       <Prayer title="The Sign of the Cross">
