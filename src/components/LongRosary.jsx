@@ -79,7 +79,7 @@ but deliver us from evil. Amen.
         </div>
 
         <div className="rosary-prayer">
-    <h2> Hail Mary (x3)</h2> 
+    <h2> Hail Mary (x3)</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -96,7 +96,7 @@ Amen.
           onClick={() => toggleVisibility(0)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday)
+          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
         </h2>
 
      
@@ -117,7 +117,7 @@ Amen.
           onClick={() => toggleVisibility(1)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays)
+         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(1) && (
@@ -138,7 +138,7 @@ Amen.
           onClick={() => toggleVisibility(2)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays)
+        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(2) && (
@@ -159,7 +159,7 @@ Amen.
         >
 
       {/* The 1st Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays)
+        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(3) && (
@@ -190,7 +190,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2>  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -226,7 +226,7 @@ Amen.</p>
           onClick={() => toggleVisibility(4)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday)
+          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
         </h2>
 
      
@@ -249,7 +249,7 @@ Amen.</p>
           onClick={() => toggleVisibility(5)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays)
+         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(5) && (
@@ -266,7 +266,7 @@ Amen.</p>
           onClick={() => toggleVisibility(6)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays)
+        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(6) && (
@@ -283,7 +283,7 @@ Amen.</p>
         >
 
       {/* The 2nd Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays)
+        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(7) && (
@@ -316,7 +316,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-  <h2> Hail Mary (x10)</h2> 
+  <h2> Hail Mary (x10)</h2>  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />
   <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -351,7 +351,7 @@ Amen.</p>
           onClick={() => toggleVisibility(8)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday)
+          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
         </h2>
 
      
@@ -376,7 +376,7 @@ Amen.</p>
           onClick={() => toggleVisibility(9)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays)
+         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(9) && (
@@ -395,7 +395,7 @@ Amen.</p>
           onClick={() => toggleVisibility(10)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays)
+        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(10) && (
@@ -415,7 +415,7 @@ Amen.</p>
         >
 
       {/* The 3rd Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays)
+        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(11) && (
@@ -446,7 +446,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
         <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2>  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -482,7 +482,7 @@ Amen.</p>
           onClick={() => toggleVisibility(12)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday)
+          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
         </h2>
 
      
@@ -507,7 +507,7 @@ Amen.</p>
           onClick={() => toggleVisibility(13)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays)
+         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(13) && (
@@ -525,7 +525,7 @@ Amen.</p>
           onClick={() => toggleVisibility(14)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays)
+        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(14) && (
@@ -543,7 +543,7 @@ Amen.</p>
         >
 
       {/* The 4th Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays)
+        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(15) && (
@@ -574,7 +574,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
   <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2>  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -609,7 +609,7 @@ Amen.</p>
           onClick={() => toggleVisibility(16)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday)
+          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
         </h2>
 
      
@@ -635,7 +635,7 @@ Amen.</p>
           onClick={() => toggleVisibility(17)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays)
+         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(17) && (
@@ -662,7 +662,7 @@ Amen.</p>
           onClick={() => toggleVisibility(18)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays)
+        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(18) && (
@@ -679,7 +679,7 @@ Amen.</p>
         >
 
       {/* The 5th Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays)
+        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(19) && (
@@ -709,7 +709,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
  <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2>  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />  <input type="checkbox" />
         <p> 
         Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
