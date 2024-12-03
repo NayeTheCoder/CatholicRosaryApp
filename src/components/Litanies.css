@@ -1,0 +1,50 @@
+.litanies-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all content horizontally */
+    justify-content: center;
+    text-align: center; /* This ensures text is centered in the entire page */
+  }
+  
+  .litany {
+    margin-bottom: 20px;
+    width: 80%; /* Ensure the litany container doesn't take full width, add some space on the sides */
+  }
+  
+  .litany h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-bottom: 10px; /* Add spacing between title and prayer */
+  }
+  
+  .litany h2:hover {
+    color: #003366;
+  }
+  
+  .litany-prayer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center; /* Center the content inside the prayer section */
+    max-width: 800px; /* Limit the width to prevent too wide of a container */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .litany-prayer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .litany-prayer li {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
