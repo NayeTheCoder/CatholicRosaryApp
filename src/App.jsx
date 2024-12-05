@@ -8,6 +8,7 @@ import DivineMercy from './components/DivineMercy';
 import SpanishRosary from './components/SpanishRosary'; //Import SpanishRosary component
 import PrayersPage from './components/PrayersPage';  // Import PrayersPage component
 import Litanies from './components/Litanies';
+import SpanishLitany from './components/SpanishLitany';
 import RosaryFacts from './components/RosaryFacts';
 import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/CatholicRosaryApp/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
         <Route path="/CatholicRosaryApp/Resources" element={<Resources/>} />
         <Route path="/CatholicRosaryApp/Litanies" element={<Litanies/>} />
+        <Route path="/CatholicRosaryApp/Spanish-Litany" element={<SpanishLitany/>} />
       </Routes>
     </Router>
   );
