@@ -16,6 +16,7 @@ const Navbar = () => {
           <li><Link to="/CatholicRosaryApp/divine-mercy" className="nav-link"> Divine Mercy Prayer</Link></li>
           <li><Link to="/CatholicRosaryApp/spanish-rosary" className="nav-link">El Santo Rosario</Link></li>
           <li><Link to="/CatholicRosaryApp/litanies" className="nav-link"> Litanies </Link></li>
+          <li><Link to="/CatholicRosaryApp/spanish-litany" className="nav-link"> Letanias</Link></li>
           <li><Link to="/CatholicRosaryApp/prayers" className="nav-link">Prayers</Link></li>
           <li><Link to="/CatholicRosaryApp/rosary-facts-spanish" className="nav-link">Informacion Del Santo Rosario</Link></li>
           <li><Link to="/CatholicRosaryApp/rosary-facts" className="nav-link">Rosary Info</Link></li>
