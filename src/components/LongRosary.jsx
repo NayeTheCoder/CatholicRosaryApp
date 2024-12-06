@@ -27,7 +27,7 @@ const LongRosary = () => {
         src='https://images.squarespace-cdn.com/content/v1/57f874e8440243944ef66aa7/1588056576305-5YHNGFCK4J473KBWH27L/Rosary.jpg'
         alt="The Holy Rosary"
         className="rosary-image"
-        style={{ width: '40%', height: 'auto', marginBottom: '20px'}}
+        style={{ width: '75%', height: 'auto', marginBottom: '20px'}}
       />
 
       
