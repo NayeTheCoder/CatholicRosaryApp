@@ -29,11 +29,9 @@ const ShortRosary = () => {
         src='./images/short_rosary.jpg'
         alt="The Holy Rosary"
         className="rosary-image"
-        style={{ width: '50rem', height: 'auto', marginBottom: '20px'}}
+        style={{ width: '40rem', height: 'auto', marginBottom: '20px'}}
       />
 
-      
-      
       <div className="rosary-prayer">
         <h2> The Sign of the Cross <input type="checkbox" /></h2>
         <p> In the name of the Father and of the Son and of the Holy Spirit. Amen.</p>
