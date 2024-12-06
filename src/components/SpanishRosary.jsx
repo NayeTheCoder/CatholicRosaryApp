@@ -97,7 +97,7 @@ Amén
         {visibleMysteries.includes(0) && (
           <div>
             <h3>El primer misterio gozoso: La Anunciación del Angel a Maria</h3>
-            <p> </p>
+            <p> Fruto del misterio: La humildad </p>
           </div>
         )}
 
@@ -113,7 +113,7 @@ Amén
         {visibleMysteries.includes(1) && (
           <div>
             <h2>El primer misterio doloroso: la Agonia de Jesus en el huerto</h2>
-            <p> </p>
+            <p> Fruto del misterio: El dolor por el pecado</p>
           </div>
         )}
 
@@ -128,7 +128,7 @@ Amén
         {visibleMysteries.includes(2) && (
           <div>
             <h2>El primer misterio Glorioso: La Resurreccion de Nuestro Senor Jesucristo</h2>
-            <p> </p>
+            <p>Fruto del misterio: La fe </p>
           </div>
         )}
           <h2 id="luminous"
@@ -143,7 +143,7 @@ Amén
         {visibleMysteries.includes(3) && (
           <div>
             <h2>El primer misterio Luminoso: El Bautismo de Jesus en el Jordan</h2>
-            <p>  </p>
+            <p> Fruto del misterio: La apertura al Espíritu Santo </p>
           </div>
         )}
       </div>
@@ -220,7 +220,7 @@ Amén
         {visibleMysteries.includes(4) && (
           <div>
             <h3>El segundo misterio gozoso: La visitacion de Maria a su prima Santa Isabel</h3>
-            <p> </p>
+            <p> Fruto del misterio: El amor al prójimo</p>
           </div>
         )}
 
@@ -236,7 +236,7 @@ Amén
         {visibleMysteries.includes(5) && (
           <div>
             <h2>El segundo misterio doloroso: la Flagelacion de nuestro Senor Jesucristo</h2>
-            <p> </p>
+            <p>Fruto del misterio: La pureza</p>
           </div>
         )}
 
@@ -251,7 +251,7 @@ Amén
         {visibleMysteries.includes(6) && (
           <div>
             <h2>El segundo misterio Glorioso: La Ascension de Nuestro Senor Jesucristo</h2>
-            <p> </p>
+            <p>Fruto del misterio: La esperanza</p>
           </div>
         )}
           <h2 id="luminous"
@@ -266,7 +266,7 @@ Amén
         {visibleMysteries.includes(7) && (
           <div>
             <h2>El segundo misterio Luminoso: La Autorevelacion de Jesus en las bodas de Cana</h2>
-            <p> </p>
+            <p> Fruto del misterio: A Jesús a través de María</p>
           </div>
         )}
       </div>
@@ -341,7 +341,7 @@ Amén
         {visibleMysteries.includes(8) && (
           <div>
             <h3>El tercer misterio gozoso: El Nacimiento de Jesus en Belen </h3>
-            <p> </p>
+            <p> Fruto del misterio: La pobreza en espíritu</p>
           </div>
         )}
 
@@ -357,7 +357,7 @@ Amén
         {visibleMysteries.includes(9) && (
           <div>
             <h2>El tercer misterio doloroso: La Coronacion de espinas a Nuestro Senor Jesucristo </h2>
-            <p> </p>
+            <p>Fruto del misterio: El valor </p>
           </div>
         )}
 
@@ -372,7 +372,7 @@ Amén
         {visibleMysteries.includes(10) && (
           <div>
             <h2>El tercer misterio Glorioso: La Venida del Espiritu Santo</h2>
-            <p> </p>
+            <p> Fruto del misterio: El amor hacia Dios</p>
           </div>
         )}
           <h2 id="luminous"
@@ -387,7 +387,7 @@ Amén
         {visibleMysteries.includes(11) && (
           <div>
             <h2>El tercer misterio Luminoso: Jesus anuncia el Reino de Dios e invita a la Conversion</h2>
-            <p> </p>
+            <p> Fruto del misterio: El arrepentimiento y confianza en Dios</p>
           </div>
         )}
       </div>
@@ -466,7 +466,7 @@ Amén
         {visibleMysteries.includes(12) && (
           <div>
             <h3>El cuarto misterio gozoso: La Presentacion de Jesus en el Templo  </h3>
-            <p> </p>
+            <p> Fruto del misterio: La obediencia </p>
           </div>
         )}
 
@@ -482,7 +482,7 @@ Amén
         {visibleMysteries.includes(13) && (
           <div>
             <h2>El cuarto misterio doloroso: Jesus sube al Calvario con la cruz a cuestas  </h2>
-            <p> </p>
+            <p> Fruto del misterio: La paciencia </p>
           </div>
         )}
 
@@ -497,7 +497,7 @@ Amén
         {visibleMysteries.includes(14) && (
           <div>
             <h2>El cuarto misterio Glorioso: La Asuncion de la Virgen Maria</h2>
-            <p> </p>
+            <p>Fruto del misterio: La gracia de una muerte feliz </p>
           </div>
         )}
           <h2 id="luminous"
@@ -512,7 +512,7 @@ Amén
         {visibleMysteries.includes(15) && (
           <div>
             <h2>El cuarto misterio Luminoso: La Transfiguracion de Jesus </h2>
-            <p> </p>
+            <p>Fruto del misterio: Deseo de santidad </p>
           </div>
         )}
       </div>
@@ -589,7 +589,7 @@ Amén
         {visibleMysteries.includes(16) && (
           <div>
             <h3>El quinto misterio gozoso: Jesus es perdido y hallado en el templo </h3>
-            <p> </p>
+            <p> Fruto del misterio: El gozo en hallar a Jesús</p>
           </div>
         )}
 
@@ -605,7 +605,7 @@ Amén
         {visibleMysteries.includes(17) && (
           <div>
             <h2>El quinto misterio doloroso: La crucifixion y muerte de Nuestro Senor Jesucristo  </h2>
-            <p> </p>
+            <p>Fruto del misterio: La perseverancia</p>
           </div>
         )}
 
@@ -620,7 +620,7 @@ Amén
         {visibleMysteries.includes(18) && (
           <div>
             <h2>El quinto misterio Glorioso: La Coronacion de la Virgen Maria </h2>
-            <p> </p>
+            <p>Fruto del misterio: La confianza en la intercesión de María </p>
           </div>
         )}
           <h2 id="luminous"
@@ -635,7 +635,7 @@ Amén
         {visibleMysteries.includes(19) && (
           <div>
             <h2>El quinto misterio Luminoso: La Institucion de La Eucaristia</h2>
-            <p> </p>
+            <p>Fruto del misterio: La adoración </p>
           </div>
         )}
       </div>
@@ -711,22 +711,13 @@ Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Am
 export default SpanishRosary;
 
 
-
-
-// I added the x3 next to the Hail Mary's but ideally will add 3 
-// checks or something to mark as complete
-
-// same for the 10 Hail Mary's
-
+// Still need checkboxes for this page
 
 // links to different litany's at the end !!
-// Going to finish mysteries on all first but then will add litanys
-// I am thinking going to use same format as mysteries but there is <p> </p> section under where
-// I can insert actual prayers for diff. litanys
-// Litany of Mary
-// Litany for Souls in purgatory
-// Litany for sacred heart of Jesus??
-// Going to see. 
 
 
 
+// Misterios del Rosario
+// https://catolicosdemaria.com/misterios-del-rosario/
+// This link offers more of an explanation for ea mystery in Spanish
+// https://hozana.org/es/oracion/santo-rosario/misterios
