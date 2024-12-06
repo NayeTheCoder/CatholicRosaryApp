@@ -11,9 +11,9 @@
   }
   
   .rosary-image {
-    width: 80%; /* Set the image width to 80% of its parent container */
+    width: 4rem; /* Set the image width to 80% of its parent container */
     max-width: 600px; /* Set a max width to avoid overly large images */
-    height: auto; /* Maintain aspect ratio */
+    /* height: auto; Maintain aspect ratio */
     margin-bottom: 20px; /* Space below the image */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow around the image */
