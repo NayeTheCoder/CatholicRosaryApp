@@ -26,7 +26,7 @@ const ShortRosary = () => {
           <p> Open you heart and watch how Jesus will transform your life.</p> 
 
       <img
-        src='https://www.thecatholickid.com/wp-content/uploads/how-to-pray-the-rosary-a2-cnt-mls-1187x1536.jpg'
+        src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcatholiccourier.com%2Fwp-content%2Fuploads%2FRosary-3.jpg&f=1&nofb=1&ipt=40694d61c72d40f346ab475dcdc3789fdfb7adc990b95f3078f35b89e3aaedc3&ipo=images'
         alt="The Holy Rosary"
         className="rosary-image"
         style={{ width: '40%', height: 'auto', marginBottom: '20px'}}
