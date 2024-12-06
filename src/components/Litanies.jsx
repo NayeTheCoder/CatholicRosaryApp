@@ -203,10 +203,91 @@ R/. Amen.</li>
             </ul>
           </div>
         )}
-      </div>
-    </div>
-  );
-};
+        </div>
+         {/* Litany of Healing and Renewal */}
+         <div className='litany'>
+         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer' }}>
+           Litany of Healing and Renewal
+         </h2>
+ 
+         {expandedIndex === 3 && (
+           <div className='litany-prayer'>
+             <ul>
+               <li>For those who have been abused: that they may experience
+healing from shame, isolation, anger, and despair; that they may be
+listened to with compassion, treated with dignity, and supported in
+the healing process. We pray, Have mercy on us, Lord.</li>
+             <li> For those who counsel victims: That their words of wisdom
+and compassion may be instruments of healing for those they
+accompany. We pray, Have mercy on us, Lord.</li>
+<li> For the perpetrators of abuse: That they may experience sincere
+remorse for their crimes, approach God with sorrow, and be prepared
+to make reparation for the damage they have caused. We pray,
+Have mercy on us, Lord.</li>
+<li> For those who failed to protect children, those who, in any way,
+betrayed the trust placed in them: May they humbly acknowledge
+their responsibility for harm done to children. We pray,
+Have mercy on us, Lord.</li>
+<li> For the faithful who are angry, scandalized, discouraged: That they
+may come to recognize the real presence of Christ in His Church
+despite the tragic failures of Church members and leaders. We pray,
+Have mercy on us, Lord.</li>
+<li> For all the faithful: That our response to this dark episode will
+result in even stronger faith that Christ will rebuild His Church and
+not allow evil to prevail; may we grow in our conviction that where
+sin abounds, grace abounds all the more; and may we renew our
+commitment to participate in the sacraments, learn the faith, join our
+parish communities, and serve the poor and marginalized. We pray,
+Have mercy on us, Lord. </li>
+<li>For our priests: that they may be protected from discouragement
+and that they may experience a renewal of authentic priestly
+identity, intimate union with Christ, joyful zeal for souls, liberating
+chastity, and humble charity. We pray,
+Have mercy on us, Lord. </li>
+<li>For young people discerning a religious vocation to priesthood
+or consecrated life: That the tragic failures of some may not blind
+them to the heroic virtue of many. We pray,
+Have mercy on us, Lord. </li>
+<li>For our bishops: That they may take initiatives which: protect the flock
+entrusted to their care, restore trust, are transparent and free of self-
+interest, and unite the flock with the Heart of the Shepherd. We pray,
+Have mercy on us, Lord.</li>
+<li>For non-Catholics who may be tempted to disparage Catholics,
+the Catholic faith, and the Catholic Church because of these
+scandals: May they be blessed to encounter the witness of faithful
+Catholics. We pray,
+Have mercy on us, Lord.</li>
+<li> For law enforcement officials, legislators and judges: That
+they may carefully weigh all aspects of the scourge of child
+abuse in our society as they pursue justice. We pray,
+Have mercy on us, Lord. </li>
+<li> For all professionals in the news media and communications:
+That they may adhere to the highest ethical standards, seeking
+the truth as they bring to light the extent of this scandal and
+the ways the Church is responding. We pray,
+Have mercy on us, Lord.</li>
+<li> For all who work with children, especially teachers, coaches,
+and youth ministers: That they might experience a renewed
+commitment to their treasured service, and find ways to
+protect and enhance the dignity of each child. We pray,
+Have mercy on us, Lord.</li>
+<li>For all parents: that they may foster family life rooted in
+love, prayer, faith, and mercy; homes filled with joy and
+consecrated to God which form children in virtue and mature
+faith. We pray,
+Have mercy on us, Lord. </li>
+<li> For all children: That they may be loved by their family,
+protected in home and school, and learn about the goodness
+of God so that they can develop a personal relationship with
+Jesus. We pray,
+Have mercy on us, Lord.</li>
+</ul>
+           </div>
+         )}
+       </div>
+     </div>
+   );
+ };
 
 export default Litanies;
 
@@ -222,3 +303,6 @@ export default Litanies;
 // https://www.ourcatholicprayers.com/litany-of-humility.html
 
 //To have Charity is to love God above all things for Himself and be ready to renounce all created things rather than offend Him by serious sin. ( Matt. 22:36-40)
+
+
+//Litany of Healing and Renewal
