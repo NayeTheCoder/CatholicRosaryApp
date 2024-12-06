@@ -45,7 +45,7 @@ const DivineMercy = () => {
           className="Divine-Mercy-image"
         />
         <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4VUoKE-s94DiW7UqPyGCLwHaJl%26pid%3DApi&f=1&ipt=834f322c00d3e36e391011fa23545ef99cbaad81dd015e6954ed358c29fd1958&ipo=images" 
+          src="https://blessedisshe.net/wp-content/uploads/2020/04/divine-mercy-chaplet-prayer-how-to-scaled.jpg" 
           alt="Divine Mercy Rosary Guide"
           className="Divine-Mercy-image"
         />
