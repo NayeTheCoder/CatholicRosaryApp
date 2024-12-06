@@ -30,19 +30,19 @@ const SpanishRosary = () => {
 
       {/* Example of a prayer structure */}
       <div className="el-rosario">
-        <h2>La señal de la Cruz</h2>
+        <h2>La señal de la Cruz <input type="checkbox"/></h2>
         <p> Por la señal de la Santa Cruz, de nuestros enemigos, líbranos Señor Dios nuestro.
             En el nombre del Padre, del Hijo y del Espíritu Santo.</p>
       </div>
       
       <div className="el-rosario">
-        <h2>Credo de los Apóstoles</h2>
+        <h2>Credo de los Apóstoles <input type="checkbox"/></h2>
         <p>Creo en Dios Padre, Todopoderoso, Creador del cielo y de la tierra. Creo en Jesucristo su único Hijo, nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de
 la Santa María Virgen, padeció bajo el poder de Poncio Pilato; fué crucificado, muerto y sepultado, descendió a los infiernos, al tercer día resucitó de entre los muertos, subió al cielo y está sentado a la derecha de Dios, Padre Todopoderoso. Desde
 allí ha de venir a juzgar a vivos y muertos. Creo en el Esprítu Santo, la Santa Iglesia Católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. Amén. </p>
       </div>
       <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/></h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -63,7 +63,7 @@ Amén.
         </div>
 
       <div className="el-rosario">
-  <h2> 3 Ave María</h2>
+  <h2> 3 Ave María</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -74,7 +74,7 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria</h2>
+  <h2> Gloria <input type="checkbox"/> </h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
@@ -149,7 +149,7 @@ Amén
       </div>
 
       <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/></h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -169,7 +169,7 @@ Amén.
         </p>
         </div>
         <div className="el-rosario">
-  <h2> 10 Ave María</h2>
+  <h2> 10 Ave María</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -180,26 +180,26 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria</h2>
+  <h2> Gloria <input type="checkbox"/></h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
   </p>
   </div>  
   <div className="el-rosario">
-  <h2> Maria Madre de Gracias</h2>
+  <h2> Maria Madre de Gracias <input type="checkbox"/></h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
   En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
-    <h2> Oh Jesús mío</h2>
+    <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 <div className="el-rosario">
-    <h2> Oración del Perdón</h2>
+    <h2> Oración del Perdón <input type="checkbox"/></h2>
 <p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
 </div>
 
@@ -271,7 +271,7 @@ Amén
         )}
       </div>
 <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/></h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -291,7 +291,7 @@ Amén.
         </p>
         </div>
         <div className="el-rosario">
-  <h2> 10 Ave María</h2>
+  <h2> 10 Ave María</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> 
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -302,26 +302,26 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria</h2>
+  <h2> Gloria <input type="checkbox"/></h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
   </p>
   </div>  
   <div className="el-rosario">
-  <h2> Maria Madre de Gracias</h2>
+  <h2> Maria Madre de Gracias <input type="checkbox"/></h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
   En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>   
   <div className="el-rosario">
-    <h2> Oh Jesús mío</h2>
+    <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 <div className="el-rosario">
-    <h2> Oración del Perdón</h2>
+    <h2> Oración del Perdón <input type="checkbox"/></h2>
 <p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
 </div>
 
@@ -394,7 +394,7 @@ Amén
 
 
 <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/></h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -414,7 +414,7 @@ Amén.
         </p>
         </div>
    <div className="el-rosario">
-  <h2> 10 Dios te Salve, María</h2>
+  <h2> 10 Ave Maria</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -425,26 +425,26 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria </h2>
+  <h2> Gloria <input type="checkbox"/> </h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
   </p>
   </div>  
   <div className="el-rosario">
-  <h2> Maria Madre de Gracias</h2>
+  <h2> Maria Madre de Gracias <input type="checkbox"/></h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
   En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
-    <h2> Oh Jesús mío</h2>
+    <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 <div className="el-rosario">
-    <h2> Oración del Perdón</h2>
+    <h2> Oración del Perdón <input type="checkbox"/></h2>
 <p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
 </div>
 
@@ -518,7 +518,7 @@ Amén
       </div>
 
 <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/></h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -538,7 +538,7 @@ Amén.
         </p>
         </div>
   <div className="el-rosario">
-  <h2> 10 Ave María</h2>
+  <h2> 10 Ave María</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -549,26 +549,26 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria </h2>
+  <h2> Gloria <input type="checkbox"/> </h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
   </p>
   </div>   
   <div className="el-rosario">
-  <h2> Maria Madre de Gracias</h2>
+  <h2> Maria Madre de Gracias <input type="checkbox"/></h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
   En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>  
   <div className="el-rosario">
-    <h2> Oh Jesús mío</h2>
+    <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 <div className="el-rosario">
-    <h2> Oración del Perdón</h2>
+    <h2> Oración del Perdón <input type="checkbox"/></h2>
 <p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
 </div>
 
@@ -641,7 +641,7 @@ Amén
       </div>
 
 <div className="el-rosario">
-        <h2>Padre Nuestro</h2> 
+        <h2>Padre Nuestro <input type="checkbox"/> </h2> 
         <p> 
         Padre nuestro,
 que estás en el cielo,
@@ -661,7 +661,7 @@ Amén.
         </p>
         </div>
 <div className="el-rosario">
-  <h2> 10 Ave María</h2>
+  <h2> 10 Ave María</h2> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/> <input type="checkbox"/>
   <p>
 Dios te salve, María, llena eres de gracia, el Seńor es contigo.
 Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.
@@ -672,30 +672,30 @@ Amén
   </p>
   </div>
   <div className="el-rosario">
-  <h2> Gloria</h2>
+  <h2> Gloria <input type="checkbox"/> </h2>
   <p>
   Gloria al Padre, y al Hijo, y al Espíritu Santo. 
   Como era en el principio, ahora y siempre, y por los siglos de los siglos. Amén
   </p>
   </div> 
   <div className="el-rosario">
-  <h2> Maria Madre de Gracias</h2>
+  <h2> Maria Madre de Gracias <input type="checkbox"/> </h2>
   <p>
   María, Madre de gracia, Madre de misericordia.
   En la vida y en la muerte ampáranos Gran Señora.
   </p>
   </div>    
   <div className="el-rosario">
-    <h2> Oh Jesús mío</h2>
+    <h2> Oh Jesús mío <input type="checkbox"/> </h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
   lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
 </div>
 <div className="el-rosario">
-    <h2> Oración del Perdón</h2>
+    <h2> Oración del Perdón <input type="checkbox"/></h2>
 <p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
 </div>
 <div className="el-rosario">
-    <h2> Salve Regina</h2>
+    <h2> Salve Regina <input type="checkbox"/> </h2>
 <p>Dios te Salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra, Dios te salve.
 A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando, en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos, y, después de este destierro, muéstranos a Jesús,
 fruto bendito de tu vientre. ¡Oh clementísima, oh piadosa, oh dulce Virgen María!

@@ -34,12 +34,12 @@ const LongRosary = () => {
       
       {/* Example of a prayer structure */}
       <div className="rosary-prayer">
-        <h2> The Sign of the Cross</h2>
+        <h2> The Sign of the Cross <input type="checkbox"/> </h2>
         <p> In the name of the Father and of the Son and of the Holy Spirit. Amen.</p>
       </div>
       
       <div className="rosary-prayer">
-        <h2> The Apostle's Creed</h2>
+        <h2> The Apostle's Creed <input type="checkbox"/> </h2>
         <p> I believe in God,
 the Father Almighty,
 Creator of heaven and earth,
@@ -62,7 +62,7 @@ and life everlasting.
 Amen. </p>
       </div>
       <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -174,7 +174,7 @@ Amen.
       </div>
 
       <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -199,7 +199,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2>  Glory Be</h2>
+  <h2>  Glory Be <input type="checkbox"/> </h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -210,7 +210,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2>  O My Jesus - Fatima</h2>
+    <h2>  O My Jesus - Fatima <input type="checkbox"/> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -300,7 +300,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -325,7 +325,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2>  Glory Be</h2>
+  <h2>  Glory Be <input type="checkbox"/> </h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -336,7 +336,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2>  O My Jesus - Fatima</h2>
+    <h2>  O My Jesus - Fatima <input type="checkbox"/> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -430,7 +430,7 @@ Amen.</p>
 
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -455,7 +455,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox"/></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -466,7 +466,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox"/> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -558,7 +558,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -583,7 +583,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox"/></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -594,7 +594,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox"/> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -693,7 +693,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox"/></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -719,7 +719,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox"/> </h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -730,7 +730,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox"/> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -738,7 +738,7 @@ Your mercy.
 Amen.</p>
 </div>
 <div className="rosary-prayer">
-    <h2>  Hail holy Queen</h2>
+    <h2>  Hail holy Queen <input type="checkbox"/> </h2>
 <p>Hail, holy Queen,
 Mother of mercy,
 our life, our sweetness and our hope.
@@ -757,7 +757,7 @@ O sweet Virgin Mary!
 Amen.</p>
 </div>
 <div className="rosary-prayer">
-    <h2>  Memorare</h2>
+    <h2>  Memorare <input type="checkbox"/></h2>
 <p>REMEMBER, O most gracious Virgin Mary, 
   that never was it known that anyone who fled to thy protection,
    implored thy help, or sought thy intercession was left unaided.

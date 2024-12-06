@@ -35,12 +35,12 @@ const ShortRosary = () => {
       
       
       <div className="rosary-prayer">
-        <h2> The Sign of the Cross</h2>
+        <h2> The Sign of the Cross <input type="checkbox" /></h2>
         <p> In the name of the Father and of the Son and of the Holy Spirit. Amen.</p>
       </div>
       
       <div className="rosary-prayer">
-        <h2> The Apostle's Creed</h2>
+        <h2> The Apostle's Creed <input type="checkbox" /> </h2>
         <p> I believe in God,
 the Father Almighty,
 Creator of heaven and earth,
@@ -63,7 +63,7 @@ and life everlasting.
 Amen. </p>
 </div>
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox" /> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -79,7 +79,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
       <div className="rosary-prayer">
-        <h2> Hail Mary (x3)</h2> 
+        <h2> Hail Mary (x3)</h2> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
         <p> 
         Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
@@ -157,7 +157,7 @@ Amen.
       </div>
 
       <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox" /> </h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -173,7 +173,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2>  <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -182,7 +182,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox" /></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -193,7 +193,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox" /> </h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -270,7 +270,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2>Our Father</h2> 
+        <h2>Our Father <input type="checkbox" /></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -286,7 +286,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
   <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -295,7 +295,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox" /></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -306,7 +306,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox" /></h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -382,7 +382,7 @@ Amen.</p>
 
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox" /></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -398,7 +398,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
 <div className="rosary-prayer">
-    <h2> Hail Mary (x10)</h2> 
+    <h2> Hail Mary (x10)</h2> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
     <p> Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
 Holy Mary Mother of God,
@@ -407,7 +407,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox" /></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -418,7 +418,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2> O My Jesus - Fatima</h2>
+    <h2> O My Jesus - Fatima <input type="checkbox" /></h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -493,7 +493,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox" /></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -509,7 +509,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
  <div className="rosary-prayer">
-        <h2> Hail Mary (x10)</h2> 
+        <h2> Hail Mary (x10)</h2> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
         <p> 
         Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
@@ -519,7 +519,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2> Glory Be</h2>
+  <h2> Glory Be <input type="checkbox" /></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -530,7 +530,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2>  O My Jesus - Fatima</h2>
+    <h2>  O My Jesus - Fatima <input type="checkbox" /></h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -605,7 +605,7 @@ Amen.</p>
       </div>
 
 <div className="rosary-prayer">
-        <h2> Our Father</h2> 
+        <h2> Our Father <input type="checkbox" /></h2> 
         <p> 
         Our Father, Who art in heaven, 
 Hallowed be Thy Name. 
@@ -621,7 +621,7 @@ but deliver us from evil. Amen.
         </p>
         </div>
  <div className="rosary-prayer">
-        <h2> Hail Mary (x10)</h2> 
+        <h2> Hail Mary (x10)</h2> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" /> <input type="checkbox" />
         <p> 
         Hail Mary full of Grace, the Lord is with thee.
 Blessed are thou amongst women and blessed is the fruit of thy womb Jesus.
@@ -631,7 +631,7 @@ Amen.
 </p>
       </div>
   <div className="rosary-prayer">
-  <h2>  Glory Be</h2>
+  <h2>  Glory Be <input type="checkbox" /></h2>
   <p>
   Glory be to the Father,
 And to the Son,
@@ -642,7 +642,7 @@ World without end. Amen.
   </p>
   </div>  
   <div className="rosary-prayer">
-    <h2>  O My Jesus - Fatima</h2>
+    <h2>  O My Jesus - Fatima <input type="checkbox" /></h2>
 <p>O my Jesus, forgive us our sins,
 save us from the fires of hell;
 lead all souls to heaven especially those who are in most need of
@@ -650,7 +650,7 @@ Your mercy.
 Amen.</p>
 </div>
 <div className="rosary-prayer">
-    <h2>  Hail holy Queen</h2>
+    <h2>  Hail Holy Queen <input type="checkbox" /></h2>
 <p>Hail, holy Queen,
 Mother of mercy,
 our life, our sweetness and our hope.
