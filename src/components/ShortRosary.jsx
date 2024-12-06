@@ -29,7 +29,7 @@ const ShortRosary = () => {
         src='./images/short_rosary.jpg'
         alt="The Holy Rosary"
         className="rosary-image"
-        style={{ width: '38rem', height: 'auto', marginBottom: '20px'}}
+        style={{ width: '75%', height: 'auto', marginBottom: '20px'}}
       />
 
       <div className="rosary-prayer">
