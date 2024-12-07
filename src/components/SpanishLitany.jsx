@@ -168,7 +168,7 @@ Amén.  </li>
                 <li>Dios Hijo, Redentor del mundo, ten piedad de nosotros. </li>
                 <li>Dios, Espíritu Santo, ten piedad de nosotros.</li>
                 <li>Santísima Trinidad, que eres un solo Dios, ten piedad de nosotros. </li>
-                <li>orazón de Jesús, Hijo del Eterno Padre, ten piedad de nosotros.</li>
+                <li>Corazón de Jesús, Hijo del Eterno Padre, ten piedad de nosotros.</li>
                 <li>Corazón de Jesús, formado en el seno de la Virgen Madre por el Espíritu Santo, ten piedad de nosotros. </li>
                 <li>Corazón de Jesús, unido sustancialmente al Verbo de Dios, ten piedad de nosotros. </li>
                 <li>Corazón de Jesús, de infinita majestad, ten piedad de nosotros. </li>
