@@ -698,7 +698,7 @@ Amén
     <h2> Salve Regina <input type="checkbox"/> </h2>
 <p>Dios te Salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra, Dios te salve.
 A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando, en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos, y, después de este destierro, muéstranos a Jesús,
-fruto bendito de tu vientre. ¡Oh clementísima, oh piadosa, oh dulce Virgen María!
+fruto bendito de tu vientre. ¡Oh, clemente, oh piadosa, oh dulce Virgen María!
 <p>
 Ruega por nosotros, Santa Madre de Dios.
 Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Amén </p>
