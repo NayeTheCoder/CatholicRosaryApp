@@ -752,10 +752,16 @@ thine eyes of mercy toward us,
 and after this our exile,
 show unto us the blessed fruit of thy womb, Jesus,
 O clement, O loving,
-O sweet Virgin Mary!
+O sweet Virgin Mary! </p>
+
+<p>Pray for us Oh Holy Mother of God. That we may be made worthy of the promises of Christ.
 
 Amen.</p>
 </div>
+<div className="rosary-prayer">
+    <h2> Let Us Pray <input type="checkbox" /></h2>
+ <p> O God whose only begotten Son by His Life has purchased for us the rewards of eternal life, Grant that we beseech Thee while meditating upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain and obtain what they promise, through the same Christ our Lord Amen.</p>
+ </div>
 <div className="rosary-prayer">
     <h2>  Memorare <input type="checkbox"/></h2>
 <p>REMEMBER, O most gracious Virgin Mary, 
