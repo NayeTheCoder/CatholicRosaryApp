@@ -196,11 +196,11 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
-<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
+<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman. Amen.</p>
 </div>
 
 
@@ -318,11 +318,11 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
-<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
+<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman. Amen.</p>
 </div>
 
 {/* This is the third Mystery section where when you click on the day it expands to show the text */}
@@ -441,11 +441,11 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. </p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
-<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
+<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman. Amen.</p>
 </div>
 
 
@@ -565,11 +565,11 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
-<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
+<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman. Amen.</p>
 </div>
 
 
@@ -688,11 +688,11 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/> </h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. Amén.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
-<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman.</p>
+<p>¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que no creen, no adoran, no esperan, no te aman. Amen.</p>
 </div>
 <div className="el-rosario">
     <h2> Salve Regina <input type="checkbox"/> </h2>
