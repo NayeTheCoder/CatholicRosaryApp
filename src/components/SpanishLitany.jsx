@@ -211,6 +211,79 @@ Amén.  </li>
           </div>
         )}
       </div>
+      {/* Litany For Souls in Purgatory */}
+      <div className='litany'>
+         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer' }}>
+         Letanías Por Las Almas Del Purgatorio
+         </h2>
+ 
+         {expandedIndex === 3 && (
+           <div className='litany-prayer'>
+             <ul>
+              <li>Dios omnipotente, Padre de bondad y de misericordia, apiádate de las benditas Almas del Purgatorio y ayuda a mis queridos padres y antepasados.</li>
+              <li> Señor ten Misericordia de nosotros. X2 </li>
+              <li> Cristo ten Misericordia de nosotros. X2 </li>
+              <li> Señor ten Misericordia de nosotros. X2 </li>
+              <li> Cristo ten Misericordia de nosotros. X2  </li>
+              <li> Cristo, óyenos. X2 </li>
+              <li> Cristo, escúchanos. X2 </li>
+              <li> Dios Padre celestial; ten misericordia de nosotros.  </li>
+              <li> Dios Hijo Redentor del mundo; ten misericordia de nosotros. </li>
+              <li> Dios Espíritu Santo; ten misericordia de nosotros.</li>
+              <li> Santísima Trinidad, un solo Dios; ten misericordia de nosotros. </li>
+              <li> Santa María, Auxiliadora de las almas del purgatorio; ten misericordia de nosotros.</li>
+              <li> Por mis padres, abuelos, bisabuelos y tatarabuelos… ¡Jesús mío, misericordia!</li>
+              <li> Por mis hermanos y parientes más cercanos… ¡Jesús mío, misericordia! </li>
+              <li> Por mis benefactores temporales y espirituales… ¡Jesús mío, misericordia!</li>
+              <li> Por mis amigos y vecinos… ¡Jesús mío, misericordia! </li>
+              <li> Por cuantos debo amor y oración… ¡Jesús mío, misericordia! </li>
+              <li> Por cuantos he perjudicado y dañado… ¡Jesús mío, misericordia!</li>
+              <li> Por los que me han hecho daño… ¡Jesús mío, misericordia! </li>
+              <li> Por los que están más próximos a la unión con Cristo… ¡Jesús mío, misericordia! </li>
+              <li> Por los que más desean estar junto a Dios… ¡Jesús mío, misericordia! </li>
+              <li> Por los que más sufren… ¡Jesús mío, misericordia!</li>
+              <li> Por los que están lejos de la liberación… ¡Jesús mío, misericordia! </li>
+              <li> Por los que menos auxilio reciben… ¡Jesús mío, misericordia! </li>
+              <li> Por los que más lo merecen por sus servicios a la Iglesia… ¡Jesús mío, misericordia! </li>
+              <li> Por los que fueron ricos aquí, y allí son los más pobres… ¡Jesús mío, misericordia! </li>
+              <li> Por los poderosos, que ahora son como viles siervos… ¡Jesús mío, misericordia!</li>
+              <li> Por los ciegos que ahora reconocen su ceguera… ¡Jesús mío, misericordia! </li>
+              <li> Por los vanidosos que malgastaron su tiempo… ¡Jesús mío, misericordia!</li>
+              <li> Por los pobres que no buscaron las riquezas divinas… ¡Jesús mío, misericordia!</li>
+              <li> Por los tibios que muy poca oración han hecho… ¡Jesús mío, misericordia!</li>
+              <li> Por los perezosos que han descuidado tantas obras buenas… ¡Jesús mío, misericordia! </li>
+              <li> Por los de poca fe que descuidaron los santos Sacramentos… ¡Jesús mío, misericordia!</li>
+              <li> Por los reincidentes que sólo por un milagro de la gracia se han salvado… ¡Jesús mío, misericordia!</li>
+              <li> Por los padres que no vigilaron bien a sus hijos… ¡Jesús mío, misericordia!</li>
+              <li> Por los superiores poco atentos a la salvación de sus súbditos… ¡Jesús mío, misericordia!</li>
+              <li> Por los pobres hombres, que casi sólo se preocuparon del dinero y del placer… ¡Jesús mío, misericordia!</li>
+              <li> Por los de espíritu mundano que no aprovecharon sus riquezas o talentos para el Cielo… ¡Jesús mío, misericordia!</li>
+              <li> Por los necios, que vieron morir a tantos y no pensaron en su propia muerte… ¡Jesús mío, misericordia!</li>
+              <li> Por los que no se aseguraron la vida eterna… ¡Jesús mío, misericordia! </li>
+              <li> Por los que tienen una sentencia severa por las grandes responsabilidades encomendadas a ellos… ¡Jesús mío, misericordia!</li>
+              <li> Por los pontífices, reyes y príncipes… ¡Jesús mío, misericordia!</li>
+              <li> Por los obispos y sus consejeros… ¡Jesús mío, misericordia! </li>
+              <li> Por los maestros y pastores de almas… ¡Jesús mío, misericordia!</li>
+              <li> Por los sacerdotes de nuestra diócesis… ¡Jesús mío, misericordia!</li>
+              <li> Por los sacerdotes y religiosos de la Iglesia católica… ¡Jesús mío, misericordia!</li>
+              <li> Por los defensores de la santa fe… ¡Jesús mío, misericordia!</li>
+              <li> Por los caídos en los campos de batalla… ¡Jesús mío, misericordia! </li>
+              <li> Por los sepultados en los mares… ¡Jesús mío, misericordia!</li>
+              <li> Por los muertos repentinamente… ¡Jesús mío, misericordia!</li>
+              <li> Por los fallecidos sin recibir los santos sacramentos… ¡Jesús mío, misericordia!</li>
+              <li> Por aquellos que morirán dentro de las próximas 24 horas… ¡Jesús mío, misericordia! </li>
+              <li> Dale Señor, a todas las almas del purgatorio el descanso eterno. </li>
+              <li> Y brillen para ellas la luz perpetua.</li>
+              <li> Que descansen en paz.</li>
+              <li> Amén.</li>
+              <li> Oremos:</li>
+              <li> Oh Dios, Creador y Redentor del mundo, perdona los pecados de tus servidores y servidoras, que la negligencia de los hombres olvida en el Purgatorio.
+Te rogamos que nuestras oraciones les permitan obtener la liberación por la que tanto suspiran. Señor, que nos mandas orar por nuestros seres queridos, dígnate abrir las puertas del Cielo a las almas que partieron de este mundo y concédeles el descanso y la felicidad eterna. Te lo suplicamos por intercesión de tu Santa Madre y de todos los santos. Que así sea.</li>
+<li> Amén.</li>
+             </ul>
+          </div>
+        )}
+        </div>
     </div>
   );
 };
@@ -225,3 +298,7 @@ export default SpanishLitany;
 
 // humility litany
 // https://www.ewtn.com/es/catolicismo/devociones/letanias-de-humildad-15167
+
+
+// souls in purgatory 
+// https://formacioncatolica.org/letania-por-las-almas-del-purgatorio/
