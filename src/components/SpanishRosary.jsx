@@ -196,7 +196,7 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu divina misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
@@ -318,7 +318,7 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu divina misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
@@ -441,7 +441,7 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia. </p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu divina misericordia. </p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
@@ -565,7 +565,7 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/></h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu divina misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
@@ -688,7 +688,7 @@ Amén
   <div className="el-rosario">
     <h2> Oh Jesús mío <input type="checkbox"/> </h2>
 <p>Oh Jesús mío, perdona nuestros pecados y líbranos del fuego del infierno, 
-  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu misericordia.</p>
+  lleva al cielo a todas las almas y socorre especialmente a las más necesitadas de tu divina misericordia.</p>
 </div>
 <div className="el-rosario">
     <h2> Oración del Perdón <input type="checkbox"/></h2>
