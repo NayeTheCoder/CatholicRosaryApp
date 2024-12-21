@@ -1,31 +1,49 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from React Router
-import './Navbar.css'; // Import the custom CSS file for the navbar
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'; // Import Bootstrap components
+import './Navbar.css';
 
-const Navbar = () => {
+
+const CustomNavbar = () => {
   return (
-    <nav className="navbar">
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <a className="navbar-brand" href="#">JESUS IS KING!!!!!</a>
-        </div>
-        <ul className="navbar-nav">
-          <li><Link to="/CatholicRosaryApp/" className="nav-link">Home</Link></li>
-          <li><Link to="/CatholicRosaryApp/long-rosary" className="nav-link">The Holy Rosary With Bible Verses</Link></li>
-          <li><Link to="/CatholicRosaryApp/short-rosary" className="nav-link">The Holy Rosary</Link></li>
-          <li><Link to="/CatholicRosaryApp/divine-mercy" className="nav-link"> Divine Mercy Prayer</Link></li>
-          <li><Link to="/CatholicRosaryApp/spanish-rosary" className="nav-link">El Santo Rosario</Link></li>
-          <li><Link to="/CatholicRosaryApp/litanies" className="nav-link"> Litanies </Link></li>
-          <li><Link to="/CatholicRosaryApp/spanish-litany" className="nav-link"> Letanias</Link></li>
-          <li><Link to="/CatholicRosaryApp/prayers" className="nav-link">Prayers</Link></li>
-          <li><Link to="/CatholicRosaryApp/rosary-facts-spanish" className="nav-link">Informacion Del Santo Rosario</Link></li>
-          <li><Link to="/CatholicRosaryApp/rosary-facts" className="nav-link">Rosary Info</Link></li>
-          <li><Link to="/CatholicRosaryApp/resources" className="nav-link">Resources</Link></li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar expand="lg" bg="light" variant="light">
+      <Container>
+        <Navbar.Brand href="#">JESUS IS KING!!!!!</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/CatholicRosaryApp/">Home</Nav.Link>
+
+             {/* NavDropdown for English Rosaries */}
+             <NavDropdown title="The Holy Rosary" id="navbar-dropdown-litanies">
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/long-rosary">The Holy Rosary With Bible Verses</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/short-rosary">The Holy Rosary</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link as={Link} to="/CatholicRosaryApp/divine-mercy">Divine Mercy Prayer</Nav.Link>
+            <Nav.Link as={Link} to="/CatholicRosaryApp/spanish-rosary">El Santo Rosario</Nav.Link>
+
+            {/* NavDropdown for Litanies and Letanias */}
+            <NavDropdown title="Litanies" id="navbar-dropdown-litanies">
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/litanies">Litanies</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/spanish-litany">Letanias</NavDropdown.Item>
+            </NavDropdown>
+
+            <Nav.Link as={Link} to="/CatholicRosaryApp/prayers">Prayers</Nav.Link>
+
+             {/* NavDropdown for Rosary Information */}
+             <NavDropdown title="Rosary Information" id="navbar-dropdown-litanies">
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/rosary-facts">Rosary Info</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/rosary-facts-spanish">Informacion Del Santo Rosario</NavDropdown.Item>
+            </NavDropdown>
+      
+            <Nav.Link as={Link} to="/CatholicRosaryApp/resources">Resources</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default CustomNavbar;
+
 
