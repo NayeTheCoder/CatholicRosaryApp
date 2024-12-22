@@ -57,7 +57,7 @@ const SpanishLitany = () => {
               <li>Virgen clemente,  ruega por nosotros. </li>
               <li>Virgen fiel, ruega por nosotros. </li>
               <li>Espejo de justicia, ruega por nosotros. </li>
-              <li>Trono de la sabiduría, , ruega por nosotros. </li>
+              <li>Trono de la sabiduría, ruega por nosotros. </li>
               <li>Causa de nuestra alegría, ruega por nosotros. </li>
               <li>Vaso espiritual, ruega por nosotros. </li>
               <li>Vaso digno de honor, ruega por nosotros. </li>
@@ -284,9 +284,214 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
           </div>
         )}
         </div>
+
+  {/* Litany For Saints */}
+  <div className='litany'>
+          <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer' }}>
+         Letanías De Los Santos
+         </h2>
+
+
+      {expandedIndex === 4 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li>Señor, ten piedad de nosotros. x2</li>
+            <li>Cristo, ten piedad de nosotros. x2</li>
+            <li> Señor, ten piedad de nosotros. x2</li>
+            <li> Cristo, óyenos. x2</li>
+            <li>Cristo escúchanos. x2</li>
+            <li> Dios Padre Celestial, ten misericordia de nosotros.</li>
+            <li>Dios Hijo, Redentor del mundo, ten misericordia de nosotros.</li>
+            <li>Dios Espíritu Santo, ten misericordia de nosotros.</li>
+            <li>Santísima Trinidad que eres un solo Dios, ten misericordia de nosotros.</li>
+            <li>Santa María Inmaculada, ruega por nosotros.</li>
+            <li>Santa Madre de Dios, ruega por nosotros.</li>
+            <li>Santa Virgen de las Vírgenes, ruega por nosotros.</li>
+            <li>San Miguel, ruega por nosotros.</li>
+            <li> San Gabriel, ruega por nosotros.</li>
+            <li>San Rafael, ruega por nosotros.</li>
+            <li>Todos los Santos Ángeles y Arcángeles, rueguen por nosotros.</li>
+            <li>Todos los santos coros de los bienaventurados Espíritus, rueguen por nosotros.</li>
+            <li>San Juan Bautista, ruega por nosotros.</li>
+            <li>San José, ruega por nosotros.</li>
+            <li>Todos los Santos Patriarcas y Profetas, rueguen por nosotros.</li>
+            <li>San Pedro, ruega por nosotros.</li>
+            <li>San Pablo, ruega por nosotros.</li>
+            <li>San Andrés, ruega por nosotros.</li>
+            <li>San Juan, ruega por nosotros.</li>
+            <li>Santo Tomás, ruega por nosotros.</li>
+            <li>San Santiago, ruega por nosotros.</li>
+            <li>San Felipe, ruega por nosotros.</li>
+            <li>San Bartolomé, ruega por nosotros.</li>
+            <li>San Mateo, ruega por nosotros.</li>
+            <li>San Simón, ruega por nosotros.</li>
+            <li>San Tadeo, ruega por nosotros.</li>
+            <li>San Matías, ruega por nosotros.</li>
+            <li>San Bernabé, ruega por nosotros.</li>
+            <li>San Lucas, ruega por nosotros.</li>
+            <li>San Marcos, ruega por nosotros.</li>
+            <li>Todos los santos Apóstoles y Evangelistas, rueguen por nosotros.</li>
+            <li>Todos los santos Discípulos del Señor, rueguen por nosotros.</li>
+            <li>Todos los santos Inocentes, rueguen por nosotros.</li>
+            <li>San Esteban, ruega por nosotros.</li>
+            <li>San Lorenzo, ruega por nosotros.</li>
+            <li>San Vicente, ruega por nosotros.</li>
+            <li>San Fabián y San Sebastián, rueguen por nosotros.</li>
+            <li>San Juan y San Pablo, rueguen por nosotros.</li>
+            <li>San Damián y San Cosme, rueguen por nosotros.</li>
+            <li>San Gervasio, ruega por nosotros.</li>
+            <li>Todos los santos Mártires, rueguen por nosotros.</li>
+            <li>San Silvestre, ruega por nosotros.</li>
+            <li>San Gregorio, ruega por nosotros.</li>
+            <li>San Ambrosio, ruega por nosotros.</li>
+            <li>San Agustín, ruega por nosotros.</li>
+            <li>San Jerónimo, ruega por nosotros.</li>
+            <li>San Martín, ruega por nosotros.</li>
+            <li>San Nicolás, ruega por nosotros.</li>
+            <li>Todos los santos Pontífices y Confesores, rueguen por nosotros.</li>
+            <li>Todos los santos Doctores, rueguen por nosotros.</li>
+            <li>San Antonio, ruega por nosotros.</li>
+            <li>San Benito, ruega por nosotros.</li>
+            <li>San Bernardo, ruega por nosotros.</li>
+            <li>Santo Domingo, ruega por nosotros.</li>
+            <li>San Francisco de Asís, ruega por nosotros.</li>
+            <li>San Francisco Javier, ruega por nosotros.</li>
+            <li>San Ignacio, ruega por nosotros.</li>
+            <li>San Enrique, ruega por nosotros.</li>
+            <li>Santo Toribio, ruega por nosotros.</li>
+            <li>Todos los santos Sacerdotes y Levitas, rueguen por nosotros.</li>
+            <li>Todos los santos Monjes y Ermitaños, rueguen por nosotros.</li>
+            <li>Santa María Magdalena, ruega por nosotros.</li>
+            <li>Santa Agueda, (Ágata) ruega por nosotros.</li>
+            <li>Santa Lucía, ruega por nosotros.</li>
+            <li>Santa Inés, ruega por nosotros.</li>
+            <li>Santa Cecilia, ruega por nosotros.</li>
+            <li>Santa Teresa de Jesús, ruega por nosotros.</li>
+            <li>Santa Rita, ruega por nosotros.</li>
+            <li>Santa Catalina, ruega por nosotros.</li>
+            <li>Santa Anastasia, ruega por nosotros.</li>
+            <li>Santa Rosa de Lima, ruega por nosotros.</li>
+            <li>Santa Teresa de los Andes, ruega por nosotros.</li>
+            <li>San Alberto Hurtado, ruega por nosotros.</li>
+            <li>Todas las santas Vírgenes, y Viudas, ruega por nosotros.</li>
+            <li>Todos los santos y santas de Dios, intercedan por nosotros,</li>
+            <li>Sed propicios, perdónanos, Señor.</li>
+            <li>Sed propicio, óyenos, Señor.</li>
+            <li>De todo mal, líbranos Señor.</li>
+            <li>De todo pecado, líbranos Señor.</li>
+            <li>De vuestra ira, líbranos Señor.</li>
+            <li>De una muerte repentina e imprevista, líbranos Señor.</li>
+            <li>De las asechanzas del demonio, líbranos Señor.</li>
+            <li>De toda ira, odio y mala voluntad, líbranos Señor.</li>
+            <li>Del espíritu de fornicación, líbranos Señor.</li>
+            <li>Del rayo y de la tempestad, líbranos Señor.</li>
+            <li>De la muerte eterna, líbranos Señor.</li>
+            <li>Por el misterio de vuestra santa Encarnación, líbranos Señor.</li>
+            <li>Por vuestra venida, líbranos Señor.</li>
+            <li>Por vuestra Natividad, líbranos Señor.</li>
+            <li>Por vuestro Bautismo y santo ayuno, líbranos Señor.</li>
+            <li>Por vuestra Cruz y Pasión, líbranos Señor.</li>
+            <li>Por vuestra Muerte y Sepultura, líbranos Señor.</li>
+            <li>Por vuestra santa Resurrección, líbranos Señor.</li>
+            <li>Por vuestra, admirable Ascensión, líbranos Señor.</li>
+            <li>Por la venida del Espíritu Santo Consolador, líbranos Señor.</li>
+            <li>Que levantes nuestros corazones a desear las cosas celestiales, te rogamos Señor.</li>
+            <li>Que te dignes recompensar con bienes eternos a todos nuestros bienhechores, te rogamos Señor.</li>
+            <li>Que libres de la muerte eterna a nuestras almas y  las de nuestros hermanos y parientes, te rogamos Señor.</li>
+            <li>Que te dignes darnos y conservarnos los frutos de la tierra, te rogamos Señor.</li>
+            <li>Que te dignes conceder el eterno descanso a todos los fieles difuntos, te rogamos Señor, te rogamos Señor.</li>
+            <li>Que te dignes oírnos, te rogamos señor.</li>
+            <li>Cordero de Dios, que quitas los pecados del mundo, perdónanos Señor.</li>
+            <li>Cordero de Dios, que quitas los pecados del mundo, óyenos Señor.</li>
+            <li>Cordero de Dios, que quitas los pecados del mundo, ten misericordia de nosotros.</li>
+            <li>Cristo óyenos.</li>
+            <li>Cristo, escuchadnos.</li>
+            <li>¡Oh Dios! ten piedad de nosotros.</li>
+            <li>Cristo, apiádate de nosotros.</li>
+            <li>¡Oh Dios! compadécete de nosotros.</li>
+            <li>Padre nuestro...</li>
+            <li>Amen.</li>
+    
+             </ul>
+
+
+             </div>
+      )}
+  </div>
+
+    {/* Litany For Trust */}
+  <div className='litany'>
+          <h2 onClick={() => togglePrayerVisibility(5)} style={{ cursor: 'pointer' }}>
+         Letanía De La Confianza
+         </h2>
+
+
+      {expandedIndex === 5 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li>De la creencia de que tengo que ganar Tu amor. Líbrame Jesús. </li>
+            <li>Del miedo a no ser digno de ser amado. Líbrame Jesús.</li>
+            <li>De la falsa seguridad de pensar que soy autosuficiente. Líbrame Jesús.</li>
+            <li>Del miedo de que confiar en ti me dejará en la miseria. Líbrame Jesús.</li>
+            <li>De toda sospecha de Tus palabras y promesas. Líbrame Jesús.</li>
+            <li>De la rebeldía contra depender de Ti como un niño. Líbrame Jesús.</li>
+            <li>De las negaciones y las reticencias a aceptar Tu voluntad. Líbrame Jesús.</li>
+            <li>De la ansiedad por el futuro. Líbrame Jesús.</li>
+            <li>Del resentimiento o la excesiva preocupación por el pasado. Líbrame Jesús.</li>
+            <li>Del incansable egoísmo en el momento presente. Líbrame Jesús.</li>
+            <li>De la incredulidad en Tu amor y presencia. Líbrame Jesús.</li>
+            <li>Del miedo a ser pedido dar más de lo que tengo. Líbrame Jesús.</li>
+            <li>De la creencia de que mi vida no tiene sentido o valor. Líbrame Jesús.</li>
+            <li>Del miedo a lo que el amor demanda. Líbrame Jesús.</li>
+            <li>Del desánimo. Líbrame Jesús.</li>
+            <li>Que Tú estás continuamente sosteniéndome, apoyándome, amándome. Jesús, en Ti confío.</li>
+            <li>Que Tu amor va más allá de mis pecados y mis defectos, y me transforma. Jesús, en Ti confío.</li>
+            <li>Que no saber lo que el mañana traerá es una invitación a apoyarse en Ti. Jesús, en Ti confío.</li>
+            <li>Que Tú estás conmigo en mi sufrimiento. Jesús, en Ti confío.</li>
+            <li>Que mi sufrimiento, unido al Tuyo, dará fruto en esta vida y en la siguiente. Jesús, en Ti confío.</li>
+            <li>Que no me dejarás huérfano, que Tú estás presente en Tu Iglesia. Jesús, en Ti confío.</li>
+            <li>Que Tu plan es mejor que cualquier otra cosa. Jesús, en Ti confío.</li>
+            <li>Que Tú siempre me escuchas, y en Tu bondad siempre me respondes. Jesús, en Ti confío.</li>
+            <li>Que Tú me das la gracia para aceptar el perdón y para perdonar a los demás. Jesús, en Ti confío.</li>
+            <li>Que Tú me das toda la fuerza que necesito para lo que se me ha pedido. Jesús, en Ti confío.</li>
+            <li>Que mi vida es un regalo. Jesús, en Ti confío.</li>
+            <li>Que Tú me enseñarás a confiar en Ti. Jesús, en Ti confío.</li>
+            <li>Que Tú eres mi Señor y mi Dios. Jesús, en Ti confío.</li>
+            <li>Que yo soy Tu amado. Jesús, en Ti confío.</li>
+
+             </ul>
+
+
+             </div>
+      )}
+  </div>
+
+
+    {/* Command Slash to uncomment */}
+  {/* <div className='litany'>
+          <h2 onClick={() => togglePrayerVisibility(6)} style={{ cursor: 'pointer' }}>
+         Letany Template
+         </h2>
+
+
+      {expandedIndex === 6 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+             </ul>
+
+
+             </div>
+      )}
+  </div> */}
+
+  
     </div>
-  );
-};
+)};
 
 export default SpanishLitany;
 
@@ -302,3 +507,10 @@ export default SpanishLitany;
 
 // souls in purgatory 
 // https://formacioncatolica.org/letania-por-las-almas-del-purgatorio/
+
+
+// De La Confianza
+//https://www.devocionario.com/jesucristo/letania_4.html
+
+// Letania de los Santos 
+// https://www.oracionesydevocionescatolicas.com/letania_santos.htm
