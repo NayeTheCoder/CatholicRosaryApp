@@ -10,7 +10,7 @@ const CustomNavbar = () => {
       <Container>
         <Navbar.Brand href="#">JESUS IS KING!!!!!</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse class="show" id="navbar-nav">
+        <Navbar.Collapse className="show" id="navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/CatholicRosaryApp/">Home</Nav.Link>
 
