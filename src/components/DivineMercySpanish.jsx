@@ -50,7 +50,7 @@ const DivineMercySpanish = () => {
           className="Divine-Mercy-image"
         />
         <img
-          src="http://www.rosasparamaria.com/wp-content/uploads/2020/07/como-rezar-la-coronilla-de-la-misericordia.jpg" 
+          src="https://fundacioncarf.org/wp-content/uploads/2023/02/divina-misericordia-coronilla-600x800.png" 
           alt="Divine Mercy Rosary Guide"
           className="Divine-Mercy-image"
         />
