@@ -32,4 +32,3 @@ export default RosaryFacts;
 
 
 
-  // will need a Spanish one and to fix navbar visuals

@@ -19,7 +19,11 @@ const CustomNavbar = () => {
               <NavDropdown.Item as={Link} to="/CatholicRosaryApp/long-rosary">The Holy Rosary With Bible Verses</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/CatholicRosaryApp/short-rosary">The Holy Rosary</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/CatholicRosaryApp/divine-mercy">Divine Mercy Prayer</Nav.Link>
+            {/* NavDropdown for Divine Mercy English/Spanish */}
+            <NavDropdown title ="Divine Mercy Chaplet in English/ en Español">
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/divine-mercy">Divine Mercy Chaplet</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/CatholicRosaryApp/divine-mercySpanish">Divina Misericordia Coronilla </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link as={Link} to="/CatholicRosaryApp/spanish-rosary">El Santo Rosario</Nav.Link>
 
             {/* NavDropdown for Litanies and Letanias */}
