@@ -34,13 +34,18 @@ const DivineMercy = () => {
   return (
     <div className="Divine-Mercy-container">
       <h1>The Chaplet of Divine Mercy</h1>
+      <img 
+      src="https://2.bp.blogspot.com/-dr3TdWdX3rs/V_vvvgrAF_I/AAAAAAAADKU/97DfidLQ3f8B7C-jqtDL45JK4NICmMiMACLcB/s1600/0%2Bdivina-misericordia.jpg"
+      alt="Divine Mercy Jesus appearing in front of St Faustina showing the rays of mercy"
+      className='Divine-Mercy-image'
+      />
       <p>
-        A daily prayer for the reparation of sins committed in the United States on the daily.
+      A daily invocation for the mercy of Jesus, who rejoices when we turn to Him in faith.
       </p>
     {/* Images side by side */}
     <div className="Divine-Mercy-images-container">
         <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd9%2Fc7%2F6a%2Fd9c76abaca6d72c2603173c2bdb9d871.jpg&f=1&nofb=1&ipt=6251d15a2ae7683b41491b5baa566e8d6c4c2942e1182a69dc6bb0d6526bb355&ipo=images"
+          src="https://bookofheaven.org/wp-content/uploads/2016/03/DIvine-Mercy-images-2.jpg"
           alt="Divine Mercy Image, Jesus I Trust In You"
           className="Divine-Mercy-image"
         />
@@ -57,11 +62,11 @@ const DivineMercy = () => {
       <Prayer title="The Sign of the Cross">
         In the name of the Father and of the Son and of the Holy Spirit. Amen.
       </Prayer>
-      <Prayer title="Opening Prayers">
+      <Prayer title="Opening Prayer">
         You expired, Jesus, but the source of life gushed forth for souls, and the ocean of mercy opened up for the whole world. O Fount of Life, unfathomable Divine Mercy, envelop the whole world and empty Yourself out upon us.
       </Prayer>
       <Prayer title="">
-        O Blood and Water, which gushed forth from the Heart of Jesus as a fount of mercy for us, I trust in You! (Repeat 3X)
+        O Blood and Water, which gushed forth from the Heart of Jesus as a fountain of mercy for us, I trust in You! (Repeat 3X)
         </Prayer>
       <Prayer title="Our Father">
         Our Father, Who art in heaven, Hallowed be Thy Name. Thy Kingdom come. Thy Will be done, on earth as it is in Heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil. Amen.

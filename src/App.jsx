@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';  // Import Navbar
 import LongRosary from './components/LongRosary';  // Import LongRosary component
 import ShortRosary from './components/ShortRosary'; // Import ShortRosary component
 import DivineMercy from './components/DivineMercy';
+import DivineMercySpanish from './components/DivineMercySpanish';
 import SpanishRosary from './components/SpanishRosary'; //Import SpanishRosary component
 import PrayersPage from './components/PrayersPage';  // Import PrayersPage component
 import Litanies from './components/Litanies';
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/CatholicRosaryApp/long-rosary" element={<LongRosary />} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp/divine-mercySpanish" element={<DivineMercySpanish/>} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
         <Route path="/CatholicRosaryApp/prayers" element={<PrayersPage />} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
