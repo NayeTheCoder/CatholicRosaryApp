@@ -1,4 +1,4 @@
-.Divine-Mercy-container {
+.Divine-Mercy-container1 {
   background-color: #39d7d5;
   display: flex;
   flex-direction: column; /* Stack content vertically */
@@ -58,3 +58,9 @@ p {
   font-size: 14px;
   color: #444;
 }
+
+
+
+
+/* when updating colors I will need to update the name of the text box so that it doesn't also 
+/* update the spanish version. 
