@@ -32,7 +32,7 @@ const DivineMercy = () => {
   ];
 
   return (
-    <div className="Divine-Mercy-container">
+    <div className="Divine-Mercy-container1">
       <h1>The Chaplet of Divine Mercy</h1>
       <img 
       src="https://2.bp.blogspot.com/-dr3TdWdX3rs/V_vvvgrAF_I/AAAAAAAADKU/97DfidLQ3f8B7C-jqtDL45JK4NICmMiMACLcB/s1600/0%2Bdivina-misericordia.jpg"
@@ -43,7 +43,7 @@ const DivineMercy = () => {
       A daily invocation for the mercy of Jesus, who rejoices when we turn to Him in faith.
       </p>
     {/* Images side by side */}
-    <div className="Divine-Mercy-images-container">
+    <div className="Divine-Mercy-images-container1">
         <img
           src="https://bookofheaven.org/wp-content/uploads/2016/03/DIvine-Mercy-images-2.jpg"
           alt="Divine Mercy Image, Jesus I Trust In You"

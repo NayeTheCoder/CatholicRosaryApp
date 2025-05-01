@@ -1,5 +1,5 @@
 .Divine-Mercy-container {
-    background-color: #a4caf0;
+    background-color: #8b0000;
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center all child elements horizontally */
@@ -32,12 +32,12 @@
   }
   
   h1, h2 {
-    color: #000000;
+    color: #faebd7;
     font-family: 'Arial', sans-serif; /* Set a clean font for headings */
   }
   
   p {
-    color: #151414;
+    color: #faebd7 ;
     font-size: 16px; /* Adjust font size for readability */
   }
   
@@ -45,7 +45,7 @@
   .Divine-Mercy-mystery-container {
     margin-top: 20px; /* Space between sections */
     padding: 15px;
-    background-color: #ffffff; /* White background for the mystery sections */
+    background-color: #faebd7; /* White background for the mystery sections */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow around the sections */
     width: 80%; /* Set a max width for the mystery container */
@@ -56,5 +56,18 @@
   .Divine-Mercy-mystery-content {
     padding-top: 10px;
     font-size: 14px;
-    color: #444;
+    color: #faebd7;
   }
+
+.Divine-Mercy-mystery-container h1,
+.Divine-Mercy-mystery-container h2 {
+  color: #8b0000; /* Dark red for contrast */
+}
+
+.Divine-Mercy-container h1 {
+  color: #faebd7;
+}
+
+.Divine-Mercy-subtitle {
+  color: #faebd7;
+}

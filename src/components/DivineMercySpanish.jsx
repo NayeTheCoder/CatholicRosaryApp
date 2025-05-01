@@ -39,7 +39,7 @@ const DivineMercySpanish = () => {
       alt="Divine Mercy Jesus appearing in front of St Faustina showing the rays of mercy"
       className='Divine-Mercy-image'
       />
-      <p>
+      <p class='Divine-Mercy-subtitle'>
         El senor es compasivo y misericordioso - Salmo 102
       </p>
     {/* Images side by side */}
