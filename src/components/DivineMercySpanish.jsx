@@ -3,7 +3,7 @@ import './DivineMercySpanish.css';
 
 // Reusable prayer components
 const Prayer = ({ title, children }) => (
-  <div className="Divine-Mercy-prayer">
+  <div className="Divine-Mercy-prayer-Spanish">
     <h2>{title}</h2>
     <p>{children}</p>
   </div>
@@ -32,7 +32,7 @@ const DivineMercySpanish = () => {
   ];
 
   return (
-    <div className="Divine-Mercy-container">
+    <div className="Divine-Mercy-container-Spanish">
       <h1>Divina Misericordia Coronilla</h1>
       <img 
       src="https://2.bp.blogspot.com/-dr3TdWdX3rs/V_vvvgrAF_I/AAAAAAAADKU/97DfidLQ3f8B7C-jqtDL45JK4NICmMiMACLcB/s1600/0%2Bdivina-misericordia.jpg"
@@ -43,7 +43,7 @@ const DivineMercySpanish = () => {
         El senor es compasivo y misericordioso - Salmo 102
       </p>
     {/* Images side by side */}
-    <div className="Divine-Mercy-images-container">
+    <div className="Divine-Mercy-images-containerSpanish">
         <img
           src="https://3.bp.blogspot.com/_KABQ0S7_Hfg/S8DH5k6q65I/AAAAAAAAAhQ/bMu-xsiXG1g/s1600/Divinamisericordia.jpg"
           alt="Imagen de la Divina Misericordia, Jesus en ti Confio"
@@ -124,7 +124,7 @@ const DivineMercySpanish = () => {
 
       {/* Render mystery sections dynamically */}
       {mysteryData.map((title, index) => (
-        <div key={index} className="Divine-Mercy-mystery-container">
+        <div key={index} className="Divine-Mercy-mystery-container-Spanish">
           {/* Mystery title */}
           
           {/* Repeated prayer for each mystery */}
@@ -149,7 +149,7 @@ const DivineMercySpanish = () => {
           
           {/* Expanding content */}
           {visibleMysteries.includes(index) && (
-            <div className="Divine-Mercy-mystery-content">
+            <div className="Divine-Mercy-mystery-content-Spanish">
               <p>Por Su dolorosa Pasión, ten misericordia de nosotros y del mundo entero.</p>
               <p>Por Su dolorosa Pasión, ten misericordia de nosotros y del mundo entero.</p>
               <p>Por Su dolorosa Pasión, ten misericordia de nosotros y del mundo entero.</p>

@@ -1,4 +1,4 @@
-.Divine-Mercy-container {
+.Divine-Mercy-container-Spanish {
     background-color: #8b0000;
     display: flex;
     flex-direction: column; /* Stack content vertically */
@@ -8,7 +8,7 @@
     padding: 20px; /* Add padding around the container */
   }
   
-  .Divine-Mercy-images-container {
+  .Divine-Mercy-images-containerSpanish {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -23,7 +23,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow around the image */
   }
   
-  .Divine-Mercy-prayer {
+  .Divine-Mercy-prayer-Spanish {
     margin: 10px 0; /* Add margin to each prayer item */
     padding: 15px;
     background-color: #f9f9f9; /* Light background for each prayer box */
@@ -42,7 +42,7 @@
   }
   
   /* Style for mystery sections */
-  .Divine-Mercy-mystery-container {
+  .Divine-Mercy-mystery-container-Spanish {
     margin-top: 20px; /* Space between sections */
     padding: 15px;
     background-color: #faebd7; /* White background for the mystery sections */
@@ -53,7 +53,7 @@
     text-align: left; /* Align text to the left for better readability */
   }
   
-  .Divine-Mercy-mystery-content {
+  .Divine-Mercy-mystery-content-Spanish {
     padding-top: 10px;
     font-size: 14px;
     color: #faebd7;
