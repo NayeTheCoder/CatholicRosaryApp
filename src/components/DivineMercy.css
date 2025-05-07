@@ -1,4 +1,4 @@
-.Divine-Mercy-container1 {
+.Divine-Mercy-container-English {
   background-color: #39d7d5;
   display: flex;
   flex-direction: column; /* Stack content vertically */
@@ -8,14 +8,14 @@
   padding: 20px; /* Add padding around the container */
 }
 
-.Divine-Mercy-images-container {
+.Divine-Mercy-images-container-English {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-.Divine-Mercy-image {
+.Divine-Mercy-image-English {
   width: 48%; /* Adjust width to fit two images */
   height: auto;
   margin-bottom: 20px; /* Space below the image */
@@ -23,7 +23,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow around the image */
 }
 
-.Divine-Mercy-prayer {
+.Divine-Mercy-prayer-English {
   margin: 10px 0; /* Add margin to each prayer item */
   padding: 15px;
   background-color: #f9f9f9; /* Light background for each prayer box */
@@ -42,7 +42,7 @@ p {
 }
 
 /* Style for mystery sections */
-.Divine-Mercy-mystery-container {
+.Divine-Mercy-mystery-container-English {
   margin-top: 20px; /* Space between sections */
   padding: 15px;
   background-color: #ffffff; /* White background for the mystery sections */
@@ -53,7 +53,7 @@ p {
   text-align: left; /* Align text to the left for better readability */
 }
 
-.Divine-Mercy-mystery-content {
+.Divine-Mercy-mystery-content-English {
   padding-top: 10px;
   font-size: 14px;
   color: #444;
@@ -62,5 +62,4 @@ p {
 
 
 
-/* when updating colors I will need to update the name of the text box so that it doesn't also 
-/* update the spanish version. 
+ 

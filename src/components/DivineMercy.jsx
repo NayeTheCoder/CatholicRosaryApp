@@ -3,7 +3,7 @@ import './DivineMercy.css';
 
 // Reusable prayer components
 const Prayer = ({ title, children }) => (
-  <div className="Divine-Mercy-prayer">
+  <div className="Divine-Mercy-prayer-English">
     <h2>{title}</h2>
     <p>{children}</p>
   </div>
@@ -32,7 +32,7 @@ const DivineMercy = () => {
   ];
 
   return (
-    <div className="Divine-Mercy-container1">
+    <div className="Divine-Mercy-container-English">
       <h1>The Chaplet of Divine Mercy</h1>
       <img 
       src="https://2.bp.blogspot.com/-dr3TdWdX3rs/V_vvvgrAF_I/AAAAAAAADKU/97DfidLQ3f8B7C-jqtDL45JK4NICmMiMACLcB/s1600/0%2Bdivina-misericordia.jpg"
@@ -43,16 +43,16 @@ const DivineMercy = () => {
       A daily invocation for the mercy of Jesus, who rejoices when we turn to Him in faith.
       </p>
     {/* Images side by side */}
-    <div className="Divine-Mercy-images-container1">
+    <div className="Divine-Mercy-images-container-English">
         <img
           src="https://bookofheaven.org/wp-content/uploads/2016/03/DIvine-Mercy-images-2.jpg"
           alt="Divine Mercy Image, Jesus I Trust In You"
-          className="Divine-Mercy-image"
+          className="Divine-Mercy-image-English"
         />
         <img
           src="https://blessedisshe.net/wp-content/uploads/2020/04/divine-mercy-chaplet-prayer-how-to-scaled.jpg" 
           alt="Divine Mercy Rosary Guide"
-          className="Divine-Mercy-image"
+          className="Divine-Mercy-image-English"
         />
       </div>
     
@@ -84,7 +84,7 @@ const DivineMercy = () => {
 
       {/* Render mystery sections dynamically */}
       {mysteryData.map((title, index) => (
-        <div key={index} className="Divine-Mercy-mystery-container">
+        <div key={index} className="Divine-Mercy-mystery-container-English">
           {/* Mystery title */}
           
           {/* Repeated prayer for each mystery */}
@@ -101,7 +101,7 @@ const DivineMercy = () => {
           
           {/* Expanding content */}
           {visibleMysteries.includes(index) && (
-            <div className="Divine-Mercy-mystery-content">
+            <div className="Divine-Mercy-mystery-content-English">
               <p>For the sake of His sorrowful Passion, have mercy on us and on the whole world.</p>
               <p>For the sake of His sorrowful Passion, have mercy on us and on the whole world.</p>
               <p>For the sake of His sorrowful Passion, have mercy on us and on the whole world.</p>
