@@ -14,6 +14,7 @@ import RosaryFacts from './components/RosaryFacts';
 import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
 import Resources from './components/Resources';
+import HomePage from './components/HomePage';
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>  {/* Use Routes instead of Switch */}
-        <Route path="/CatholicRosaryApp" element={<h1 align="center">John 3:16 "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life" </h1>} /> {/* Use element */}
+        <Route path="/CatholicRosaryApp" element={<HomePage/>} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/long-rosary" element={<LongRosary />} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
         <Route path="/CatholicRosaryApp/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
