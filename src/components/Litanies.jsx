@@ -1,7 +1,18 @@
 import React, { useState } from 'react';
 import './Litanies.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const Litanies = () => {
+  const [isPageOne, setIsPageOne] = useState(false);
+        const navigate = useNavigate();
+  
+        const handleToggle = () => {
+          setIsPageOne(!isPageOne);
+          if (!isPageOne) {
+            navigate('/CatholicRosaryApp/Spanish-Litany'); // Navigate to /page-one when switching from page two
+          }
+        };
   // State to manage visibility of prayer sections
   const [expandedIndex, setExpandedIndex] = useState(null);
 
@@ -12,6 +23,11 @@ const Litanies = () => {
   };
 
   return (
+     <>
+    <label style={{"position":"fixed"}}>
+        <span>Español!</span>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
     <div className='litanies-page'>
       <h1>Litanies</h1>
 
@@ -286,6 +302,7 @@ Have mercy on us, Lord.</li>
          )}
        </div>
         </div>
+        </>
    );
  };
 

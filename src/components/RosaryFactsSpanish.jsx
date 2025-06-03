@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './RosaryFactsSpanish.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const RosaryFactsSpanish = () => {
+     const [isPageOne, setIsPageOne] = useState(true);
+          const navigate = useNavigate();
+    
+          const handleToggle = () => {
+            setIsPageOne(!isPageOne);
+            if (!isPageOne) {
+              navigate('/CatholicRosaryApp/rosary-facts'); // Navigate to /page-one when switching from page two
+            }
+          };
+
     return (
+        <>
+        <label style={{"position":"fixed"}}>
+            <span>Español!</span>
+            <Switch onChange={handleToggle} checked={isPageOne} />
+        </label>
         <div className="page-container">
             <h1>Informacion Del Santo Rosario</h1>    
             <h2>Las 15 Promesas de Nuestra Señora para los que recan el Rosario</h2>
@@ -25,6 +42,7 @@ const RosaryFactsSpanish = () => {
                 <p>La devoción a mi rosario es una gran señal de predestinación.</p>
             </div>
         </div>
+        </>
     );
 };
 

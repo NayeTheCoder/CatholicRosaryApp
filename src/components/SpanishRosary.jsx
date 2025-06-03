@@ -1,8 +1,21 @@
 import React, { useState }from 'react';
 import './SpanishRosary.css';
-
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const SpanishRosary = () => {
+
+  
+
+  const [isPageOne, setIsPageOne] = useState(true);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (!isPageOne) {
+          navigate('/CatholicRosaryApp/long-rosary'); // Navigate to /page-one when switching from page two
+        }
+      };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
 
@@ -13,8 +26,13 @@ const SpanishRosary = () => {
     );
   };
 
-
   return (
+    <>
+      <label style={{"position":"fixed"}}>
+        <span>Español!</span>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    
     <div className="el-rosario-container">
 
         <h1>El Santo Rosario</h1> 
@@ -705,6 +723,7 @@ Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Am
 </p>
 </div>
 </div>
+</>
   );
 };
 

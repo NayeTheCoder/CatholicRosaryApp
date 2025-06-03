@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './DivineMercy.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 // Reusable prayer components
 const Prayer = ({ title, children }) => (
@@ -10,6 +12,16 @@ const Prayer = ({ title, children }) => (
 );
 
 const DivineMercy = () => {
+
+   const [isPageOne, setIsPageOne] = useState(false);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (!isPageOne) {
+          navigate('/CatholicRosaryApp/divine-mercySpanish'); // Navigate to /page-one when switching from page two
+        }
+      };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
 
@@ -32,6 +44,11 @@ const DivineMercy = () => {
   ];
 
   return (
+    <>
+    <label style={{"position":"fixed"}}>
+        <span>Español!</span>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
     <div className="Divine-Mercy-container-English">
       <h1>The Chaplet of Divine Mercy</h1>
       <img 
@@ -130,6 +147,7 @@ const DivineMercy = () => {
         Eternal God, in Whom mercy is endless and the treasury of compassion — inexhaustible, look kindly upon us and increase Your mercy in us, that in difficult moments we might not despair nor become despondent, but with great confidence submit ourselves to Your holy will, which is Love and Mercy itself.
       </Prayer>
     </div>
+    </>
   );
 };
 

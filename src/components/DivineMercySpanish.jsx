@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './DivineMercySpanish.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 // Reusable prayer components
 const Prayer = ({ title, children }) => (
@@ -10,6 +12,16 @@ const Prayer = ({ title, children }) => (
 );
 
 const DivineMercySpanish = () => {
+
+   const [isPageOne, setIsPageOne] = useState(true);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (!isPageOne) {
+          navigate('/CatholicRosaryApp/divine-mercy'); // Navigate to /page-one when switching from page two
+        }
+      };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
 
@@ -32,6 +44,12 @@ const DivineMercySpanish = () => {
   ];
 
   return (
+
+    <>
+    <label style={{"position":"fixed"}}>
+        <span>Español!</span>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
     <div className="Divine-Mercy-container-Spanish">
       <h1>Divina Misericordia Coronilla</h1>
       <img 
@@ -182,6 +200,7 @@ const DivineMercySpanish = () => {
       Oh Dios Eterno, en quien la misericordia es infinita y el tesoro de compasión inagotable, vuelve a nosotros Tu mirada bondadosa y aumenta Tu misericordia en nosotros, para que en momentos difíciles no nos desesperemos ni nos desalentemos, sino que, con gran confianza, nos sometamos a Tu santa voluntad, que es el Amor y la Misericordia mismos. Amén.
       </Prayer>
     </div>
+    </>
   );
 };
 

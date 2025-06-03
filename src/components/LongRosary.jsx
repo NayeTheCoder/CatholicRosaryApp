@@ -1,10 +1,22 @@
 // src/components/LongRosary.jsx
 import React, { useState }from 'react';
 import './LongRosary.css';  // Import the CSS file
-
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const LongRosary = () => {
 
+  const [isPageOne, setIsPageOne] = useState(false);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (isPageOne) {
+          navigate('/CatholicRosaryApp/long-rosary'); // Navigate to long-rosary
+        } else {
+          navigate('/CatholicRosaryApp/spanish-rosary'); // Navigate to spanish rosary
+        }
+      };
      // State to control visibility of specific mysteries (each with a unique index)
      const [visibleMysteries, setVisibleMysteries] = useState([]);
   
@@ -16,6 +28,12 @@ const LongRosary = () => {
      };
 
   return (
+    <>
+    <label style={{"position":"fixed"}}>
+        <span>Español!</span>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+
     <div className="long-rosary-container">
 
         <h1>The Holy Rosary</h1> 
@@ -773,6 +791,7 @@ Amen.</p>
     but in thy mercy hear and answer me. Amen.</p>
 </div>
 </div>
+</>
   );
 };
 
