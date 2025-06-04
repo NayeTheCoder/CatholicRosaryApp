@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './SpanishLitany.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
 
 const SpanishLitany = () => {
-  const [isPageOne, setIsPageOne] = useState(false);
+  const [isPageOne, setIsPageOne] = useState(true);
       const navigate = useNavigate();
 
       const handleToggle = () => {
         setIsPageOne(!isPageOne);
-        if (!isPageOne) {
-          navigate('/CatholicRosaryApp/Litanies'); // Navigate to /page-one when switching from page two
-        }
       };
   // State to manage visibility of prayer sections
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -21,6 +18,12 @@ const SpanishLitany = () => {
     // Toggle the section: if it's open, close it; if it's closed, open it
     setExpandedIndex(expandedIndex === index ? null : index);
   };
+
+  useEffect(() => {
+      if(!isPageOne) {
+        navigate('/CatholicRosaryApp/Litanies');
+      }
+    }, [isPageOne]);
 
   return (
      <>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './DivineMercySpanish.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
@@ -18,9 +18,6 @@ const DivineMercySpanish = () => {
 
       const handleToggle = () => {
         setIsPageOne(!isPageOne);
-        if (!isPageOne) {
-          navigate('/CatholicRosaryApp/divine-mercy'); // Navigate to /page-one when switching from page two
-        }
       };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
@@ -43,6 +40,12 @@ const DivineMercySpanish = () => {
     'En cada grano menor del Rosario, cuando normalmente se dice el Ave María, diga',
   ];
 
+  useEffect(() => {
+      if(!isPageOne) {
+        navigate('/CatholicRosaryApp/divine-mercy');
+      }
+    }, [isPageOne]);
+
   return (
 
     <>
@@ -57,7 +60,7 @@ const DivineMercySpanish = () => {
       alt="Divine Mercy Jesus appearing in front of St Faustina showing the rays of mercy"
       className='Divine-Mercy-image'
       />
-      <p class='Divine-Mercy-subtitle'>
+      <p className='Divine-Mercy-subtitle'>
         El senor es compasivo y misericordioso - Salmo 102
       </p>
     {/* Images side by side */}

@@ -1,20 +1,15 @@
-import React, { useState }from 'react';
+import React, { useState, useEffect }from 'react';
 import './SpanishRosary.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
 
 const SpanishRosary = () => {
 
-  
-
   const [isPageOne, setIsPageOne] = useState(true);
       const navigate = useNavigate();
 
       const handleToggle = () => {
         setIsPageOne(!isPageOne);
-        if (!isPageOne) {
-          navigate('/CatholicRosaryApp/long-rosary'); // Navigate to /page-one when switching from page two
-        }
       };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
@@ -25,6 +20,12 @@ const SpanishRosary = () => {
       prev.includes(index) ? prev.filter(item => item !== index) : [...prev, index]
     );
   };
+
+   useEffect(() => {
+    if(!isPageOne) {
+      navigate('/CatholicRosaryApp/long-rosary');
+    }
+  }, [isPageOne]);
 
   return (
     <>

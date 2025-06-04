@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './RosaryFactsSpanish.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
@@ -9,11 +9,13 @@ const RosaryFactsSpanish = () => {
     
           const handleToggle = () => {
             setIsPageOne(!isPageOne);
-            if (!isPageOne) {
-              navigate('/CatholicRosaryApp/rosary-facts'); // Navigate to /page-one when switching from page two
-            }
           };
 
+          useEffect(() => {
+              if(!isPageOne) {
+                navigate('/CatholicRosaryApp/rosary-facts');
+              }
+            }, [isPageOne]);
     return (
         <>
         <label style={{"position":"fixed"}}>
