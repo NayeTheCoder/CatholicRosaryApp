@@ -29,11 +29,12 @@ const LongRosary = () => {
 
   return (
     <>
-    <label style={{"position":"fixed"}}>
-        <span>Español!</span>
+    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
         <Switch onChange={handleToggle} checked={isPageOne} />
       </label>
-
+    </div>
     <div className="long-rosary-container">
 
         <h1>The Holy Rosary</h1> 
@@ -114,7 +115,7 @@ Amen.
           onClick={() => toggleVisibility(0)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -135,7 +136,7 @@ Amen.
           onClick={() => toggleVisibility(1)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(1) && (
@@ -156,7 +157,7 @@ Amen.
           onClick={() => toggleVisibility(2)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(2) && (

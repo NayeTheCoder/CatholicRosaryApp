@@ -6,12 +6,12 @@ import './Navbar.css';
 
 const CustomNavbar = () => {
   return (
-    <Navbar expand="lg" bg="light" variant="light">
+    <Navbar defaultExpanded expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand className="mx-auto" href="/">JESUS IS KING!!!!!</Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbar-nav" />
-            <Navbar.Collapse className="show" id="navbar-nav">
+            <Navbar.Collapse id="navbar-nav">
               <Nav className="mx-auto">
                 {/* Link to Holy Rosary page */}
                 <Nav.Link as={Link} to="/CatholicRosaryApp/long-rosary">The Holy Rosary</Nav.Link> {/* will lead to its own page */}

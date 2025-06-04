@@ -49,10 +49,12 @@ const DivineMercySpanish = () => {
   return (
 
     <>
-    <label style={{"position":"fixed"}}>
-        <span>Español!</span>
+    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
         <Switch onChange={handleToggle} checked={isPageOne} />
       </label>
+    </div>
     <div className="Divine-Mercy-container-Spanish">
       <h1>Divina Misericordia Coronilla</h1>
       <img 

@@ -29,10 +29,12 @@ const SpanishRosary = () => {
 
   return (
     <>
-      <label style={{"position":"fixed"}}>
-        <span>Español!</span>
+      <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
         <Switch onChange={handleToggle} checked={isPageOne} />
       </label>
+    </div>
     
     <div className="el-rosario-container">
 
@@ -718,9 +720,9 @@ Amén
 <p>Dios te Salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra, Dios te salve.
 A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando, en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos, y, después de este destierro, muéstranos a Jesús,
 fruto bendito de tu vientre. ¡Oh, clemente, oh piadosa, oh dulce Virgen María!
-<p>
+
 Ruega por nosotros, Santa Madre de Dios.
-Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Amén </p>
+Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Amén 
 </p>
 </div>
 </div>

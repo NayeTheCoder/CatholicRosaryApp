@@ -18,10 +18,12 @@ const RosaryFactsSpanish = () => {
             }, [isPageOne]);
     return (
         <>
-        <label style={{"position":"fixed"}}>
-            <span>Español!</span>
-            <Switch onChange={handleToggle} checked={isPageOne} />
-        </label>
+        <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    </div>
         <div className="page-container">
             <h1>Informacion Del Santo Rosario</h1>    
             <h2>Las 15 Promesas de Nuestra Señora para los que recan el Rosario</h2>
