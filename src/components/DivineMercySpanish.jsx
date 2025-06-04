@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './DivineMercySpanish.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 // Reusable prayer components
 const Prayer = ({ title, children }) => (
@@ -10,6 +12,13 @@ const Prayer = ({ title, children }) => (
 );
 
 const DivineMercySpanish = () => {
+
+   const [isPageOne, setIsPageOne] = useState(true);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+      };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
 
@@ -31,7 +40,21 @@ const DivineMercySpanish = () => {
     'En cada grano menor del Rosario, cuando normalmente se dice el Ave María, diga',
   ];
 
+  useEffect(() => {
+      if(!isPageOne) {
+        navigate('/CatholicRosaryApp/divine-mercy');
+      }
+    }, [isPageOne]);
+
   return (
+
+    <>
+    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    </div>
     <div className="Divine-Mercy-container-Spanish">
       <h1>Divina Misericordia Coronilla</h1>
       <img 
@@ -39,7 +62,7 @@ const DivineMercySpanish = () => {
       alt="Divine Mercy Jesus appearing in front of St Faustina showing the rays of mercy"
       className='Divine-Mercy-image'
       />
-      <p class='Divine-Mercy-subtitle'>
+      <p className='Divine-Mercy-subtitle'>
         El senor es compasivo y misericordioso - Salmo 102
       </p>
     {/* Images side by side */}
@@ -182,6 +205,7 @@ const DivineMercySpanish = () => {
       Oh Dios Eterno, en quien la misericordia es infinita y el tesoro de compasión inagotable, vuelve a nosotros Tu mirada bondadosa y aumenta Tu misericordia en nosotros, para que en momentos difíciles no nos desesperemos ni nos desalentemos, sino que, con gran confianza, nos sometamos a Tu santa voluntad, que es el Amor y la Misericordia mismos. Amén.
       </Prayer>
     </div>
+    </>
   );
 };
 

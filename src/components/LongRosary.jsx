@@ -1,10 +1,22 @@
 // src/components/LongRosary.jsx
 import React, { useState }from 'react';
 import './LongRosary.css';  // Import the CSS file
-
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const LongRosary = () => {
 
+  const [isPageOne, setIsPageOne] = useState(false);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (isPageOne) {
+          navigate('/CatholicRosaryApp/long-rosary'); // Navigate to long-rosary
+        } else {
+          navigate('/CatholicRosaryApp/spanish-rosary'); // Navigate to spanish rosary
+        }
+      };
      // State to control visibility of specific mysteries (each with a unique index)
      const [visibleMysteries, setVisibleMysteries] = useState([]);
   
@@ -16,6 +28,13 @@ const LongRosary = () => {
      };
 
   return (
+    <>
+    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    </div>
     <div className="long-rosary-container">
 
         <h1>The Holy Rosary</h1> 
@@ -96,7 +115,7 @@ Amen.
           onClick={() => toggleVisibility(0)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -117,7 +136,7 @@ Amen.
           onClick={() => toggleVisibility(1)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(1) && (
@@ -138,7 +157,7 @@ Amen.
           onClick={() => toggleVisibility(2)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(2) && (
@@ -159,7 +178,7 @@ Amen.
         >
 
       {/* The 1st Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
+        The Luminous Mysteries(Thursdays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(3) && (
@@ -226,7 +245,7 @@ Amen.</p>
           onClick={() => toggleVisibility(4)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -249,7 +268,7 @@ Amen.</p>
           onClick={() => toggleVisibility(5)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(5) && (
@@ -266,7 +285,7 @@ Amen.</p>
           onClick={() => toggleVisibility(6)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(6) && (
@@ -283,7 +302,7 @@ Amen.</p>
         >
 
       {/* The 2nd Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
+        The Luminous Mysteries(Thursdays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(7) && (
@@ -351,7 +370,7 @@ Amen.</p>
           onClick={() => toggleVisibility(8)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -376,7 +395,7 @@ Amen.</p>
           onClick={() => toggleVisibility(9)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(9) && (
@@ -395,7 +414,7 @@ Amen.</p>
           onClick={() => toggleVisibility(10)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(10) && (
@@ -415,7 +434,7 @@ Amen.</p>
         >
 
       {/* The 3rd Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
+        The Luminous Mysteries(Thursdays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(11) && (
@@ -482,7 +501,7 @@ Amen.</p>
           onClick={() => toggleVisibility(12)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -507,7 +526,7 @@ Amen.</p>
           onClick={() => toggleVisibility(13)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(13) && (
@@ -525,7 +544,7 @@ Amen.</p>
           onClick={() => toggleVisibility(14)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(14) && (
@@ -543,7 +562,7 @@ Amen.</p>
         >
 
       {/* The 4th Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
+        The Luminous Mysteries(Thursdays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(15) && (
@@ -609,7 +628,7 @@ Amen.</p>
           onClick={() => toggleVisibility(16)} 
           style={{ cursor: 'pointer' }}
         >
-          The Joyful Mystery (Monday and Saturday) <i class="arrow down"></i>
+          The Joyful Mystery (Monday and Saturday) <i className="arrow down"></i>
         </h2>
 
      
@@ -635,7 +654,7 @@ Amen.</p>
           onClick={() => toggleVisibility(17)} 
           style={{ cursor: 'pointer' }}
         >
-         The Sorrowful Mysteries (Tuesday and Fridays) <i class="arrow down"></i>
+         The Sorrowful Mysteries (Tuesday and Fridays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(17) && (
@@ -662,7 +681,7 @@ Amen.</p>
           onClick={() => toggleVisibility(18)} 
           style={{ cursor: 'pointer' }}
         >
-        The Glorious Mysteries (Wednesdays and Sundays) <i class="arrow down"></i>
+        The Glorious Mysteries (Wednesdays and Sundays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(18) && (
@@ -679,7 +698,7 @@ Amen.</p>
         >
 
       {/* The 5th Luminous Mystery clickable*/}
-        The Luminous Mysteries(Thursdays) <i class="arrow down"></i>
+        The Luminous Mysteries(Thursdays) <i className="arrow down"></i>
         </h2>
 
         {visibleMysteries.includes(19) && (
@@ -773,6 +792,7 @@ Amen.</p>
     but in thy mercy hear and answer me. Amen.</p>
 </div>
 </div>
+</>
   );
 };
 

@@ -1,7 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './SpanishLitany.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const SpanishLitany = () => {
+  const [isPageOne, setIsPageOne] = useState(true);
+      const navigate = useNavigate();
+
+      const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+      };
   // State to manage visibility of prayer sections
   const [expandedIndex, setExpandedIndex] = useState(null);
 
@@ -11,7 +19,20 @@ const SpanishLitany = () => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
+  useEffect(() => {
+      if(!isPageOne) {
+        navigate('/CatholicRosaryApp/Litanies');
+      }
+    }, [isPageOne]);
+
   return (
+     <>
+      <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    </div>
     <div className='litanies-page'>
       <h1>Litanies</h1>
 
@@ -491,6 +512,7 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
 
   
     </div>
+    </>
 )};
 
 export default SpanishLitany;

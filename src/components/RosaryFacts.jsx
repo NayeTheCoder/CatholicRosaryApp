@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './RosaryFacts.css';
+import { useNavigate } from 'react-router-dom';
+import Switch from "react-switch";
 
 const RosaryFacts = () => {
+    const [isPageOne, setIsPageOne] = useState(false);
+    const navigate = useNavigate();
+    
+    const handleToggle = () => {
+        setIsPageOne(!isPageOne);
+        if (!isPageOne) {
+            navigate('/CatholicRosaryApp/Rosary-facts-Spanish'); // Navigate to /page-one when switching from page two
+        }
+    };
+
     return (
+        <>
+        <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
+      <label>
+        <Switch onChange={handleToggle} checked={isPageOne} />
+      </label>
+    </div>
         <div className="page-container" style={{backgroundColor: "#ffc60c"}}>
             <h1>Rosary Information</h1>    
             <h2>The 15 Promises of Our Lady to Those Who Pray the Rosary</h2>
@@ -25,6 +44,7 @@ const RosaryFacts = () => {
                 <p>Devotion to my rosary is a great sign of predestination.</p>
             </div>
         </div>
+        </>
     );
 };
 
