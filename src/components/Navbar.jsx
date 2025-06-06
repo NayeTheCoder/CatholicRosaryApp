@@ -8,7 +8,7 @@ const CustomNavbar = () => {
   return (
     <Navbar style={{"borderRadius":"5px"}} defaultExpanded expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand className="navbar-brand" href="/CatholicRosaryApp/">A Catholic Resources</Navbar.Brand>
+        <Navbar.Brand className="navbar-brand" href="/CatholicRosaryApp/">A Catholic Resource</Navbar.Brand>
           <Navbar.Toggle className="tog-button" aria-controls="navbar-nav" />
             <Navbar.Collapse className="mx-auto" id="navbar-nav">
               <Nav className="nav mx-auto">
