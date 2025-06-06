@@ -795,7 +795,7 @@ Amen.</p>
 </div>
 <div class="fixed-bottom" style={{"backgroundColor":"rgb(100,150,200)", "height":"5rem", "display":"flex", "flexDirection":"column"}} >
   <span id="closeBanner" onClick ={()=>{document.getElementById("closeBanner").parentElement.remove(); return false;}} style={{"marginLeft":"auto", "fontSize":"1.5rem", "paddingRight":"0.75rem"}}>x</span>
-  <p>Try the short version <a href="/CatholicRosaryApp/short-rosary">here</a>!</p>
+  <p>Try the short version <span style={{"color":"blue","fontStyle":"italic"}} onClick={()=>{navigate("/CatholicRosaryApp/short-rosary")}}>here</span>!</p>
 </div>
 </>
   );
