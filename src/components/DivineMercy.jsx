@@ -45,7 +45,7 @@ const DivineMercy = () => {
 
   return (
     <>
-   <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column", "border-radius":"5px"}}>
+   <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column", "border-radius":"5px", "color":"black"}}>
     <span id="close" onClick ={()=>{document.getElementById("close").parentElement.remove(); return false;}} style={{"fontSize":"1.5rem", "marginLeft":"auto", "paddingRight":".5rem", "paddingLeft":".5rem"}}>x</span>
       <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español! 
 </span>
