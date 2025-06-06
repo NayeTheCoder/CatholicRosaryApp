@@ -35,7 +35,7 @@
 }
 
 /* Ensuring navbar works well on mobile screens */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .navbar-nav {
     justify-content: center; /* Center items on small screens */
   }
