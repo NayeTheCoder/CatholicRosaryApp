@@ -10,7 +10,7 @@ const HomePage = () => {
 	];
   	return (
 	<>
-	<img src="/images/deepimg-1748482512937.png" height="400em"/>
+	<img src="./images/deepimg-1748482512937.png" height="400em"/>
 	<h1 style={{"color":"white", "fontFamily":"Ariel"}} align="center">John 3:16 "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life" </h1>
 	</>
 	)
