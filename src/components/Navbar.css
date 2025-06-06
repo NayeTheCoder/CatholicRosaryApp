@@ -20,10 +20,15 @@
 
 /* Custom style for navbar brand */
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 1.25rem;
+  padding-left: 11rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:'Times New Roman', Times, serif;
+  /* padding-left: 10rem; */
 }
 
 
@@ -31,13 +36,52 @@
 .navbar-nav {
   display: flex;
   justify-content: center; /* Center items horizontally */
-  align-items: center; /* Ensure vertical centering */
+  align-content: center; /* Ensure vertical centering */
   text-align: center;
+  font-size: 1.75rem;
+}
+
+.link{
+  padding-right: 5rem;
+} 
+
+.drop-item{
+  font-size: 1.5rem;
+}
+
+.tog-button{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav{
+  padding-left: 4rem;
 }
 
 /* Ensuring navbar works well on mobile screens */
- @media (min-width: 767px) {
+ @media (max-width: 990px) {
   .navbar-nav {
     justify-content: center; /* Center items on small screens */
+    align-content: center;
   }
+  .navbar-brand {
+  margin-left: 0;
+  padding-left: 10rem;
+
+
+  }
+  .link{
+  padding-right: 0rem;
+  
+} 
+.nav{
+  padding-left: 0rem;
 }
+}
+
+ @media (min-width: 768px ) and (max-width: 1000px){
+  .nav{
+    padding-left: 25rem;
+  }
+ }
+
