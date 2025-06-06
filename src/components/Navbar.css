@@ -23,6 +23,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+  padding-top: 1.25rem;
 }
 
 
@@ -35,7 +36,7 @@
 }
 
 /* Ensuring navbar works well on mobile screens */
-@media (min-width: 767px) {
+ @media (min-width: 767px) {
   .navbar-nav {
     justify-content: center; /* Center items on small screens */
   }

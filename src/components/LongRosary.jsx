@@ -29,7 +29,7 @@ const LongRosary = () => {
 
   return (
     <>
-    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+    <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column", "border-radius":"5px", "color":"black"}}>
       <span id="close" onClick ={()=>{document.getElementById("close").parentElement.remove(); return false;}} style={{"fontSize":"1.5rem", "marginLeft":"auto", "paddingRight":".5rem", "paddingLeft":".5rem"}}>x</span>
       <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
       <label>
@@ -795,7 +795,7 @@ Amen.</p>
 </div>
 <div class="fixed-bottom" style={{"backgroundColor":"rgb(100,150,200)", "height":"5rem", "display":"flex", "flexDirection":"column"}} >
   <span id="closeBanner" onClick ={()=>{document.getElementById("closeBanner").parentElement.remove(); return false;}} style={{"marginLeft":"auto", "fontSize":"1.5rem", "paddingRight":"0.75rem"}}>x</span>
-  <p>New short version here! Click <a href="/CatholicRosaryApp/short-rosary">this</a></p>
+  <p>Try the short version <a href="/CatholicRosaryApp/short-rosary">here</a>!</p>
 </div>
 </>
   );
