@@ -8,7 +8,7 @@ const CustomNavbar = () => {
   return (
     <Navbar defaultExpanded expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand className="mx-auto" href="/">JESUS IS KING!!!!!</Navbar.Brand>
+        <Navbar.Brand className="mx-auto" href="/CatholicRosaryApp/">JESUS IS KING!!!!!</Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
