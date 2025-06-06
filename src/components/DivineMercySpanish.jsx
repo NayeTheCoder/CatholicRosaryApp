@@ -50,6 +50,7 @@ const DivineMercySpanish = () => {
 
     <>
     <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column"}}>
+      <span id="close" onClick ={()=>{document.getElementById("close").parentElement.remove(); return false;}} style={{"fontSize":"1.5rem", "marginLeft":"auto", "paddingRight":".5rem", "paddingLeft":".5rem"}}>x</span>
       <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
       <label>
         <Switch onChange={handleToggle} checked={isPageOne} />
