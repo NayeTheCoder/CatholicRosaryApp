@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './HomePage.css'; if added
+import './HomePage.css';
 
 const HomePage = () => {
 
@@ -8,7 +8,13 @@ const HomePage = () => {
 		"Romans 12:12 \"Be joyful in hope, patient in affliction, faithful in prayer.\"",
 		"John 20:29 \"Then Jesus told him, ‘Because you have seen me, you have believed; blessed are those who have not seen and yet have believed.’\""
 	];
-  	return (<h1 align="center">John 3:16 "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life" </h1>)
+  	return (
+	<>
+	<img src="public/images/deepimg-1748482512937.png" height="400em"/>
+	<h1 style={{"color":"white", "fontFamily":"Ariel"}} align="center">John 3:16 "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life" </h1>
+	</>
+	)
+
 }
 	
 
