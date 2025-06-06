@@ -9,6 +9,6 @@ body {
   /* Ensuring navbar works well on mobile screens */
  @media (max-width: 767px) {
   img {
-    height: 35rem; /* Center items on small screens */
+    height: 33rem; /* Center items on small screens */
   }
 }
