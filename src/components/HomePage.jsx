@@ -24,7 +24,7 @@ const HomePage = () => {
 
   return (
     <>
-      <img src="./images/deepimg-1748482512937.png" height="400em" />
+      <img src="./images/deepimg-1748482512937.png" height="500em" />
       <h1 style={{ color: "white", fontFamily: "Ariel" }} align="center">
         {quotes[randNum]}{" "}
       </h1>
