@@ -8,6 +8,7 @@
     justify-content: flex-start; /* Align items to the top of the container */
     text-align: center; /* Center text */
     padding: 20px; /* Add padding around the container */
+    color: #ECECEC;
   }
   
   .rosary-image {
@@ -61,4 +62,8 @@
   .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+  }
+
+  .textInContainer {
+    color: #E3E3E3;
   }
