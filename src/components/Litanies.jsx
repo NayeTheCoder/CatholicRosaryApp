@@ -129,29 +129,29 @@ const Litanies = () => {
           <div className='litany-prayer'>
             <ul>
               <li>O Jesus, meek and humble of heart, hear me.</li>
-              <li>From the desire of being esteemed, deliver me, O Jesus.</li>
-              <li>From the desire of being loved, deliver me, O Jesus.</li>
-              <li>From the desire of being extolled, deliver me, O Jesus.</li>
-              <li>From the desire of being honored, deliver me, O Jesus.</li>
-              <li>From the desire of being praised, Deliver me, O Jesus. </li>
-               <li>From the desire of being preferred to others, Deliver me, O Jesus. </li>
-              <li>From the desire of being consulted,Deliver me, O Jesus. </li>
-              <li>From the desire of being approved, Deliver me, O Jesus. </li>
-              <li>From the fear of being humiliated, Deliver me, O Jesus. </li>
-               <li>From the fear of being despised, Deliver me, O Jesus. </li>
-             <li>From the fear of suffering rebukes, Deliver me, O Jesus.</li>
-            <li>From the fear of being calumniated,Deliver me, O Jesus.</li>
-            <li>From the fear of being forgotten, Deliver me, O Jesus.</li>
-          <li>From the fear of being ridiculed, Deliver me, O Jesus.</li>
-          <li>From the fear of being wronged, Deliver me, O Jesus.</li>
-          <li> From the fear of being suspected, Deliver me, O Jesus.</li>
-        <li>That others may be loved more than I, Jesus, grant me the grace to desire it.</li>
-        <li>That others may be esteemed more than I, Jesus, grant me the grace to desire it.</li>
-        <li>That, in the opinion of the world, others may increase and I may decrease, Jesus, grant me the grace to desire it.</li>
-        <li>That others may be chosen and I set aside, Jesus, grant me the grace to desire it.</li>
-        <li>That others may be praised and I go unnoticed, Jesus, grant me the grace to desire it.</li>
-      <li>That others may be preferred to me in everything, Jesus, grant me the grace to desire it.</li>
-<li>That others may become holier than I, provided that I may become as holy as I should, Jesus, grant me the grace to desire it.</li>
+              <li>From the desire of being esteemed, <br/>Deliver me, O Jesus.</li>
+              <li>From the desire of being loved, <br/>Deliver me, O Jesus.</li>
+              <li>From the desire of being extolled, <br/>Deliver me, O Jesus.</li>
+              <li>From the desire of being honored, <br/>Deliver me, O Jesus.</li>
+              <li>From the desire of being praised, <br/>Deliver me, O Jesus. </li>
+               <li>From the desire of being preferred to others, <br/>Deliver me, O Jesus. </li>
+              <li>From the desire of being consulted, <br/>Deliver me, O Jesus. </li>
+              <li>From the desire of being approved, <br/>Deliver me, O Jesus. </li>
+              <li>From the fear of being humiliated, <br/>Deliver me, O Jesus. </li>
+               <li>From the fear of being despised, <br/>Deliver me, O Jesus. </li>
+             <li>From the fear of suffering rebukes, <br/>Deliver me, O Jesus.</li>
+            <li>From the fear of being calumniated, <br/>Deliver me, O Jesus.</li>
+            <li>From the fear of being forgotten, <br/>Deliver me, O Jesus.</li>
+          <li>From the fear of being ridiculed, <br/>Deliver me, O Jesus.</li>
+          <li>From the fear of being wronged, <br/>Deliver me, O Jesus.</li>
+          <li> From the fear of being suspected, <br/>Deliver me, O Jesus.</li>
+        <li>That others may be loved more than I, Jesus, <br/>Grant me the grace to desire it.</li>
+        <li>That others may be esteemed more than I, Jesus, <br/>Grant me the grace to desire it.</li>
+        <li>That, in the opinion of the world, others may increase and I may decrease, Jesus, <br/>grant me the grace to desire it.</li>
+        <li>That others may be chosen and I set aside, Jesus, <br/>Grant me the grace to desire it.</li>
+        <li>That others may be praised and I go unnoticed, Jesus, <br/>Grant me the grace to desire it.</li>
+      <li>That others may be preferred to me in everything, Jesus, <br/>Grant me the grace to desire it.</li>
+<li>That others may become holier than I, provided that I may become as holy as I should, Jesus, <br/>Grant me the grace to desire it.</li>
             </ul>
           </div>
         )}

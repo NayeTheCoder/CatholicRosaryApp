@@ -39,7 +39,7 @@ const LongRosary = () => {
           display: "flex",
           flexDirection: "column",
           "border-radius": "5px",
-          color: "black",
+          "color": "#ECECEC",
         }}
       >
         <span
@@ -65,15 +65,15 @@ const LongRosary = () => {
         </label>
       </div>
       <div className="long-rosary-container">
-        <h1>The Holy Rosary</h1>
+        <h1 className="textInContainer">The Holy Rosary</h1>
 
-        <p>
+        <p className="textInContainer">
           This is a longer version of the Holy Rosary designed to help you
           meditate and learn from each mystery. Remember these are all meant to
           lead us closer to Jesus. We learn about his life through scriptural
           references.
         </p>
-        <p> Open you heart and watch how Jesus will transform your life.</p>
+        <p className="textInContainer"> Open you heart and watch how Jesus will transform your life.</p>
 
         <img
           src="https://images.squarespace-cdn.com/content/v1/57f874e8440243944ef66aa7/1588056576305-5YHNGFCK4J473KBWH27L/Rosary.jpg"

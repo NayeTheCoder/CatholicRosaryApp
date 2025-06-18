@@ -10,7 +10,7 @@
   
   .litany {
     margin-bottom: 20px;
-    width: 80%; /* Ensure the litany container doesn't take full width, add some space on the sides */
+    width: 100%; /* Ensure the litany container doesn't take full width, add some space on the sides */
   }
   
   .litany h2 {
@@ -31,9 +31,10 @@
     border-radius: 5px;
     margin-top: 10px;
     text-align: center; /* Center the content inside the prayer section */
-    max-width: 800px; /* Limit the width to prevent too wide of a container */
+    max-width: 1000px; /* Limit the width to prevent too wide of a container */
     margin-left: auto;
     margin-right: auto;
+    font-size: 2rem;
   }
   
   .litany-prayer ul {
