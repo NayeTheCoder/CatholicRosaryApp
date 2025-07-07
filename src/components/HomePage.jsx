@@ -24,10 +24,18 @@ const HomePage = () => {
 
   return (
     <>
+    <h1 style={{ color: "white", fontFamily: "Ariel", fontSize: "3rem" }}>
+      Welcome to A Catholic Resource.
+    </h1>
       <img src="./images/deepimg-1748482512937.png" height="500em" />
       <h1 style={{ color: "white", fontFamily: "Ariel" }} align="center">
         {quotes[randNum]}{" "}
       </h1>
+      <iframe className="video" width="800" height="500" src="https://www.youtube.com/embed/vgfDCmxvm4g?autoplay=1&mute=1&cc_load_policy=1" title="The Real Presence: The Mass" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p style={{ color: "white", fontFamily: "Ariel"}}>
+        Visit the real prescence website:  
+        <a href="https://therealpresence.com/" >https://therealpresence.com/</a>
+      </p>
     </>
   );
 };
