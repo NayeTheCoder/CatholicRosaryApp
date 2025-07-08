@@ -57,7 +57,7 @@
       flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start;
-      margin-left: -9rem;
+      /* margin-left: -9rem; */
     }
     .litany-prayer {
       width: 32rem;
