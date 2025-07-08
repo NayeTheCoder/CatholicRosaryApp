@@ -13,7 +13,7 @@
     width: 80%; /* Ensure the litany container doesn't take full width, add some space on the sides */
   }
   
-  .litany h2 {
+  h2 {
     font-size: 1.5em;
     color: #0056b3;
     cursor: pointer;
@@ -21,7 +21,7 @@
     margin-bottom: 10px; /* Add spacing between title and prayer */
   }
   
-  .litany h2:hover {
+ h2:hover {
     color: #003366;
   }
   
@@ -48,3 +48,19 @@
     color: #333;
   }
   
+  @media (max-width: 767px) {
+    .litanies-page {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .litany {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: -9rem;
+    }
+    .litany-prayer {
+      width: 32rem;
+      align-self: flex-start;
+    }
+}

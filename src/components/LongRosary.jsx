@@ -33,13 +33,14 @@ const LongRosary = () => {
       <div
         style={{
           position: "fixed",
+          "bottom":"40px", "right":"40px",
           marginLeft: ".5rem",
           backgroundColor: "white",
           opacity: "80%",
           display: "flex",
           flexDirection: "column",
           "border-radius": "5px",
-          "color": "#ECECEC",
+          "color": "black",
         }}
       >
         <span

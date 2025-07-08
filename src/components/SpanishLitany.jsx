@@ -27,7 +27,7 @@ const SpanishLitany = () => {
 
   return (
      <>
-      <div style={{"position":"fixed", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column", "border-radius":"5px", "color":"black"}}>
+      <div style={{"position":"fixed", "bottom":"40px", "right":"40px", "marginLeft":".5rem", "backgroundColor":"white","opacity":"80%", "display":"flex", "flexDirection":"column", "border-radius":"5px", "color":"black"}}>
         <span id="close" onClick ={()=>{document.getElementById("close").parentElement.remove(); return false;}} style={{"fontSize":"1.5rem", "marginLeft":"auto", "paddingRight":".5rem", "paddingLeft":".5rem"}}>x</span>
       <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
       <label>
@@ -35,14 +35,14 @@ const SpanishLitany = () => {
       </label>
     </div>
     <div className='litanies-page'>
-      <h1>Litanies</h1>
+      <h1 style={{color: "#ffffff"}}>Litanies</h1>
 
       {/* The Litany of the Blessed Virgin Mary */}
-      <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(0)} style={{ cursor: 'pointer' }}>
+      <h2 onClick={() => togglePrayerVisibility(0)} style={{ cursor: 'pointer', color: "#187ae2" }}>
         Letanías de la Santísima Virgen
         </h2>
-
+      <div className='litany'>
+        
         {expandedIndex === 0 && (
           <div className='litany-prayer'>
             <ul>
@@ -134,10 +134,10 @@ Amén.  </li>
       </div>
 
       {/* The Litany of Humility */}
-      <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(1)} style={{ cursor: 'pointer' }}>
+      <h2 onClick={() => togglePrayerVisibility(1)} style={{ cursor: 'pointer', color: "#187ae2" }}>
         Letanías de la humildad 
         </h2>
+      <div className='litany'>
 
         {expandedIndex === 1 && (
           <div className='litany-prayer'>
@@ -174,10 +174,11 @@ Amén.  </li>
         )}
       </div>
  {/* The Litany of the Sacred Heart of Jesus */}
- <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(2)} style={{ cursor: 'pointer' }}>
+ <h2 onClick={() => togglePrayerVisibility(2)} style={{ cursor: 'pointer', color: "#187ae2" }}>
         Letanías del Sagrado Corazón de Jesús
         </h2>
+ <div className='litany'>
+        
         {expandedIndex === 2 && (
           <div className='litany-prayer'>
             <ul>
@@ -234,11 +235,11 @@ Amén.  </li>
         )}
       </div>
       {/* Litany For Souls in Purgatory */}
-      <div className='litany'>
-         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer' }}>
+      <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer', color: "#187ae2" }}>
          Letanías Por Las Almas Del Purgatorio
          </h2>
- 
+      <div className='litany'>
+        
          {expandedIndex === 3 && (
            <div className='litany-prayer'>
              <ul>
@@ -308,12 +309,11 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
         </div>
 
   {/* Litany For Saints */}
-  <div className='litany'>
-          <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer' }}>
+   <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer', color: "#187ae2" }}>
          Letanías De Los Santos
          </h2>
-
-
+  <div className='litany'>
+         
       {expandedIndex === 4 && (
            <div className='litany-prayer'>
              <ul>
@@ -442,11 +442,10 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
   </div>
 
     {/* Litany For Trust */}
-  <div className='litany'>
-          <h2 onClick={() => togglePrayerVisibility(5)} style={{ cursor: 'pointer' }}>
+    <h2 onClick={() => togglePrayerVisibility(5)} style={{ cursor: 'pointer', color: "#187ae2" }}>
          Letanía De La Confianza
          </h2>
-
+  <div className='litany'>
 
       {expandedIndex === 5 && (
            <div className='litany-prayer'>
