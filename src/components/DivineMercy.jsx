@@ -47,6 +47,7 @@ const DivineMercy = () => {
       <div
         style={{
           position: "fixed",
+          "bottom":"40px", "right":"40px",
           marginLeft: ".5rem",
           backgroundColor: "white",
           opacity: "80%",
