@@ -32,14 +32,14 @@ const Litanies = () => {
       </label>
     </div>
     <div className='litanies-page'>
-      <h1>Litanies</h1>
+      <h1 style={{color: "#ffffff"}}>Litanies</h1>
 
       {/* The Litany of the Blessed Virgin Mary */}
-      <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(0)} style={{ cursor: 'pointer' }}>
+      <h2  onClick={() => togglePrayerVisibility(0)} style={{ cursor: 'pointer', color: "#187ae2" }}>
           The Litany of the Blessed Virgin Mary
         </h2>
-
+      <div className='litany'>
+        
         {expandedIndex === 0 && (
           <div className='litany-prayer'>
             <ul>
@@ -120,10 +120,10 @@ const Litanies = () => {
       </div>
 
       {/* The Litany of Humility */}
-      <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(1)} style={{ cursor: 'pointer' }}>
+      <h2 onClick={() => togglePrayerVisibility(1)} style={{ cursor: 'pointer', color: "#187ae2"}}>
           Litany of Humility
         </h2>
+      <div className='litany'>
 
         {expandedIndex === 1 && (
           <div className='litany-prayer'>
@@ -157,10 +157,11 @@ const Litanies = () => {
         )}
       </div>
  {/* The Litany of the Sacred Heart of Jesus */}
- <div className='litany'>
-        <h2 onClick={() => togglePrayerVisibility(2)} style={{ cursor: 'pointer' }}>
+ <h2 onClick={() => togglePrayerVisibility(2)} style={{ cursor: 'pointer', color: "#187ae2" }}>
           Litany of the Sacred Heart of Jesus
         </h2>
+ <div className='litany'>
+        
         {expandedIndex === 2 && (
           <div className='litany-prayer'>
             <ul>
@@ -224,10 +225,10 @@ R/. Amen.</li>
         )}
         </div>
          {/* Litany of Healing and Renewal */}
-         <div className='litany'>
-         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer' }}>
+         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer', color: "#187ae2" }}>
            Litany of Healing and Renewal
          </h2>
+         <div className='litany'>
  
          {expandedIndex === 3 && (
            <div className='litany-prayer'>
