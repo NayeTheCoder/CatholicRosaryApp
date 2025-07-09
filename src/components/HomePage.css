@@ -5,7 +5,9 @@ body {
     font-family: Arial;
     text-align: center;
   }
-  
+li {
+  font-size: 55%;
+}
   /* Ensuring navbar works well on mobile screens */
  @media (max-width: 767px) {
   img {
