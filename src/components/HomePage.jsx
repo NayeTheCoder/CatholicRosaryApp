@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./HomePage.css";
+import { Link } from 'react-router-dom';
 
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
@@ -26,7 +27,7 @@ const HomePage = () => {
     <>
     <h1 style={{ color: "white", fontFamily: "Ariel", fontSize: "3rem" }}>
       Welcome to A Catholic Resource.
-	  <li> Step by step rosary guide (En <a href="/CatholicRosaryApp/spanish-rosary">Español!</a>)</li>
+	  <li> Step by step rosary guide (En <Link to="/CatholicRosaryApp/spanish-rosary">Español!</Link>)</li>
     </h1>
       <img src="./images/deepimg-1748482512937.png" height="500em" />
       <h1 style={{ color: "white", fontFamily: "Ariel" }} align="center">
