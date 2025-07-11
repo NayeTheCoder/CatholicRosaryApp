@@ -24,7 +24,7 @@ const SpanishRosary = () => {
 
   useEffect(() => {
     if (!isPageOne) {
-      navigate("/CatholicRosaryApp/long-rosary");
+      navigate("/long-rosary");
     }
   }, [isPageOne]);
 
@@ -39,7 +39,7 @@ const SpanishRosary = () => {
           opacity: "80%",
           display: "flex",
           flexDirection: "column",
-          "border-radius": "5px",
+          "borderRadius": "5px",
           color: "black",
         }}
       >

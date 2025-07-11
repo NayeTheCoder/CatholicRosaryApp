@@ -41,7 +41,7 @@ const DivineMercySpanish = () => {
 
   useEffect(() => {
     if (!isPageOne) {
-      navigate("/CatholicRosaryApp/divine-mercy");
+      navigate("/divine-mercy");
     }
   }, [isPageOne]);
 
@@ -50,13 +50,13 @@ const DivineMercySpanish = () => {
       <div
         style={{
           position: "fixed",
-          "bottom":"40px", "right":"40px",
+          bottom:"40px", "right":"40px",
           marginLeft: ".5rem",
           backgroundColor: "white",
           opacity: "80%",
           display: "flex",
           flexDirection: "column",
-          "border-radius": "5px",
+          borderRadius: "5px",
           color: "black",
         }}
       >

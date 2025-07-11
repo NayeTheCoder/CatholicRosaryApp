@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';  // Import Navbar
 import LongRosary from './components/LongRosary';  // Import LongRosary component
@@ -15,26 +15,30 @@ import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
 import Resources from './components/Resources';
 import HomePage from './components/HomePage';
+import Assistant from './components/Assistant';
+import NotFound from './NotFound';
 
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <Routes>  {/* Use Routes instead of Switch */}
-        <Route path="/CatholicRosaryApp" element={<HomePage/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/long-rosary" element={<LongRosary />} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/divine-mercySpanish" element={<DivineMercySpanish/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
-        <Route path="/CatholicRosaryApp/prayers" element={<PrayersPage />} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
-        <Route path="/CatholicRosaryApp/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
-        <Route path="/CatholicRosaryApp/Resources" element={<Resources/>} />
-        <Route path="/CatholicRosaryApp/Litanies" element={<Litanies/>} />
-        <Route path="/CatholicRosaryApp/Spanish-Litany" element={<SpanishLitany/>} />
+      <Routes> 
+        <Route exact path="/" element={<HomePage/>} /> {/* Use element */}
+        <Route path="/long-rosary" element={<LongRosary />} /> {/* Use element */}
+        <Route path="/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
+        <Route path="/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
+        <Route path="/divine-mercySpanish" element={<DivineMercySpanish/>} /> {/* Use element */}
+        <Route path="/spanish-rosary" element={<SpanishRosary/>} /> {/*Use element */}
+        <Route path="/prayers" element={<PrayersPage />} /> {/* Use element */}
+        <Route path="/rosary-facts" element={<RosaryFacts/>} /> {/* Use element */}
+        <Route path="/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
+        <Route path="/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
+        <Route path="/Resources" element={<Resources/>} />
+        <Route path="/Litanies" element={<Litanies/>} />
+        <Route path="/Spanish-Litany" element={<SpanishLitany/>} />
+        <Route path="/chat-bot" element={<Assistant/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>
   );
