@@ -18,7 +18,7 @@ const DivineMercy = () => {
   const handleToggle = () => {
     setIsPageOne(!isPageOne);
     if (!isPageOne) {
-      navigate("/CatholicRosaryApp/divine-mercySpanish"); // Navigate to /page-one when switching from page two
+      navigate("/divine-mercySpanish"); // Navigate to /page-one when switching from page two
     }
   };
   // State to control visibility of specific mysteries (each with a unique index)
@@ -47,13 +47,14 @@ const DivineMercy = () => {
       <div
         style={{
           position: "fixed",
-          "bottom":"40px", "right":"40px",
+          bottom:"40px", 
+          right:"40px",
           marginLeft: ".5rem",
           backgroundColor: "white",
           opacity: "80%",
           display: "flex",
           flexDirection: "column",
-          "border-radius": "5px",
+          borderRadius: "5px",
           color: "black",
         }}
       >

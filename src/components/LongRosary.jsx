@@ -11,9 +11,9 @@ const LongRosary = () => {
   const handleToggle = () => {
     setIsPageOne(!isPageOne);
     if (isPageOne) {
-      navigate("/CatholicRosaryApp/long-rosary"); // Navigate to long-rosary
+      navigate("/long-rosary"); // Navigate to long-rosary
     } else {
-      navigate("/CatholicRosaryApp/spanish-rosary"); // Navigate to spanish rosary
+      navigate("/spanish-rosary"); // Navigate to spanish rosary
     }
   };
   // State to control visibility of specific mysteries (each with a unique index)
@@ -39,7 +39,7 @@ const LongRosary = () => {
           opacity: "80%",
           display: "flex",
           flexDirection: "column",
-          "border-radius": "5px",
+          "borderRadius": "5px",
           "color": "black",
         }}
       >
@@ -997,7 +997,7 @@ const LongRosary = () => {
         </div>
       </div>
       <div
-        class="fixed-bottom"
+        className="fixed-bottom"
         style={{
           backgroundColor: "rgb(100,150,200)",
           height: "5rem",
@@ -1024,7 +1024,7 @@ const LongRosary = () => {
           <span
             style={{ color: "blue", fontStyle: "italic" }}
             onClick={() => {
-              navigate("/CatholicRosaryApp/short-rosary");
+              navigate("/short-rosary");
             }}
           >
             here
