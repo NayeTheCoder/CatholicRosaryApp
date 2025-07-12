@@ -15,7 +15,7 @@ import MysteriesPage from './components/MysteriesPage';
 import RosaryFactsSpanish from './components/RosaryFactsSpanish';
 import Resources from './components/Resources';
 import HomePage from './components/HomePage';
-import Assistant from './components/Assistant';
+{/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
 
 
