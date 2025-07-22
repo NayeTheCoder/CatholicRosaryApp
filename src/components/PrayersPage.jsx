@@ -44,7 +44,7 @@ const PrayersPage = () => {
 
   return (
     <div className="prayer-box">
-      <h1>Basic Prayers</h1>
+      <h1><b>Basic Prayers</b></h1>
       <ul>
         {prayers.map((prayer) => (
           <li key={prayer.id}>
