@@ -361,13 +361,101 @@ Amen.</b></li>
           </div>
         )}
         </div>
+
+
+{/*Litany of The Eucharist */}
+  <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer', color: "#187ae2" }}>
+           Litany of The Eucharist
+         </h2>
+        <div className='litany'>
+
+        {expandedIndex === 3 && (
+           <div className='litany-prayer'>
+              <ul>
+              <li> Lord, have mercy.  </li>
+              <li> <b> Lord, have mercy. </b></li>
+              <li> Christ, have mercy. </li>
+              <li> <b> Christ, have mercy. </b></li>
+              <li> Lord, have mercy.</li>
+              <li> <b> Lord, have mercy. </b></li>
+              <li> Christ hear us.</li>
+              <li> <b>Christ hear us.</b></li>
+              <li> Christ, graciously hear us.</li>
+              <li> <b>Christ, graciously hear us. </b></li>
+              <li> Jesus, Eucharistic High Priest of the Sacrifice,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Divine Victim for our salvation,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Veiled in bread and wine,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Dwelling in the tabernacles</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Really truly and substantially present in the Blessed Sacrament </li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Body, Blood, Soul and Divinity,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Bread of Life,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Bread of Angels,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Jesus, Ever present until world's end,</li>
+              <li> <b> Have mercy on us. </b></li>
+
+              <li> Sacred Host, Soure and Summit,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Adored by countless angels,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Spiritual food,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Bond of charity,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Greatest aid to holiness, </li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Gift and glory of the priesthood,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, In which we partake of Christ, </li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Filling a soul with grace,</li>
+              <li> <b> Have mercy on us. </b></li>
+              <li> Sacred Host, Pledge of our future glory,</li>
+              <li> <b> Have mercy on us. </b></li>
+
+              <li><b> Blessed Be Jesus in the Most Holy Sacrament of the Altar (3x)</b></li>
+
+              <li> For those who do not believe in the Real Presence, are indifferent, unworthily receive, 
+                or have offended you in the Holy Sacrament of the Altar, </li>
+              <li><b>Have Mercy on us.</b></li>
+
+              <li> Lamb of God, who takes away the sins of the world,</li>
+              <li><b>Spare us, O Lord.</b></li>
+              <li> Lamb of God, who takes away the sins of the world,</li>
+              <li><b>Graciously hear us, O Lord.</b></li>
+              <li> Lamb of God, who takes away the sins of the world,</li>
+              <li><b>Have mercy on us, O Lord.</b></li>
+
+              <li><b>O Sacrament Most Holy, O Sacrament Divine, all praise and all thanksgiving
+                be every moment Thine.</b>
+              </li>
+
+            <li> Let Us Pray</li>
+              <li> <b> Through Christ we pray. Merciful Father, draw us closer through
+                the Eucharist. Instill in us a deep faith in the Sacrament of Love, where Christ is present
+                and worthily received. Amen.
+                </b></li>
+              </ul>
+
+
+            </div>
+         )}
+       </div>
+     
          {/* Litany of Healing and Renewal */}
-         <h2 onClick={() => togglePrayerVisibility(3)} style={{ cursor: 'pointer', color: "#187ae2" }}>
+         <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer', color: "#187ae2" }}>
            Litany of Healing and Renewal
          </h2>
          <div className='litany'>
  
-         {expandedIndex === 3 && (
+         {expandedIndex === 4 && (
            <div className='litany-prayer'>
              <ul>
                <li>For those who have been abused: that they may experience
@@ -465,4 +553,7 @@ export default Litanies;
 //To have Charity is to love God above all things for Himself and be ready to renounce all created things rather than offend Him by serious sin. ( Matt. 22:36-40)
 
 
-//Litany of Healing and Renewal
+
+
+// corpuschristiforunityandpeace.org last time link did not work for me. might need to look
+//up can add to resource page for the Litany of Eucharist
