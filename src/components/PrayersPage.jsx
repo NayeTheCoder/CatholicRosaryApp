@@ -1,58 +1,58 @@
-import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './PrayersPage.css';
 
 const PrayersPage = () => {
-  const [prayers, setPrayers] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  const excludeTitles = ["Sign of the Cross", "Prayer to Your Guardian Angel"];
-
-  useEffect(() => {
-    const fetchPrayers = async () => {
-      try {
-        const response = await fetch("https://the-collection-of-catholic-prayers-api.vercel.app/v1/basic_prayers");
-        
-        if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(`Error ${response.status}: ${errorText}`);
-        }
-
-        const data = await response.json();
-        console.log(data);  // Log to check the data structure
-
-        const filteredPrayers = data.filter(prayer => !excludeTitles.includes(prayer.title));
-        setPrayers(filteredPrayers);  // Set the filtered prayers
-      } catch (err) {
-        setError(err.message);
-        console.error(err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPrayers();
-  }, []);
-
-  if (loading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return <p>Error: {error}</p>;
-  }
 
   return (
-    <div className="prayer-box">
-      <h1><b>Basic Prayers</b></h1>
-      <ul>
-        {prayers.map((prayer) => (
-          <li key={prayer.id}>
-            <h3>{prayer.tilte}</h3>
-            <p>{prayer.prayerText}</p>
-          </li>
-        ))}
-      </ul>
+    <div className="prayers-page">
+      <h1 className='page-title'>Prayers</h1>
+      <div className='quote'>
+				"You don't know how to pray? Put yourself in the presence of God, and as soon as you have said, '<i>Lord, I don't know how to pray!</i>' you can be sure you have already begun." - Josemaria Escriva
+		</div>
+      <div className="prayers-row">
+        <div className='prayer-box'>
+          <Link to="/prayers/basic-prayers">
+            <h1>Basic prayers</h1>
+          </Link> 
+        </div>
+        <div className='prayer-box'>
+          <Link to="/prayers/litanies">
+          <h1>Litanies</h1>
+          </Link>
+        </div>
+        <div className='prayer-box'>
+          <Link to="/">
+          <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        <div className='prayer-box'>
+          <Link href="/">
+         <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        </div>
+        <div className="prayers-row">
+        <div className='prayer-box'>
+          <Link to="/">
+          <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        <div className='prayer-box'>
+          <Link to="/">
+          <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        <div className='prayer-box'>
+          <Link to="/">
+          <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        <div className='prayer-box'>
+          <Link to="/">
+         <i><h1>Coming soon...</h1></i>
+          </Link>
+        </div>
+        </div>
     </div>
   );
 };
