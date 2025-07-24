@@ -1,9 +1,47 @@
+.page-title {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
 .prayer-box {
     background-color: #b3c7f7;
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center all child elements horizontally */
-    justify-content: flex-start; /* Align items to the top of the container */
-    text-align: center; /* Center text */
+    justify-content: center; /* Align items to the top of the container */
     padding: 20px; /* Add padding around the container */
+    margin: 10px;
+    font-size: x-large;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 150px;
+}
+
+.prayers-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.prayers-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.prayer-title {
+    font-weight: bold;
+    color:rgb(44, 47, 220);
+}
+
+.quote {
+    font-size: larger;
 }

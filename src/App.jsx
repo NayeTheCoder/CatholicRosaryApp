@@ -17,6 +17,7 @@ import Resources from './components/Resources';
 import HomePage from './components/HomePage';
 {/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
+import BasicPrayers from './components/BasicPrayers';
 
 
 const App = () => {
@@ -35,8 +36,9 @@ const App = () => {
         <Route path="/mystery-page" element={<MysteriesPage/>} /> {/* Use element */}
         <Route path="/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
         <Route path="/Resources" element={<Resources/>} />
-        <Route path="/Litanies" element={<Litanies/>} />
+        <Route path="/prayers/litanies" element={<Litanies/>} />
         <Route path="/Spanish-Litany" element={<SpanishLitany/>} />
+        <Route path="/prayers/basic-prayers" element={<BasicPrayers/>}/>
         {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
       </Routes>

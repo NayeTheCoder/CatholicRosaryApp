@@ -21,7 +21,7 @@ const CustomNavbar = () => {
 
                 {/* More dropdown*/}
                 <NavDropdown className="link mx-auto" title="More">
-                  <NavDropdown.Item className="drop-item" as={Link} to="/litanies">Litanies</NavDropdown.Item> {/* will also have link to toggle eng/span */}
+                  <NavDropdown.Item className="drop-item" as={Link} to="/prayers/litanies">Litanies</NavDropdown.Item> {/* will also have link to toggle eng/span */}
                   <NavDropdown.Item className="drop-item" as={Link} to="/resources">Resources</NavDropdown.Item>
                   <NavDropdown.Item className="drop-item" as={Link} to="/rosary-facts">Rosary Information</NavDropdown.Item>
                 </NavDropdown> 
