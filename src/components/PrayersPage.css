@@ -12,7 +12,7 @@
     margin: 10px;
     font-size: x-large;
     border-radius: 5px;
-    min-width: 200px;
+    min-width: 250px;
     min-height: 150px;
 }
 
@@ -44,4 +44,12 @@ a:hover {
 
 .quote {
     font-size: larger;
+}
+
+@media screen and (max-width: 700px) {
+    .prayer-box
+    {
+        min-width: 200px;
+        font-size: small;
+    }
 }
