@@ -10,48 +10,48 @@ const PrayersPage = () => {
 				"You don't know how to pray? Put yourself in the presence of God, and as soon as you have said, '<i>Lord, I don't know how to pray!</i>' you can be sure you have already begun." - Josemaria Escriva
 		</div>
       <div className="prayers-row">
+        <Link to="/prayers/basic-prayers">
         <div className='prayer-box'>
-          <Link to="/prayers/basic-prayers">
-            <h1>Basic prayers</h1>
-          </Link> 
+            <h1 className="prayer-name" >Basic prayers</h1>
         </div>
+        </Link> 
+        <Link to="/prayers/litanies">
         <div className='prayer-box'>
-          <Link to="/prayers/litanies">
-          <h1>Litanies</h1>
-          </Link>
+          <h1 className="prayer-name">Litanies</h1>
         </div>
+        </Link>
+        <Link to="/">
+        <div className='prayer-box'> 
+          <i><h1 className="prayer-name">Coming soon...</h1></i>
+        </div>
+        </Link>
+        <Link href="/">
         <div className='prayer-box'>
-          <Link to="/">
-          <i><h1>Coming soon...</h1></i>
-          </Link>
+         <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
-        <div className='prayer-box'>
-          <Link href="/">
-         <i><h1>Coming soon...</h1></i>
-          </Link>
-        </div>
+        </Link>
         </div>
         <div className="prayers-row">
-        <div className='prayer-box'>
           <Link to="/">
-          <i><h1>Coming soon...</h1></i>
-          </Link>
-        </div>
         <div className='prayer-box'>
-          <Link to="/">
-          <i><h1>Coming soon...</h1></i>
-          </Link>
+          <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
+        </Link>
+        <Link to="/">
         <div className='prayer-box'>
-          <Link to="/">
-          <i><h1>Coming soon...</h1></i>
-          </Link>
+          <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
+         </Link>
+        <Link to="/">
         <div className='prayer-box'>
-          <Link to="/">
-         <i><h1>Coming soon...</h1></i>
-          </Link>
+          <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
+        </Link>
+        <Link to="/">
+        <div className='prayer-box'>
+         <i><h1 className="prayer-name">Coming soon...</h1></i>
+        </div>
+        </Link>
         </div>
     </div>
   );
