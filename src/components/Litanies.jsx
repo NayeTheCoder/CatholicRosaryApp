@@ -446,7 +446,7 @@ Amen.</b></li>
      
          {/* Litany of Trust */}
          <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer', color: "#187ae2" }}>
-           Litany of Patience
+           Litany of Trust
          </h2>
          <div className='litany'>
  
