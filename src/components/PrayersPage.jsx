@@ -20,9 +20,9 @@ const PrayersPage = () => {
           <h1 className="prayer-name">Litanies</h1>
         </div>
         </Link>
-        <Link to="/">
+        <Link to="/prayers/psalms-page">
         <div className='prayer-box'> 
-          <i><h1 className="prayer-name">Coming soon...</h1></i>
+          <h1 className="prayer-name">Psalms</h1>
         </div>
         </Link>
         <Link href="/">

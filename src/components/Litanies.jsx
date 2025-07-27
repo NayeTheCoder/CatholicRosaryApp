@@ -373,15 +373,10 @@ Amen.</b></li>
            <div className='litany-prayer'>
               <ul>
               <li> Lord, have mercy.  </li>
-              <li> <b> Lord, have mercy. </b></li>
               <li> Christ, have mercy. </li>
-              <li> <b> Christ, have mercy. </b></li>
               <li> Lord, have mercy.</li>
-              <li> <b> Lord, have mercy. </b></li>
               <li> Christ hear us.</li>
-              <li> <b>Christ hear us.</b></li>
               <li> Christ, graciously hear us.</li>
-              <li> <b>Christ, graciously hear us. </b></li>
               <li> Jesus, Eucharistic High Priest of the Sacrifice,</li>
               <li> <b> Have mercy on us. </b></li>
               <li> Jesus, Divine Victim for our salvation,</li>
@@ -401,7 +396,7 @@ Amen.</b></li>
               <li> Jesus, Ever present until world's end,</li>
               <li> <b> Have mercy on us. </b></li>
 
-              <li> Sacred Host, Soure and Summit,</li>
+              <li> Sacred Host, Soucre and Summit,</li>
               <li> <b> Have mercy on us. </b></li>
               <li> Sacred Host, Adored by countless angels,</li>
               <li> <b> Have mercy on us. </b></li>
@@ -449,93 +444,87 @@ Amen.</b></li>
          )}
        </div>
      
-         {/* Litany of Healing and Renewal */}
+         {/* Litany of Trust */}
          <h2 onClick={() => togglePrayerVisibility(4)} style={{ cursor: 'pointer', color: "#187ae2" }}>
-           Litany of Healing and Renewal
+           Litany of Patience
          </h2>
          <div className='litany'>
  
          {expandedIndex === 4 && (
            <div className='litany-prayer'>
-             <ul>
-               <li>For those who have been abused: that they may experience
-healing from shame, isolation, anger, and despair; that they may be
-listened to with compassion, treated with dignity, and supported in
-the healing process. We pray, Have mercy on us, Lord.</li>
-<li><b>Have mercy on us, Lord.</b></li>
-             <li> For those who counsel victims: That their words of wisdom
-and compassion may be instruments of healing for those they
-accompany. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For the perpetrators of abuse: That they may experience sincere
-remorse for their crimes, approach God with sorrow, and be prepared
-to make reparation for the damage they have caused. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For those who failed to protect children, those who, in any way,
-betrayed the trust placed in them: May they humbly acknowledge
-their responsibility for harm done to children. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For the faithful who are angry, scandalized, discouraged: That they
-may come to recognize the real presence of Christ in His Church
-despite the tragic failures of Church members and leaders. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For all the faithful: That our response to this dark episode will
-result in even stronger faith that Christ will rebuild His Church and
-not allow evil to prevail; may we grow in our conviction that where
-sin abounds, grace abounds all the more; and may we renew our
-commitment to participate in the sacraments, learn the faith, join our
-parish communities, and serve the poor and marginalized. We pray, </li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li>For our priests: that they may be protected from discouragement
-and that they may experience a renewal of authentic priestly
-identity, intimate union with Christ, joyful zeal for souls, liberating
-chastity, and humble charity. We pray, </li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li>For young people discerning a religious vocation to priesthood
-or consecrated life: That the tragic failures of some may not blind
-them to the heroic virtue of many. We pray, </li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li>For our bishops: That they may take initiatives which: protect the flock
-entrusted to their care, restore trust, are transparent and free of self-
-interest, and unite the flock with the Heart of the Shepherd. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li>For non-Catholics who may be tempted to disparage Catholics,
-the Catholic faith, and the Catholic Church because of these
-scandals: May they be blessed to encounter the witness of faithful
-Catholics. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For law enforcement officials, legislators and judges: That
-they may carefully weigh all aspects of the scourge of child
-abuse in our society as they pursue justice. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For all professionals in the news media and communications:
-That they may adhere to the highest ethical standards, seeking
-the truth as they bring to light the extent of this scandal and
-the ways the Church is responding. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For all who work with children, especially teachers, coaches,
-and youth ministers: That they might experience a renewed
-commitment to their treasured service, and find ways to
-protect and enhance the dignity of each child. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li>For all parents: that they may foster family life rooted in
-love, prayer, faith, and mercy; homes filled with joy and
-consecrated to God which form children in virtue and mature
-faith. We pray, </li>
-<li><b> Have mercy on us, Lord.</b></li>
-<li> For all children: That they may be loved by their family,
-protected in home and school, and learn about the goodness
-of God so that they can develop a personal relationship with
-Jesus. We pray,</li>
-<li><b> Have mercy on us, Lord.</b></li>
-</ul>
+            <ul>
+          <li>From the belief that I have to earn Your love, </li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the fear that I am unlovable, </li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the false security that I have what it takes, </li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the fear that trusting you will leave me more destitute,</li>
+          <li> <b> Deliver me, Jesus</b></li> 
+          <li> From all suspicion of your words and promises,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the rebellion against childlike depency on you,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From refusals and reluctances in accepting your will,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From anxiety about the future, </li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From resentment or excessive preoccupation with the the past,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From disbelief in your love and presense </li> 
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the fear of being asked to give more than I have, </li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the belief that my life has no meaning or worth,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> From the fear of what love demands</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li>From discouragement,</li>
+          <li> <b> Deliver me, Jesus</b></li>
+          <li> That you are continually holding me, sustaining me, loving me </li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That your love goes deeper than my sins and failings and transforms me.</li> 
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That no knowing what tomorrow brings is an invitation to lean on you,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You are with me in my suffering,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That my suffering, united to Your own, will bear fruit in this life and the next, </li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You will not leave me orphan, that You are present in Your church,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That Your plan is better than anything else,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You always hear me and in Your goodness always respond to me,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You give me the grace to accept forgiveness and to forgive others,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You give me all the strength I need for what is asked,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li>That my life is a gift, </li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That You will teach me to trust You,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li>That You are my Lord and my God,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+          <li> That I am your beloved one,</li>
+          <li> <b> Jesus, I trust in You.</b></li>
+
+            </ul>
+       )
+         ;
+
+
            </div>
          )}
        </div>
         </div>
         </>
-   );
- };
+      
+)}
+
+
+
 
 export default Litanies;
 
@@ -557,3 +546,5 @@ export default Litanies;
 
 // corpuschristiforunityandpeace.org last time link did not work for me. might need to look
 //up can add to resource page for the Litany of Eucharist
+
+// https://sistersoflife.org/wp-content/uploads/2019/07/Mobile-Litany-of-Trust.pdf (credit for litany of trust)
