@@ -459,19 +459,19 @@ Amen.</b></li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From the false security that I have what it takes, </li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From the fear that trusting you will leave me more destitute,</li>
+          <li> From the fear that trusting You will leave me more destitute,</li>
           <li> <b> Deliver me, Jesus</b></li> 
-          <li> From all suspicion of your words and promises,</li>
+          <li> From all suspicion of Your words and promises,</li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From the rebellion against childlike depency on you,</li>
+          <li> From the rebellion against childlike depency on You,</li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From refusals and reluctances in accepting your will,</li>
+          <li> From refusals and reluctances in accepting Your will,</li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From anxiety about the future, </li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From resentment or excessive preoccupation with the the past,</li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From disbelief in your love and presense </li> 
+          <li> From disbelief in Your love and presense </li> 
           <li> <b> Deliver me, Jesus</b></li>
           <li> From the fear of being asked to give more than I have, </li>
           <li> <b> Deliver me, Jesus</b></li>
@@ -485,7 +485,7 @@ Amen.</b></li>
           <li> <b> Jesus, I trust in You.</b></li>
           <li> That your love goes deeper than my sins and failings and transforms me.</li> 
           <li> <b> Jesus, I trust in You.</b></li>
-          <li> That no knowing what tomorrow brings is an invitation to lean on you,</li>
+          <li> That not knowing what tomorrow brings is an invitation to lean on You,</li>
           <li> <b> Jesus, I trust in You.</b></li>
           <li> That You are with me in my suffering,</li>
           <li> <b> Jesus, I trust in You.</b></li>
