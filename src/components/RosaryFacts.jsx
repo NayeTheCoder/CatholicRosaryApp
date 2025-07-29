@@ -16,24 +16,6 @@ const RosaryFacts = () => {
 
     return (
         <>
-        <div 
-        style={{
-            position:"fixed", 
-            bottom:"40px", 
-            right:"40px", 
-            marginLeft:".5rem", 
-            backgroundColor:"white",
-            opacity:"80%", 
-            display:"flex", 
-            flexDirection:"column", 
-            borderRadius:"5px", 
-            color:"black"}}>
-            <span id="close" onClick ={()=>{document.getElementById("close").parentElement.remove(); return false;}} style={{"fontSize":"1.5rem", "marginLeft":"auto", "paddingRight":".5rem", "paddingLeft":".5rem"}}>x</span>
-      <span style={{"alignText":"center","fontSize":"1.25rem"}}>Español!</span>
-      <label>
-        <Switch onChange={handleToggle} checked={isPageOne} />
-      </label>
-    </div>
         <div className="page-container" style={{backgroundColor: "#ffc60c"}}>
             <h1>Rosary Information</h1>    
             <h2>The 15 Promises of Our Lady to Those Who Pray the Rosary</h2>

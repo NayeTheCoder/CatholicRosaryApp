@@ -6,7 +6,7 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-const HomePage = () => {
+const SpanishHomePage = () => {
   let numQuotes = 7;
   const [randNum, setRandNum] = useState(0);
   const quotes = [
@@ -26,20 +26,20 @@ const HomePage = () => {
   return (
     <>
     <h1 style={{ color: "white", fontFamily: "Ariel", fontSize: "3rem" }}>
-      Welcome to A Catholic Resource.
+      Bienvenidos a un Recurso Catolico.
     </h1>
       <img src="./images/deepimg-1748482512937.png" height="500em" />
       <h1 style={{ color: "white", fontFamily: "Ariel" }} align="center">
         {quotes[randNum]}{" "}
       </h1>
-	  <p style={{ color: "gray"}}> 28 min film -A must watch! </p>
+	  <p style={{ color: "gray"}}> 28 min video - miren! </p>
       <iframe className="video" width="800" height="500" src="https://www.youtube.com/embed/vgfDCmxvm4g?autoplay=1&mute=1&cc_load_policy=1" title="The Real Presence: The Mass" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <p style={{ color: "white", fontFamily: "Ariel"}}>
-        Visit The Real Presence Website:  
+        Visit a la pagina The Real Presence:  
         <a href="https://therealpresence.com/" >https://therealpresence.com/</a>
       </p>
     </>
   );
 };
 
-export default HomePage;
+export default SpanishHomePage;
