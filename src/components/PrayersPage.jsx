@@ -5,10 +5,13 @@ const PrayersPage = () => {
 
   return (
     <div className="prayers-page">
-      <h1 className='page-title'>Prayers</h1>
-      <div className='quote'>
+      {/* <h1 className='page-title'>Prayers</h1> */}
+      {/* <div className='quote'>
 				"You don't know how to pray? Put yourself in the presence of God, and as soon as you have said, '<i>Lord, I don't know how to pray!</i>' you can be sure you have already begun." - Josemaria Escriva
-		</div>
+		</div> */}
+    <div className="quote">
+        <img id="prayers-img" src="./images/prayer-img-big.JPEG"/>
+    </div>
       <div className="prayers-row">
         <Link to="/prayers/basic-prayers">
         <div className='prayer-box'>

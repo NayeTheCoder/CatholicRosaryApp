@@ -10,7 +10,7 @@ const SpanishPrayersPage = () => {
 				"Que no sabers orar? Ponte en la presencia de Dios, y en cuanto comiences a decir: 'Señor, que no sé hacer oración!...'. Ten por seguro que has empezado a hercerla." - San Josemaria Escriva
 		</div> */}
 		<div className='quote'>
-			<img id="spanish-prayers-img" src="./images/spanish-prayer-img.JPEG"/>
+			<img id="spanish-prayers-img" src="./images/spanish-prayer-img-big.JPEG"/>
 		</div>
       <div className="prayers-row">
         <Link to="/prayers/basic-prayers">
