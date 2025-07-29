@@ -20,6 +20,7 @@ import NotFound from './NotFound';
 import BasicPrayers from './components/BasicPrayers';
 import PsalmsPage from './components/PsalmsPage';
 import Beatitudes from './components/Beatitudes';
+import SpanishHomePage from './components/SpanishHomePage';
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
       <Navbar/>
       <Routes> 
         <Route exact path="/" element={<HomePage/>} /> {/* Use element */}
+        <Route exact path="/spanish" element={<SpanishHomePage/>} /> {/* Use element */}
         <Route path="/long-rosary" element={<LongRosary />} /> {/* Use element */}
         <Route path="/short-rosary" element={<ShortRosary/>} /> {/* Use element */}
         <Route path="/divine-mercy" element={<DivineMercy/>} /> {/* Use element */}
