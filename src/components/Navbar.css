@@ -57,6 +57,10 @@
 .nav{
   padding-left: 4rem;
 }
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 /* Ensuring navbar works well on mobile screens */
  @media (max-width: 990px) {
