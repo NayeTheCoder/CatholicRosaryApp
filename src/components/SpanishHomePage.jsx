@@ -10,13 +10,12 @@ const SpanishHomePage = () => {
   let numQuotes = 7;
   const [randNum, setRandNum] = useState(0);
   const quotes = [
-    'John 3:16 "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life"',
-    "Ephesians 2:8-9 “For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast.”",
-    "John 15:5 “I am the vine, you are the branches. Those who abide in me and I in them bear much fruit, because apart from me you can do nothing.”",
-    "John 14:6 “Jesus said to him, ‘I am the way, and the truth, and the life. No one comes to the Father except through me.'”",
-    "2 Corinthians 5:7 “For we walk by faith, not by sight.”",
-    "Romans 5:8 “But God proves his love for us in that while we still were sinners Christ died for us.”",
-    "2 Peter 3:9 “The Lord is not slow about his promise, as some think of slowness but is patient with you, not wanting any to perish, but all to come to repentance.”",
+    'Juan 3:16 ¡Así amó Dios al mundo! Le dio al Hijo Unico, para que quien cree en él no se pierda, sino que tenga vida eterna.',
+    "Efesios 2:8 “Ustedes han sido salvados por la fe, y lo han sido por gracia. Esto no vino de ustedes, sino que es un don de Dios;' “",
+    "Juan 14:6 “Jesús contestó: 'Yo soy el Camino, la Verdad y la Vida. Nadie va al Padre sino por mí. “",
+    "Juan 15:5 “Yo soy la vid y ustedes las ramas. El que permanece en mí y yo en él, ése da mucho fruto, pero sin mí, no pueden hacer nada.”",
+    "Romanos 5:8 “Pero Dios dejó constancia del amor que nos tiene: Cristo murió por nosotros cuando todavía éramos pecadores. “",
+    "2 Pedro 3:9 “El Señor no se demora en cumplir su promesa, como algunos dicen, sino que es generoso con ustedes, y no quiere que se pierda nadie, sino que todos lleguen a la conversión.”",
   ];
 
   useEffect(() => {
@@ -35,7 +34,7 @@ const SpanishHomePage = () => {
 	  <p style={{ color: "gray"}}> 28 min video - miren! </p>
       <iframe className="video" width="800" height="500" src="https://www.youtube.com/embed/vgfDCmxvm4g?autoplay=1&mute=1&cc_load_policy=1" title="The Real Presence: The Mass" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <p style={{ color: "white", fontFamily: "Ariel"}}>
-        Visit a la pagina The Real Presence:  
+        Visita la pagina The Real Presence:  
         <a href="https://therealpresence.com/" >https://therealpresence.com/</a>
       </p>
     </>

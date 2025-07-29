@@ -8,7 +8,8 @@ const Beatitudes = () => {
       <h1 className='page-title'>The Beatitudes</h1>
       <div className='quote'>
 				"Blessed are the poor in spirit for theirs is the kingdom of heaven"
-		</div>
+		  </div>
+      <img src="./images/beatitudes-img.PNG"/>
     </div>
   );
 };
