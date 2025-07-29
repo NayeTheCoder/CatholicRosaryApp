@@ -18,6 +18,7 @@ import HomePage from './components/HomePage';
 {/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
 import BasicPrayers from './components/BasicPrayers';
+import PsalmsPrayers from './components/PsalmsPage';
 import Beatitudes from './components/Beatitudes';
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/prayers/litanies" element={<Litanies/>} />
         <Route path="/Spanish-Litany" element={<SpanishLitany/>} />
         <Route path="/prayers/basic-prayers" element={<BasicPrayers/>}/>
+        <Route path="/prayers/psalms-page" element={<PsalmsPage/>}/>
         <Route path="/beatitudes" element={<Beatitudes/>} />
         {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
