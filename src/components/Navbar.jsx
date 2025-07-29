@@ -35,7 +35,7 @@ const CustomNavbar = () => {
     {/* Spanish Navbar */}
     {spanish && <Navbar style={{"borderRadius":"5px"}} defaultExpanded expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand className="navbar-brand" href="CatholicRosaryApp/#/spanish">Un Recurso Catolico</Navbar.Brand>
+        <Navbar.Brand className="navbar-brand"><Link className='link' style={{fontStyle: "none", color: "black"}} to="/spanish" >Un Recurso Catolico </Link></Navbar.Brand>
           <Navbar.Toggle className="tog-button" aria-controls="navbar-nav" />
             <Navbar.Collapse className="mx-auto" id="navbar-nav">
               <Nav className="nav mx-auto">
