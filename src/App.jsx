@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';  // Import Navbar
@@ -18,12 +18,12 @@ import HomePage from './components/HomePage';
 {/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
 import BasicPrayers from './components/BasicPrayers';
-
+import Beatitudes from './components/Beatitudes';
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <Routes> 
         <Route exact path="/" element={<HomePage/>} /> {/* Use element */}
         <Route path="/long-rosary" element={<LongRosary />} /> {/* Use element */}
@@ -39,6 +39,7 @@ const App = () => {
         <Route path="/prayers/litanies" element={<Litanies/>} />
         <Route path="/Spanish-Litany" element={<SpanishLitany/>} />
         <Route path="/prayers/basic-prayers" element={<BasicPrayers/>}/>
+        <Route path="/beatitudes" element={<Beatitudes/>} />
         {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
       </Routes>
