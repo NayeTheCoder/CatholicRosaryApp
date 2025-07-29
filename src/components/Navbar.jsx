@@ -44,7 +44,7 @@ const CustomNavbar = () => {
                 {/*Link to Divine Mercy Chaplet*/}
                 <Nav.Link className="link" as={Link} to="/divine-mercySpanish">Divina Misericordia</Nav.Link> {/* will lead to its own page */}
                 {/* Link to prayers page */}
-                <Nav.Link className="link" as={Link} to="/prayers">Rezos</Nav.Link>
+                <Nav.Link className="link" as={Link} to="/spanish-prayers">Rezos</Nav.Link>
 
                 {/* More dropdown*/}
                 <NavDropdown className="link mx-auto" title="Mas">

@@ -42,8 +42,9 @@ a:hover {
     color:rgb(44, 47, 220);
 }
 
-.quote {
-    font-size: larger;
+#spanish-prayers-img {
+    width: 75rem;
+    height: 38rem;
 }
 
 @media screen and (max-width: 700px) {
@@ -57,5 +58,14 @@ a:hover {
     }
     .prayer-name {
         font-size: 1.5rem;
+    }
+    .quote {
+        width: auto;
+        border-style: none;
+    }
+    #spanish-prayers-img {
+        content:url('../../public/images/que-no-sabes-orar-ponte-en-la-presencia-de-dios-y-en-cuanto(2).jpeg');
+        width: 30rem;
+        height: 28rem;
     }
 }
