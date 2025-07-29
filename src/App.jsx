@@ -18,7 +18,7 @@ import HomePage from './components/HomePage';
 {/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
 import BasicPrayers from './components/BasicPrayers';
-import PsalmsPrayers from './components/PsalmsPage';
+import PsalmsPage from './components/PsalmsPage';
 import Beatitudes from './components/Beatitudes';
 
 
