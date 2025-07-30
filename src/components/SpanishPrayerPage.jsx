@@ -15,17 +15,17 @@ const SpanishPrayersPage = () => {
       <div className="prayers-row">
         <Link to="/prayers/basic-prayers">
         <div className='prayer-box'>
-            <h1 className="prayer-name" >Basic prayers</h1>
+            <h1 className="prayer-name" >Oraciones básicas</h1>
         </div>
         </Link> 
         <Link to="/prayers/litanies">
         <div className='prayer-box'>
-          <h1 className="prayer-name">Litanies</h1>
+          <h1 className="prayer-name">Letanías</h1>
         </div>
         </Link>
         <Link to="/prayers/psalms-page">
         <div className='prayer-box'> 
-          <h1 className="prayer-name">Psalms</h1>
+          <h1 className="prayer-name">Salmos</h1>
         </div>
         </Link>
         <Link href="/">
