@@ -15,7 +15,7 @@ const PrayersPage = () => {
       <div className="prayers-row">
         <Link to="/prayers/basic-prayers">
         <div className='prayer-box'>
-            <h1 className="prayer-name" >Basic prayers</h1>
+            <h1 className="prayer-name" >Common prayers</h1>
         </div>
         </Link> 
         <Link to="/prayers/litanies">
