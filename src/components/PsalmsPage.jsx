@@ -24,7 +24,7 @@ const PsalmsPage = () => {
 
     return (
         <div style={{ padding: "20px", }}>
-            <h1>Psalms</h1>
+        
             <div
                 style={{
                     display: "flex",

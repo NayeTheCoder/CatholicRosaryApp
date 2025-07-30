@@ -741,4 +741,3 @@ export default ShortRosary;
 // links to different litany's at the end !!
 
 
-// hail mary on all needs changed to other version with "thee" and "thy"
