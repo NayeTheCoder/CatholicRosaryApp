@@ -369,7 +369,7 @@ Amen.</b></li>
          </h2>
         <div className='litany'>
 
-        {expandedIndex === 3 && (
+          {expandedIndex === 3 && (
            <div className='litany-prayer'>
               <ul>
               <li> Lord, have mercy.  </li>
@@ -513,15 +513,136 @@ Amen.</b></li>
             </ul>
        )
          ;
-
+          
 
            </div>
          )}
+         
        </div>
+
+       <h2 onClick={() => togglePrayerVisibility(5)} style={{ cursor: 'pointer',  color: "#187ae2"}}>
+    Litany of Let Love 
+         </h2>
+       <div className='litany'>
+
+      {expandedIndex === 5 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li><i>Father, good and ever-faithful, Jesus, Savior ever-merciful.
+            Holy Spirit, well-spring of true life and love.
+            I give You permission.
+            Reign in my heart, mind, soul, and life.
+            Let Your Love come into my past, present and future.
+            Let Your Love unfold in me </i> </li>
+            <br></br>
+            <li>That I Let Love reveal who I am,</li>
+            <li><b>God, in Whose Image I’ve been made, Father me.</b></li>
+            <li>That I Let Love define me,</li>
+            <li><b>God, in Whose Likeness I’ve been formed, shape me.</b></li>
+            <li>That I Let Love with courage and hope,</li>
+            <li><b>God, to Whose glory I’ve been called, be my strength.</b></li>
+            <li>That I Let Love forgive me,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <li>That I Let Love love me to the depths of my being,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <li>That I Let Love heal and glorify my wounds,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <li>That I Let Love free me from sin,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <li>That I Let Love liberate me from all my fears,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <li>That I Let Love reconcile me to wholeness and peace,</li>
+            <li><b>Save me Lord Jesus.</b></li>
+            <br></br>
+            <li>That I Let Love awaken me,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love lead me in every moment,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love challenge me to live in and for love,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love grow my mind, heart, and soul,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love draw me to live in the truth,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love transform me into the life of Christ,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love fill me to overflowing,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love captivate my heart,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love live in me,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <li>That I Let Love inspire me,</li>
+            <li><b>Come Holy Spirit.</b></li>
+            <br></br>
+            <li>That I Let Love cherish me</li>
+            <li><b>Father, hold me in Your Heart.</b></li>
+            <li>That I Let Love receive me,</li>
+            <li><b>Jesus, keep me in your wounds</b></li>
+            <li>That I Let Love be my rock and security,</li>
+            <li><b>Spirit, keep me in your peace.</b></li>
+            <br></br>
+            <li>That I Let Love ask from me,</li>
+            <li><b>Let Your will be done Father.</b></li>
+            <li>That I Let Love in,</li>
+            <li><b>Let Your will be done Father.</b></li>
+            <li>That I Let Love live in me,</li>
+            <li><b>Let Your will be done Father.</b></li>
+            <li>That I Let Love go,</li>
+            <li><b>Let Your Will be done Father.</b></li>
+            <li>That I Let Love give,</li>
+            <li><b>Let Your Will be done Father.</b></li>
+            <li>That I Let Love speak,</li>
+            <li><b>Let Your Will be done Father.</b></li>
+            <li>That I Let Love call my name,</li>
+            <li><b>Let Your Will be done Father.</b></li>
+            <br></br>
+            <li>That I Let Love bring me somewhere new,</li>
+            <li><b>Blessed Trinity, reign over my life.</b></li>
+            <li>That I Let Love be the adventure,</li>
+            <li><b>Blessed Trinity, reign over my life.</b></li>
+            <li>That I Let Love write the score,</li>
+            <li><b>Blessed Trinity, reign over my life.</b></li>
+            <li>That I Let Love win the victory,</li>
+            <li><b>Blessed Trinity, reign over my life.</b></li>
+            <li>That I Let Love be the answer,</li>
+            <li><b>Blessed Trinity, reign over my life.</b></li>
+            <li>Amen.</li>
+            <br></br>
+            <br></br>
+
+            <li><i> Sisters of Life, Written by: Sr. Mariae Agnus Dei, Suffern NY</i></li>
+
+             </ul>
+             </div>
+      )}
+  </div>
+       {/* paste here - two </divs> in between each litany */}
         </div>
         </>
-      
-)}
+        )}
+
+         {/* Command Slash to uncomment */}
+  {/* 
+  <h2 onClick={() => togglePrayerVisibility(6)} style={{ cursor: 'pointer' }}>
+         Letany Template
+         </h2>
+  <div className='litany'>
+
+      {expandedIndex === 6 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+             </ul>
+
+
+             </div>
+      )}
+  </div> */}
 
 
 
