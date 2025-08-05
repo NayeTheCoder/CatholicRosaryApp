@@ -7,3 +7,9 @@
 .content {
 	color: white;
 }
+.homilies-list {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+	list-style: none;
+	justify-items: left;
+}

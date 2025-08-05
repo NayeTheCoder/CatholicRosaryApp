@@ -47,6 +47,14 @@ export default function DailyReading() {
 			<h3 className='heading'>{dailyReading.gospel_heading}</h3>
 			<p className='content'>{dailyReading.gospel_content}</p>
 			<h4 className='address'>-{dailyReading.gospel_address}</h4>
+			<hr/>
+			{Object.keys(dailyReading).length != '1' && 
+			<>
+			<h3 className='heading'>Explore Daily/Weekly Homilies:</h3>
+				<ul className='homilies-list'>
+					<li>Fr. Nivin - Des Moines, Iowa: <a href='https://nivinhomilies.blogspot.com/'>https://nivinhomilies.blogspot.com/</a></li>
+					<li>Fr. Mike - Duluth, Minnesota: <a href='https://www.youtube.com/playlist?list=PLZEB5VH_ET9Tfi-zykCaiBDmFIyl-n0lk'>https://www.youtube.com/playlist?list=PLZEB5VH_ET9Tfi-zykCaiBDmFIyl-n0lk</a></li>
+				</ul></>}
 
 		</div>);
 		
