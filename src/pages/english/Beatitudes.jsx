@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './PrayersPage.css';
+import '../../styles/PrayersPage.css';
 
 const Beatitudes = () => {
 

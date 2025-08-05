@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./DivineMercySpanish.css";
+import "../../styles/DivineMercySpanish.css";
 import { useNavigate } from "react-router-dom";
 import Switch from "react-switch";
 

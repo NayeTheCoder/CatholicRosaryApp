@@ -1,5 +1,5 @@
 import react from "react";
-import "./Resources.css";
+import "../../styles/Resources.css";
 
 const Resources = () => {
   return (

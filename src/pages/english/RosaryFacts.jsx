@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RosaryFacts.css';
+import '../../styles/RosaryFacts.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
 

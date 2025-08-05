@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import './DailyReading.css';
+import '../../styles/DailyReading.css';
 export default function DailyReading() {
 	const [dailyReading, setDailyReading] = useState({reading_title:"Loading..."});
 	const currentDate = new Date();
