@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { Link, useLocation } from 'react-router-dom'; // Import Link from React Router
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'; // Import Bootstrap components
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 const CustomNavbar = () => {
   const [ spanish, setSpanish ] = useState(false);

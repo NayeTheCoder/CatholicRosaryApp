@@ -1,31 +1,31 @@
 import { Link } from 'react-router-dom';
-import './PrayersPage.css';
+import '../../styles/PrayersPage.css';
 
-const PrayersPage = () => {
+const SpanishPrayersPage = () => {
 
   return (
     <div className="prayers-page">
-      {/* <h1 className='page-title'>Prayers</h1> */}
+      {/* <h1 className='page-title'>Rezos</h1> */}
       {/* <div className='quote'>
-				"You don't know how to pray? Put yourself in the presence of God, and as soon as you have said, '<i>Lord, I don't know how to pray!</i>' you can be sure you have already begun." - Josemaria Escriva
+				"Que no sabers orar? Ponte en la presencia de Dios, y en cuanto comiences a decir: 'Señor, que no sé hacer oración!...'. Ten por seguro que has empezado a hercerla." - San Josemaria Escriva
 		</div> */}
-    <div className="quote">
-        <img id="prayers-img" src="./images/prayer-img-big.JPEG"/>
-    </div>
+		<div className='quote'>
+			<img id="spanish-prayers-img" src="./images/spanish-prayer-img-big.JPEG"/>
+		</div>
       <div className="prayers-row">
         <Link to="/prayers/basic-prayers">
         <div className='prayer-box'>
-            <h1 className="prayer-name" >Common prayers</h1>
+            <h1 className="prayer-name" >Oraciones comunes</h1>
         </div>
         </Link> 
         <Link to="/prayers/litanies">
         <div className='prayer-box'>
-          <h1 className="prayer-name">Litanies</h1>
+          <h1 className="prayer-name">Letanías</h1>
         </div>
         </Link>
         <Link to="/prayers/psalms-page">
         <div className='prayer-box'> 
-          <h1 className="prayer-name">Psalms</h1>
+          <h1 className="prayer-name">Salmos</h1>
         </div>
         </Link>
         <Link href="/">
@@ -60,5 +60,5 @@ const PrayersPage = () => {
   );
 };
 
-export default PrayersPage;
+export default SpanishPrayersPage;
 

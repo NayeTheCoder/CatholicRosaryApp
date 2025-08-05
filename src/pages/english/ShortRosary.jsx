@@ -1,6 +1,6 @@
 // src/components/ShortRosary.jsx
 import React, { useState } from "react";
-import "./ShortRosary.css";
+import "../../styles/ShortRosary.css";
 
 // Declaring ShortRosary
 //For the short version you only have to state each meditation. ex. The 1st (Glorious) Mystery + (Name)

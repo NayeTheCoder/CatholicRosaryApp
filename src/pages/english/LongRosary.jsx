@@ -1,6 +1,6 @@
 // src/components/LongRosary.jsx
 import React, { useState } from "react";
-import "./LongRosary.css"; // Import the CSS file
+import "../../styles/LongRosary.css"; // Import the CSS file
 import { useNavigate } from "react-router-dom";
 import Switch from "react-switch";
 

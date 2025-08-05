@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './PrayersPage.css';
+import '../../styles/PrayersPage.css';
 
 const BasicPrayers = () => {
   const [prayers, setPrayers] = useState([]);

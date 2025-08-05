@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Litanies.css';
+import '../../styles/Litanies.css';
 import { useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
 

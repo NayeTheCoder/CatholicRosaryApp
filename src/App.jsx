@@ -2,28 +2,28 @@ import { useState } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';  // Import Navbar
-import LongRosary from './components/LongRosary';  // Import LongRosary component
-import ShortRosary from './components/ShortRosary'; // Import ShortRosary component
-import DivineMercy from './components/DivineMercy';
-import DivineMercySpanish from './components/DivineMercySpanish';
-import SpanishRosary from './components/SpanishRosary'; //Import SpanishRosary component
-import PrayersPage from './components/PrayersPage';  // Import PrayersPage component
-import Litanies from './components/Litanies';
-import SpanishLitany from './components/SpanishLitany';
-import RosaryFacts from './components/RosaryFacts';
-import MysteriesPage from './components/MysteriesPage';
-import RosaryFactsSpanish from './components/RosaryFactsSpanish';
-import Resources from './components/Resources';
-import HomePage from './components/HomePage';
+import LongRosary from './pages/english/LongRosary';  // Import LongRosary component
+import ShortRosary from './pages/english/ShortRosary'; // Import ShortRosary component
+import DivineMercy from './pages/english/DivineMercy';
+import DivineMercySpanish from './pages/spanish/DivineMercySpanish';
+import SpanishRosary from './pages/spanish/SpanishRosary'; //Import SpanishRosary component
+import PrayersPage from './pages/english/PrayersPage';  // Import PrayersPage component
+import Litanies from './pages/english/Litanies';
+import SpanishLitany from './pages/spanish/SpanishLitany';
+import RosaryFacts from './pages/english/RosaryFacts';
+import MysteriesPage from './pages/english/MysteriesPage';
+import RosaryFactsSpanish from './pages/spanish/RosaryFactsSpanish';
+import Resources from './pages/english/Resources';
+import HomePage from './pages/english/HomePage';
 {/*import Assistant from './components/Assistant';*/}
 import NotFound from './NotFound';
-import BasicPrayers from './components/BasicPrayers';
-import PsalmsPage from './components/PsalmsPage';
-import Beatitudes from './components/Beatitudes';
-import SpanishHomePage from './components/SpanishHomePage';
-import SpanishPrayersPage from './components/SpanishPrayerPage';
-import DailyReading from './components/DailyReading';
-import SpanishDailyReading from './components/SpanishDailyReading'
+import BasicPrayers from './pages/english/BasicPrayers';
+import PsalmsPage from './pages/english/PsalmsPage';
+import Beatitudes from './pages/english/Beatitudes';
+import SpanishHomePage from './pages/spanish/SpanishHomePage';
+import SpanishPrayersPage from './pages/spanish/SpanishPrayerPage';
+import DailyReading from './pages/english/DailyReading';
+import SpanishDailyReading from './pages/spanish/SpanishDailyReading'
 
 
 const App = () => {
