@@ -22,6 +22,8 @@ import PsalmsPage from './components/PsalmsPage';
 import Beatitudes from './components/Beatitudes';
 import SpanishHomePage from './components/SpanishHomePage';
 import SpanishPrayersPage from './components/SpanishPrayerPage';
+import DailyReading from './components/DailyReading';
+import SpanishDailyReading from './components/SpanishDailyReading'
 
 
 const App = () => {
@@ -47,6 +49,8 @@ const App = () => {
         <Route path="/prayers/psalms-page" element={<PsalmsPage/>}/>
         <Route path="/beatitudes" element={<Beatitudes/>} />
         <Route path="/spanish-prayers" element={<SpanishPrayersPage/>}/>
+        <Route path="/daily-reading" element={<DailyReading/>}/>
+        <Route path="/daily-reading-spanish" element={<SpanishDailyReading/>}/>
         {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
       </Routes>

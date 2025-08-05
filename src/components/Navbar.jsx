@@ -25,6 +25,7 @@ const CustomNavbar = () => {
 
                 {/* More dropdown*/}
                 <NavDropdown className="link mx-auto" title="More">
+                  <NavDropdown.Item className="drop-item" as={Link} to="/daily-reading">Daily Reading<small>(USCCB)</small></NavDropdown.Item>
                   <NavDropdown.Item className="drop-item" as={Link} to="/beatitudes">The Beatitudes</NavDropdown.Item> {/* will also have link to toggle eng/span */}
                   <NavDropdown.Item className="drop-item" as={Link} to="/resources">Resources</NavDropdown.Item>
                   <NavDropdown.Item className="drop-item" as={Link} to="/rosary-facts">Rosary Information</NavDropdown.Item>
@@ -51,7 +52,7 @@ const CustomNavbar = () => {
                 {/* More dropdown*/}
                 <NavDropdown className="link mx-auto" title="Mas">
                   {/* <NavDropdown.Item className="drop-item" as={Link} to="/beatitudes">The Beatitudes</NavDropdown.Item> will also have link to toggle eng/span */}
-                  {/* <NavDropdown.Item className="drop-item" as={Link} to="/resources">Resources</NavDropdown.Item> */}
+                  <NavDropdown.Item className="drop-item" as={Link} to="/daily-reading-spanish">Lecture Diaria <small>(USCCB)</small></NavDropdown.Item>
                   <NavDropdown.Item className="drop-item" as={Link} to="/Rosary-facts-Spanish">Informacion del Rosario</NavDropdown.Item>
                 </NavDropdown> 
                 <Nav.Link className="link" as={Link} to="/spanish-homepage" onClick={()=>{setSpanish(false)}} title="Spanish Site">English Site</Nav.Link>
