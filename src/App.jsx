@@ -24,7 +24,7 @@ import SpanishHomePage from './pages/spanish/SpanishHomePage';
 import SpanishPrayersPage from './pages/spanish/SpanishPrayerPage';
 import DailyReading from './pages/english/DailyReading';
 import SpanishDailyReading from './pages/spanish/SpanishDailyReading'
-
+import PsalmsPageSpanish from './pages/spanish/PsalmsPageSpanish';
 
 const App = () => {
   return (
@@ -44,13 +44,14 @@ const App = () => {
         <Route path="/Rosary-facts-Spanish" element={<RosaryFactsSpanish/>} />
         <Route path="/Resources" element={<Resources/>} />
         <Route path="/prayers/litanies" element={<Litanies/>} />
-        <Route path="/Spanish-Litany" element={<SpanishLitany/>} />
+        <Route path="/prayers/Spanish-Litany" element={<SpanishLitany/>} />
         <Route path="/prayers/basic-prayers" element={<BasicPrayers/>}/>
         <Route path="/prayers/psalms-page" element={<PsalmsPage/>}/>
         <Route path="/beatitudes" element={<Beatitudes/>} />
         <Route path="/spanish-prayers" element={<SpanishPrayersPage/>}/>
         <Route path="/daily-reading" element={<DailyReading/>}/>
         <Route path="/daily-reading-spanish" element={<SpanishDailyReading/>}/>
+        <Route path="/prayers/psalms-page-spanish" element={<PsalmsPageSpanish/>}/>
         {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
       </Routes>

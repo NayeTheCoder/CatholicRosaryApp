@@ -1,0 +1,46 @@
+.text-content {
+	color: white;
+}
+
+.psalms-page {
+	display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.psalms-row {
+	display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.psalms-image {
+	height: 45rem;
+}
+
+#mobile-image {
+	display: none;
+}
+@media screen and (max-width: 767px) {
+	.psalms-row {
+    	flex-direction: column;
+	}
+	#desktop-image {
+		display: none;
+	}
+	#mobile-image {
+		display:contents;
+	}	
+	#psalm-pic1 {
+		height: 30rem;
+	}
+	#psalm-pic2 {
+		height: 30rem;
+	}
+	#psalm-pic3 {
+		height: 23rem;
+	}
+}

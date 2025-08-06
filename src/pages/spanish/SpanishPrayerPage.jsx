@@ -18,12 +18,12 @@ const SpanishPrayersPage = () => {
             <h1 className="prayer-name" >Oraciones comunes</h1>
         </div>
         </Link> 
-        <Link to="/prayers/litanies">
+        <Link to="/prayers/Spanish-Litany">
         <div className='prayer-box'>
           <h1 className="prayer-name">Letanías</h1>
         </div>
         </Link>
-        <Link to="/prayers/psalms-page">
+        <Link to="/prayers/psalms-page-spanish">
         <div className='prayer-box'> 
           <h1 className="prayer-name">Salmos</h1>
         </div>
