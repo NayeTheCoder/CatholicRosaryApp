@@ -31,7 +31,7 @@ export default function DailyReading() {
 
 		<div>
 			<h1 className='title'>{currentDate.getMonth()+1}-{currentDate.getDate()}-{currentDate.getFullYear()}</h1>
-			<h1 className='title'>{dailyReading.reading_title}</h1>
+			<h1 style={{border:"1px solid white"}}className='title'>{dailyReading.reading_title}</h1>
 			<h3 className='heading'>{dailyReading.reading_heading}</h3>
 			<p className='content'>{dailyReading.reading_content}</p>
 			<h4 className='address'>-{dailyReading.reading_address}</h4>
