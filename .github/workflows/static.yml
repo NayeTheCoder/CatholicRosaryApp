@@ -48,5 +48,7 @@ jobs:
           # Upload dist folder
           path: './dist'
       - name: Deploy to GitHub Pages
+        env: 
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
         id: deployment
         uses: actions/deploy-pages@v4
