@@ -30,7 +30,7 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-{/*       <ChatBot/> */}
+      <ChatBot/>
       <Routes> 
         <Route exact path="/" element={<HomePage/>} /> {/* Use element */}
         <Route exact path="/spanish" element={<SpanishHomePage/>} /> {/* Use element */}
