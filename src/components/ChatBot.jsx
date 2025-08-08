@@ -30,11 +30,11 @@ const generateBotResponse = async (history) => {
 		body: JSON.stringify({contents: history})
 	}
 	try {
-		const response = await fetch(import.meta.env.VITE_API_URL, requestOptions);
+		const response = await fetch("https://backend-opal-seven-58.vercel.app/chat", requestOptions);
 		const data = await response.json();
 		if (!response.ok) throw new Error(data.error.message || "Something went wrong!")
 		console.log(data);
-		const apiResponseText = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, "$1").trim();
+		const apiResponseText = data.modelResponse;
 		updateHistory(apiResponseText);
 	} catch (error) {
 		console.log(error);
