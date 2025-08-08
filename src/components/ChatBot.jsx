@@ -30,7 +30,7 @@ const generateBotResponse = async (history) => {
 		body: JSON.stringify({contents: history})
 	}
 	try {
-		const response = await fetch(import.meta.env.VITE_API_URL, requestOptions);
+		const response = await fetch(${{ secrets.VITE_API_URL }}, requestOptions);
 		const data = await response.json();
 		if (!response.ok) throw new Error(data.error.message || "Something went wrong!")
 		console.log(data);
