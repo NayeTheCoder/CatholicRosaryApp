@@ -15,7 +15,7 @@ import MysteriesPage from './pages/english/MysteriesPage';
 import RosaryFactsSpanish from './pages/spanish/RosaryFactsSpanish';
 import Resources from './pages/english/Resources';
 import HomePage from './pages/english/HomePage';
-{/*import Assistant from './components/Assistant';*/}
+import ChatBot from './components/ChatBot';
 import NotFound from './NotFound';
 import BasicPrayers from './pages/english/BasicPrayers';
 import PsalmsPage from './pages/english/PsalmsPage';
@@ -30,6 +30,7 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
+      <ChatBot/>
       <Routes> 
         <Route exact path="/" element={<HomePage/>} /> {/* Use element */}
         <Route exact path="/spanish" element={<SpanishHomePage/>} /> {/* Use element */}
@@ -52,7 +53,6 @@ const App = () => {
         <Route path="/daily-reading" element={<DailyReading/>}/>
         <Route path="/daily-reading-spanish" element={<SpanishDailyReading/>}/>
         <Route path="/prayers/psalms-page-spanish" element={<PsalmsPageSpanish/>}/>
-        {/*<Route path="/chat-bot" element={<Assistant/>} />*/}
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>
