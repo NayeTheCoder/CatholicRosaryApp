@@ -13,7 +13,7 @@ const SpanishPrayersPage = () => {
 			<img id="spanish-prayers-img" src="./images/spanish-prayer-img-big.JPEG"/>
 		</div>
       <div className="prayers-row">
-        <Link to="/prayers/basic-prayers">
+        <Link to="/prayers/common-prayers-spanish">
         <div className='prayer-box'>
             <h1 className="prayer-name" >Oraciones comunes</h1>
         </div>

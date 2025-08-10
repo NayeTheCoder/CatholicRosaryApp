@@ -13,7 +13,7 @@ const PrayersPage = () => {
         <img id="prayers-img" src="./images/prayer-img-big.JPEG"/>
     </div>
       <div className="prayers-row">
-        <Link to="/prayers/basic-prayers">
+        <Link to="/prayers/common-prayers">
         <div className='prayer-box'>
             <h1 className="prayer-name" >Common prayers</h1>
         </div>

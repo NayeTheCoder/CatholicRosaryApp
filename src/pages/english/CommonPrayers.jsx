@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../styles/PrayersPage.css';
 
-const BasicPrayers = () => {
+const CommonPrayers = () => {
   const [prayers, setPrayers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -44,7 +44,7 @@ const BasicPrayers = () => {
 
   return (
 	<div>
-		<h1 className='page-title'><b>Basic Prayers</b></h1>
+		<h1 className='page-title'><b>Common Prayers</b></h1>
 	<div className="prayer-box">
 	  <ul>
 	    {prayers.map((prayer) => (
@@ -59,5 +59,5 @@ const BasicPrayers = () => {
   );
 };
 
-export default BasicPrayers;
+export default CommonPrayers;
 
