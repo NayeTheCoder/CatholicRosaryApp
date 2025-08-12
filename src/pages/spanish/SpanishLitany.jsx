@@ -21,7 +21,7 @@ const SpanishLitany = () => {
 
   useEffect(() => {
       if(!isPageOne) {
-        navigate('/Litanies');
+        navigate('/prayers/Litanies');
       }
     }, [isPageOne]);
 
@@ -31,7 +31,7 @@ const SpanishLitany = () => {
       style={{
         position:"fixed", 
         bottom:"40px", 
-        right:"40px", 
+        left:"40px", 
         marginLeft:".5rem", 
         backgroundColor:"white",
         opacity:"80%", 

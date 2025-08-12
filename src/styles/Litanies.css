@@ -10,7 +10,7 @@
   
   .litany {
     margin-bottom: 20px;
-    width: 100%; /* Ensure the litany container doesn't take full width, add some space on the sides */
+    width: 100%; /*Ensure the litany container doesn't take full width, add some space on the sides*/
   }
   .litany-page h1 {
     color: #ffffff;
@@ -59,7 +59,7 @@
       flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start;
-      /* margin-left: -9rem; */
+      margin-left: -3rem;
     }
     .litany-prayer {
       width: 32rem;

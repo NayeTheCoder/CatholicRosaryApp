@@ -10,7 +10,7 @@ const Litanies = () => {
         const handleToggle = () => {
           setIsPageOne(!isPageOne);
           if (!isPageOne) {
-            navigate('/Spanish-Litany'); // Navigate to /page-one when switching from page two
+            navigate('/prayers/Spanish-Litany'); // Navigate to /page-one when switching from page two
           }
         };
   // State to manage visibility of prayer sections
@@ -28,7 +28,7 @@ const Litanies = () => {
     style={{
       position:"fixed", 
       bottom:"40px", 
-      right:"40px", 
+      left:"40px", 
       marginLeft:".5rem",
       backgroundColor:"white",
       opacity:"80%", 
