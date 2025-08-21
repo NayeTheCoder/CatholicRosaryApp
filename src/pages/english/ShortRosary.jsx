@@ -23,10 +23,10 @@ const ShortRosary = () => {
 
       <p>
         This is a shorter version of the Holy Rosary designed to help you
-        meditate on each mystery. Remember these are all meant to lead us closer
+        meditate on each mystery. The Holy Rosary helps lead us closer
         to Jesus.{" "}
       </p>
-      <p> Open you heart and watch how Jesus will transform your life.</p>
+      <p> Open your heart and watch how Jesus will transform your life.</p>
 
       <img
         src="./images/short_rosary.jpg"

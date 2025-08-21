@@ -35,11 +35,11 @@ const LongRosary = () => {
 
         <p className="textInContainer">
           This is a longer version of the Holy Rosary designed to help you
-          meditate and learn from each mystery. Remember these are all meant to
+          meditate and learn from each mystery. The Holy Rosary is meant to
           lead us closer to Jesus. We learn about his life through scriptural
-          references.
+          references associated with each mystery.
         </p>
-        <p className="textInContainer"> Open you heart and watch how Jesus will transform your life.</p>
+        <p className="textInContainer"> Open your heart and watch how Jesus will transform your life.</p>
 
         <img
           src="https://images.squarespace-cdn.com/content/v1/57f874e8440243944ef66aa7/1588056576305-5YHNGFCK4J473KBWH27L/Rosary.jpg"
