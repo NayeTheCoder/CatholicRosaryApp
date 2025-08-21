@@ -47,6 +47,14 @@ export default function DailyReading() {
 			<h3 className='heading'>{dailyReading.gospel_heading}</h3>
 			<p className='content'>{dailyReading.gospel_content}</p>
 			<h4 className='address'>-{dailyReading.gospel_address}</h4>
+			<hr/>
+			{Object.keys(dailyReading).length != '1' && 
+			<>
+			<h3 className='heading'>Homilías Diarias/Semanales</h3>
+				<ul className='homilies-list'>
+					<li>P. Ignacio Fernández González - Mexico: <a target="_blank" rel="noopener norefferer" href='http://igfergon.com.mx/homilia-diaria/'>http://igfergon.com.mx/homilia-diaria/</a></li>
+					<li>P. Miguel Martinez  - Paraguay: <a target="_blank" rel="noopener norefferer" href='https://formacioncatolica.org/categoria/programas/homilia-diaria/'>https://formacioncatolica.org/categoria/programas/homilia-diaria/</a></li>
+				</ul></>}
 
 		</div>);
 		
