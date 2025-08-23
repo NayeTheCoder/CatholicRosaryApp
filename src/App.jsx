@@ -26,6 +26,7 @@ import DailyReading from './pages/english/DailyReading';
 import SpanishDailyReading from './pages/spanish/SpanishDailyReading'
 import PsalmsPageSpanish from './pages/spanish/PsalmsPageSpanish';
 import CommonPrayersSpanish from './pages/spanish/CommonPrayersSpanish';
+import MapPage from './pages/english/MapPage';
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="/daily-reading-spanish" element={<SpanishDailyReading/>}/>
         <Route path="/prayers/psalms-page-spanish" element={<PsalmsPageSpanish/>}/>
         <Route path="/prayers/common-prayers-spanish" element={<CommonPrayersSpanish/>}/>
+        <Route path="/resources/shrine-map" element={<MapPage/>}/>
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>

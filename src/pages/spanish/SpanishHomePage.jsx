@@ -32,7 +32,7 @@ const SpanishHomePage = () => {
         {quotes[randNum]}{" "}
       </h1>
 	  <p style={{ color: "gray"}}> Este video muestra lo que realmente sucede en la misa. </p>
-      <iframe className="video" width="800" height="500" src="https://www.youtube.com/embed/vgfDCmxvm4g?autoplay=1&mute=1&cc_load_policy=1" title="The Real Presence: The Mass" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <iframe className="video" width="800" height="500" src="https://www.youtube.com/embed/vgfDCmxvm4g?autoplay=0&mute=1&cc_load_policy=1" title="The Real Presence: The Mass" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <p style={{ color: "white", fontFamily: "Ariel"}}>
         Visita la pagina The Real Presence:  
         <a href="https://therealpresence.com/" >https://therealpresence.com/</a>
