@@ -8,8 +8,9 @@
 
 @media screen and (max-width: 670px) {
 	#map {
-		height: 450px;
-		width: 350px;
+		height: 400px;
+		width: 300px;
+		padding-left: -3rem;
 	}
 	
 
