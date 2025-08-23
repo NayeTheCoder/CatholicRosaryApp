@@ -617,14 +617,85 @@ Amen.</b></li>
              </div>
       )}
   </div>
-       {/* paste here - two </divs> in between each litany */}
+  
+        
+  <h2 onClick={() => togglePrayerVisibility(6)} style={{ cursor: 'pointer', color: "#187ae2" }}>
+  Litany of Hope, Seeking the Intercession of Saints in Times of Struggle
+         </h2>
+  <div className='litany'>
+
+      {expandedIndex === 6 && (
+           <div className='litany-prayer'>
+             <ul>
+            <li>Holy Mary, Mother of Hope,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Joseph, steadfast in faith and trust in God’s promises,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Augustine, who found hope after years of searching,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Monica, who never gave up hope for her son,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Maximilian Kolbe, who held onto hope in the face of death,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. John of the Cross, who found hope in the darkest nights, </li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Therese of Lisieux, who trusted in the hope of God’s love,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Joan of Arc, who maintained hope despite persecution,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Josephine Bakhita, who embraced hope after enduring slavery,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Padre Pio, who remained hopeful in suffering,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Elizabeth Ann Seton, who found hope in times of loss and adversity,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Oscar Romero, who courageously hoped for justice and peace,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Kateri Tekakwitha, who kept hope alive amid persecution,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Mother Teresa, who brought hope for the poorest of the poor,</li>
+            <li><b>Pray for us.</b></li>
+            <li>St. Francis of Assisi, who trusted in the hope of rebuilding God’s Church,</li>
+            <li><b>Pray for us.</b></li>
+            <li>Blessed Solanus Casey, who urged others to “thank God ahead of time” in hope,</li>
+            <li><b>Pray for us.</b></li>
+            <br></br>
+
+            <li>In times of doubt and discouragement,</li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>In times of illness and suffering, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When we face financial difficulties and uncertainty, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When we are overwhelmed by anxiety and fear, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When our loved ones are far from faith, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When we are burdened by loneliness or rejection, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When we encounter injustice or persecution, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When we grieve the loss of loved ones, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>When our faith is tested in trials and temptations, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+            <li>In moments when it seems all hope is lost, </li>
+            <li><b>Lord, fill us with hope.</b></li>
+
+             </ul>
+
+
+             </div>
+      )}
+  </div>
+  {/* paste here - two </divs> in between each litany */}
         </div>
         </>
         )}
 
          {/* Command Slash to uncomment */}
   {/* 
-  <h2 onClick={() => togglePrayerVisibility(6)} style={{ cursor: 'pointer' }}>
+  <h2 onClick={() => togglePrayerVisibility(6)} style={{ cursor: 'pointer', color: "#187ae2" }}>
          Letany Template
          </h2>
   <div className='litany'>
