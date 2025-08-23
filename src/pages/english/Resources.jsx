@@ -1,4 +1,5 @@
 import react from "react";
+import { Link } from 'react-router-dom'
 import "../../styles/Resources.css";
 
 const Resources = () => {
@@ -75,6 +76,15 @@ const Resources = () => {
       >
         Saint Francis Church Divine Mercy Link
       </a>
+      <p> Interactive Map of Shrines around the US</p>
+      <Link
+        className="resource-links"
+        to="/resources/shrine-map"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Shrine Map Link
+      </Link>
     </div>
   );
 };
