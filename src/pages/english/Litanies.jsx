@@ -199,7 +199,7 @@ const Litanies = () => {
           <div className='litany-prayer'>
             <ul>
               <li>O Jesus, meek and humble of heart,</li>
-              <li> <b> hear me. </b></li>
+              <li> <b> Hear me. </b></li>
               <li>From the desire of being esteemed,</li>
               <li> <b> Deliver me, O Jesus. </b></li>
               <li>From the desire of being loved,</li>
@@ -266,85 +266,85 @@ const Litanies = () => {
               <li> Lord, have mercy.</li>
               <li> <b> Lord, have mercy. </b></li>
               <li> God our Father in heaven,  </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> God the Son, Redeemer of the world, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> God the Holy Spirit,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Holy Trinity, one God, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, Son of the eternal Father, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, formed by the Holy Spirit in the womb of the Virgin Mother,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, one with the eternal Word, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, infinite in majesty, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, holy temple of God, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, tabernacle of the Most High,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Heart of Jesus, house of God and gate of heaven,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, aflame with love for us, </li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, source of justice and love,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, full of goodness and love,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, well-spring of all virtue,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, worthy of all praise,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, king and center of all hearts,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, treasure-house of wisdom and knowledge,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, in whom there dwells the fullness of God,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, in whom the Father is well pleased,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, from whose fullness we have all received,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, desire of the eternal hills,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, patient and full of mercy,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, generous to all who turn to you,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, fountain of life and holiness,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, atonement for our sins,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, overwhelmed with insults,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, broken for our sins,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, obedient even to death,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, pierced by a lance,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, source of all consolation,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, our life and resurrection,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, our peace and reconciliation,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, victim of our sins,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, salvation of all who trust in you,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, hope of all who die in you,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Heart of Jesus, delight of all the saints,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Lamb of God, you take away the sins of the world,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Lamb of God, you take away the sins of the world,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li> Lamb of God, you take away the sins of the world,</li>
-              <li> <b> have mercy on us.</b></li>
+              <li> <b> Have mercy on us.</b></li>
               <li>Jesus, gentle and humble of heart.</li>
               <li> <b> Touch our hearts and make them like your own.</b></li>
               <li>Let us pray.</li>
@@ -396,7 +396,7 @@ Amen.</b></li>
               <li> Jesus, Ever present until world's end,</li>
               <li> <b> Have mercy on us. </b></li>
 
-              <li> Sacred Host, Soucre and Summit,</li>
+              <li> Sacred Host, Source and Summit,</li>
               <li> <b> Have mercy on us. </b></li>
               <li> Sacred Host, Adored by countless angels,</li>
               <li> <b> Have mercy on us. </b></li>
@@ -469,7 +469,7 @@ Amen.</b></li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From anxiety about the future, </li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From resentment or excessive preoccupation with the the past,</li>
+          <li> From resentment or excessive preoccupation with the past,</li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From disbelief in Your love and presense </li> 
           <li> <b> Deliver me, Jesus</b></li>
