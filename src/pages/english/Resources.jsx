@@ -76,6 +76,15 @@ const Resources = () => {
       >
         Saint Francis Church Divine Mercy Link
       </a>
+      <p>Hail Mary in Multiple Languages!! (With Audio)</p>
+      <a
+        className="resource-links"
+        href="https://www.mensajerosdivinos.org/en/orando-el-ave-maria-en-idiomas"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hail Mary in different Languages Link
+      </a>
       <p> Interactive Map of Shrines around the US</p>
       <Link
         className="resource-links"
@@ -85,6 +94,7 @@ const Resources = () => {
       >
         Shrine Map Link
       </Link>
+      
     </div>
   );
 };
