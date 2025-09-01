@@ -83,7 +83,7 @@ const DivineMercySpanish = () => {
         </Prayer>
         <Prayer title="">
           Oh Sangre y Agua que brotaste del Corazón de Jesús, como una Fuente de
-          Misericordia para nosotros (3 veces)
+          Misericordia para nosotros en ti confio (3 veces)
         </Prayer>
         <Prayer title="Padre Nuestro">
           Padre nuestro que estás en el cielo, santificado sea tu Nombre; venga
