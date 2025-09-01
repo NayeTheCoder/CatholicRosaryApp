@@ -20,6 +20,7 @@ import NotFound from './NotFound';
 import CommonPrayers from './pages/english/CommonPrayers';
 import PsalmsPage from './pages/english/PsalmsPage';
 import Beatitudes from './pages/english/Beatitudes';
+import SpanisBeatitudes from './pages/spanish/SpanisBeatitudes';
 import SpanishHomePage from './pages/spanish/SpanishHomePage';
 import SpanishPrayersPage from './pages/spanish/SpanishPrayerPage';
 import DailyReading from './pages/english/DailyReading';
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/prayers/common-prayers" element={<CommonPrayers/>}/>
         <Route path="/prayers/psalms-page" element={<PsalmsPage/>}/>
         <Route path="/beatitudes" element={<Beatitudes/>} />
+        <Route path="/spanisbeatitudes" element={<SpanisBeatitudes/>} />
         <Route path="/spanish-prayers" element={<SpanishPrayersPage/>}/>
         <Route path="/daily-reading" element={<DailyReading/>}/>
         <Route path="/daily-reading-spanish" element={<SpanishDailyReading/>}/>
