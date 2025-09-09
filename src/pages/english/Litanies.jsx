@@ -64,6 +64,7 @@ const Litanies = () => {
               <li> <b>Christ, hear us. </b></li>
               <li>Christ, graciously hear us.</li>
               <li> <b>Christ, graciously hear us. </b></li>
+              <br></br>
               <li>God, the Father of heaven,</li> 
                 <li> <b>have mercy on us. </b></li>
               <li>God, the Son, Redeemer of the world,</li>
@@ -72,6 +73,7 @@ const Litanies = () => {
               <li> <b>have mercy on us. </b></li>
               <li>Holy Trinity, One God,</li>
               <li> <b>have mercy on us. </b></li>
+              <br></br>
               <li>Holy Mary, pray for us.</li>
               <li> <b>pray for us. </b></li>
               <li>Holy Mother of God, </li>
@@ -172,15 +174,17 @@ const Litanies = () => {
               <li> <b>pray for us. </b></li>
               <li>Queen of peace. </li>
               <li> <b>pray for us. </b></li>
+              <br></br>
         <li>Lamb of God, who takest away the sins of the world, </li>
           <li> <b>Spare us, O Lord. </b></li>
         <li>Lamb of God, who takest away the sins of the world, </li>
         <li> <b>Graciously hear us O Lord. </b></li>
         <li>Lamb of God, who takest away the sins of the world, </li>
           <li> <b>Have mercy on us. </b></li>
+          <br></br>
         <li>V. Pray for us, O holy Mother of God.</li>
         <li><b> R. That we may be made worthy of the promises of Christ.</b> </li>
-
+            <br></br>
             <li>Let us pray: </li>
       <li><b>Grant, O Lord God, we beseech Thee, that we Thy servants may rejoice in continual health of mind and body; and, through the glorious intercession of Blessed Mary ever Virgin, may be freed from present sorrow, and enjoy eternal gladness. Through Christ our Lord. Amen.</b> </li>
 
@@ -200,6 +204,7 @@ const Litanies = () => {
             <ul>
               <li>O Jesus, meek and humble of heart,</li>
               <li> <b> Hear me. </b></li>
+              <br></br>
               <li>From the desire of being esteemed,</li>
               <li> <b> Deliver me, O Jesus. </b></li>
               <li>From the desire of being loved,</li>
@@ -232,6 +237,7 @@ const Litanies = () => {
           <li> <b> Deliver me, O Jesus. </b></li>
           <li> From the fear of being suspected,</li>
           <li> <b> Deliver me, O Jesus. </b></li>
+          <br></br>
         <li>That others may be loved more than I, Jesus, </li>
         <li> <b> Grant me the grace to desire it. </b></li>
         <li>That others may be esteemed more than I, Jesus, </li>
@@ -377,6 +383,7 @@ Amen.</b></li>
               <li> Lord, have mercy.</li>
               <li> Christ hear us.</li>
               <li> Christ, graciously hear us.</li>
+              <br></br>
               <li> Jesus, Eucharistic High Priest of the Sacrifice,</li>
               <li> <b> Have mercy on us. </b></li>
               <li> Jesus, Divine Victim for our salvation,</li>
@@ -395,6 +402,7 @@ Amen.</b></li>
               <li> <b> Have mercy on us. </b></li>
               <li> Jesus, Ever present until world's end,</li>
               <li> <b> Have mercy on us. </b></li>
+              <br></br>
 
               <li> Sacred Host, Source and Summit,</li>
               <li> <b> Have mercy on us. </b></li>
@@ -415,11 +423,17 @@ Amen.</b></li>
               <li> Sacred Host, Pledge of our future glory,</li>
               <li> <b> Have mercy on us. </b></li>
 
+              <br></br>
+
               <li><b> Blessed Be Jesus in the Most Holy Sacrament of the Altar (3x)</b></li>
+
+              <br></br>
 
               <li> For those who do not believe in the Real Presence, are indifferent, unworthily receive, 
                 or have offended you in the Holy Sacrament of the Altar, </li>
               <li><b>Have Mercy on us.</b></li>
+
+              <br></br>
 
               <li> Lamb of God, who takes away the sins of the world,</li>
               <li><b>Spare us, O Lord.</b></li>
@@ -428,11 +442,14 @@ Amen.</b></li>
               <li> Lamb of God, who takes away the sins of the world,</li>
               <li><b>Have mercy on us, O Lord.</b></li>
 
+              <br></br>
               <li><b>O Sacrament Most Holy, O Sacrament Divine, all praise and all thanksgiving
                 be every moment Thine.</b>
               </li>
+              <br></br>
 
             <li> Let Us Pray</li>
+
               <li> <b> Through Christ we pray. Merciful Father, draw us closer through
                 the Eucharist. Instill in us a deep faith in the Sacrament of Love, where Christ is present
                 and worthily received. Amen.
@@ -481,6 +498,7 @@ Amen.</b></li>
           <li> <b> Deliver me, Jesus</b></li>
           <li>From discouragement,</li>
           <li> <b> Deliver me, Jesus</b></li>
+          <br></br>
           <li> That you are continually holding me, sustaining me, loving me </li>
           <li> <b> Jesus, I trust in You.</b></li>
           <li> That your love goes deeper than my sins and failings and transforms me.</li> 

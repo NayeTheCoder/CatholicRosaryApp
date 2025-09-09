@@ -63,10 +63,13 @@ const SpanishLitany = () => {
               <li> <b>Cristo, ten piedad de nosotros. </b></li>
               <li>Señor, ten piedad de nosotros.</li>
               <li> <b>Señor, ten piedad de nosotros. </b></li>
+              <br></br>
               <li>Cristo, óyenos.</li>
               <li> <b>Cristo, óyenos. </b></li>
+              <br></br>
               <li>Cristo, escúchanos.</li>
               <li> <b>Cristo, escúchanos. </b></li>
+              <br></br>
               <li>Dios, Padre celestial,</li>
               <li> <b>Ten piedad de nosotros. </b></li>
               <li>Dios, Hijo, Redentor del mundo, </li>
@@ -75,6 +78,7 @@ const SpanishLitany = () => {
                <li> <b>Ten piedad de nosotros. </b></li>
               <li>Santísima Trinidad, un solo Dios,</li>
                <li> <b>Ten piedad de nosotros. </b></li>
+               <br></br>
               <li>Santa María, </li>
               <li> <b>Ruega por nosotros. </b></li>
               <li>Santa Madre de Dios, </li>
@@ -181,15 +185,19 @@ const SpanishLitany = () => {
               <li> <b>Ruega por nosotros. </b></li>
               <li>Reina de la paz,  </li>
               <li> <b>Ruega por nosotros. </b></li>
+              <br></br>
         <li>Cordero de Dios, que quitas el pecado del mundo, </li>
           <li> <b>Perdónanos, Señor. </b></li>
+          <br></br>
         <li>Cordero de Dios, que quitas el pecado del mundo,  </li>
         <li> <b>Escúchanos, Señor. </b></li>
+        <br></br>
         <li>Cordero de Dios, que quitas el pecado del mundo,  </li>
             <li> <b>Ten misericordia de nosotros. </b></li>
+            <br></br>
         <li>Ruega por nosotros, Santa Madre de Dios.</li>
         <li> <b>Para que seamos dignos de las promesas de Cristo.</b></li>
-
+            <br></br>
             <li>ORACIÓN.</li>
       <li><b>Te rogamos nos concedas, 
 Señor Dios nuestro, 
@@ -217,6 +225,7 @@ Amén. </b> </li>
             <ul>
                 <li> Jesús manso y humilde de Corazón, </li>
                 <li> <b> -Óyeme. </b></li>
+                <br></br>
                 <li> Del deseo de ser lisonjeado,</li>
                 <li> <b> Líbrame Jesús.  </b></li>
                 <li>Del deseo de ser alabado, </li>
@@ -247,6 +256,7 @@ Amén. </b> </li>
                 <li> <b> Líbrame Jesús. </b></li>
                 <li>Del temor de ser juzgado con malicia, </li>
                 <li> <b> Líbrame Jesús. </b></li>
+                <br></br>
                 <li>Que otros sean más amados que yo, </li>
                 <li> <b> Jesús dame la gracia de desearlo. </b></li>
                 <li>Que otros sean más estimados que yo, </li>
@@ -261,6 +271,7 @@ Amén. </b> </li>
                 <li> <b> Jesús dame la gracia de desearlo. </b></li>
                 <li>Que los demás sean más santos que yo con tal que yo sea todo lo santo que pueda, </li>
                 <li> <b> Jesús dame la gracia de desearlo. </b></li>
+                <br></br>
                 <li>Oración:</li>
                 <li><b>Oh Jesús que, siendo Dios, te humillaste hasta la muerte, y muerte de cruz, para ser ejemplo perenne que confunda nuestro orgullo y amor propio. Concédenos la gracia de aprender y practicar tu ejemplo, para que humillándonos como corresponde a nuestra miseria aquí en la tierra, podamos ser ensalzados hasta gozar eternamente de ti en el cielo.</b></li>
                 <li><b> Amén. </b></li>
@@ -284,10 +295,12 @@ Amén. </b> </li>
                 <li> <b> Cristo, ten piedad de nosotros.</b></li>
                 <li>Señor, ten piedad de nosotros.</li>
                 <li> <b> Señor, ten piedad de nosotros.</b></li>
+                <br></br>
                 <li>Cristo, óyenos. </li>
                 <li> <b> Cristo, óyenos.</b></li>
                 <li>Cristo, escúchanos. </li>
                 <li> <b> Cristo, escúchanos.</b></li>
+                <br></br>
                 <li>Dios, Padre Celestial, ten piedad de nosotros.</li>
                  <li> <b>Ten piedad de nosotros. </b></li>
                 <li>Dios Hijo, Redentor del mundo, </li>
@@ -362,14 +375,17 @@ Amén. </b> </li>
                 <li> <b>Ten piedad de nosotros. </b></li>
                 <li>Corazón de Jesús, delicia de todos los santos,</li>
                  <li> <b>Ten piedad de nosotros. </b></li>
+                 <br></br>
                 <li> Cordero de Dios, que quitas el pecado del mundo, </li>
                 <li> <b>Perdónanos Señor.</b></li>
                 <li>Cordero de Dios, que quitas el pecado del mundo,</li>
                 <li> <b>Óyenos Señor</b></li>
                 <li>Cordero de Dios, que quitas el pecado del mundo, </li>
                 <li> <b>Ten piedad de nosotros. </b></li>
+                <br></br>
                 <li>Jesús, manso y humilde de Corazón, </li>
                 <li><b>haz nuestro corazón semejante al tuyo.</b></li>
+                <br></br>
                 <li>Oración</li>
                 <li><b>Oh Dios todopoderoso y eterno, mira el Corazón de tu amantísimo Hijo, las alabanzas y satisfacciones que en nombre de los pecadores te ofrece y concede el perdón a éstos que piden misericordia en el nombre de tu mismo Hijo, Jesucristo, el cual vive y reina contigo por los siglos de los siglos. Amén. </b></li>
             </ul>
@@ -386,6 +402,7 @@ Amén. </b> </li>
            <div className='litany-prayer'>
              <ul>
               <li>Dios omnipotente, Padre de bondad y de misericordia, apiádate de las benditas Almas del Purgatorio y ayuda a mis queridos padres y antepasados.</li>
+             <br></br>
               <li> Señor ten Misericordia de nosotros. </li>
               <li> <b>Señor ten Misericordia de nosotros. </b></li>
               <li> Cristo ten Misericordia de nosotros.</li>
@@ -394,10 +411,12 @@ Amén. </b> </li>
               <li> <b>Señor ten Misericordia de nosotros. </b></li>
               <li> Cristo ten Misericordia de nosotros.  </li>
               <li> <b>Cristo ten Misericordia de nosotros.</b></li>
+              <br></br>
               <li> Cristo, óyenos.</li>
               <li> <b> Cristo, óyenos.</b></li>
               <li> Cristo, escúchanos.</li>
              <li> <b> Cristo, escúchanos.</b></li>
+             <br></br>
               <li> Dios Padre celestial; ten misericordia de nosotros.  </li>
               <li> <b> Ten misericordia de nosotros.</b></li>
               <li> Dios Hijo Redentor del mundo; </li>
@@ -408,6 +427,7 @@ Amén. </b> </li>
               <li> <b> Ten misericordia de nosotros.</b></li>
               <li> Santa María, Auxiliadora de las almas del purgatorio;</li>
               <li> <b> Ten misericordia de nosotros.</b></li>
+              <br></br>
               <li> Por mis padres, abuelos, bisabuelos y tatarabuelos… ¡Jesús mío, misericordia!</li>
               <li> <b> ¡Jesús mío, misericordia!</b></li>
               <li> Por mis hermanos y parientes más cercanos… </li>
@@ -488,10 +508,12 @@ Amén. </b> </li>
               <li> <b> ¡Jesús mío, misericordia!</b></li>
               <li> Por aquellos que morirán dentro de las próximas 24 horas…</li>
               <li> <b> ¡Jesús mío, misericordia!</b></li>
+              <br></br>
               <li> Dale Señor, a todas las almas del purgatorio el descanso eterno. </li>
               <li><b> Y brillen para ellas la luz perpetua.</b></li>
               <li> Que descansen en paz.</li>
               <li><b> Amén.</b></li>
+              <br></br>
               <li> Oremos:</li>
               <li> <b>Oh Dios, Creador y Redentor del mundo, perdona los pecados de tus servidores y servidoras, que la negligencia de los hombres olvida en el Purgatorio.
 Te rogamos que nuestras oraciones les permitan obtener la liberación por la que tanto suspiran. Señor, que nos mandas orar por nuestros seres queridos, dígnate abrir las puertas del Cielo a las almas que partieron de este mundo y concédeles el descanso y la felicidad eterna. Te lo suplicamos por intercesión de tu Santa Madre y de todos los santos. Que así sea.</b></li>
@@ -516,10 +538,13 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li> <b>Cristo, ten piedad de nosotros.</b></li>
             <li> Señor, ten piedad de nosotros.</li>
             <li> <b>Señor, ten piedad de nosotros.</b></li>
+            <br></br>
             <li> Cristo, óyenos.</li>
             <li><b>Cristo, óyenos.</b></li>
+            <br></br>
             <li>Cristo escúchanos.</li>
             <li><b>Cristo escúchanos.</b></li>
+            <br></br>
             <li> Dios Padre Celestial, ten misericordia de nosotros.</li>
             <li><b>Ten misericordia de nosotros.</b></li>
             <li>Dios Hijo, Redentor del mundo, </li>
@@ -528,6 +553,7 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li><b>Ten misericordia de nosotros.</b></li>
             <li>Santísima Trinidad que eres un solo Dios,</li>
             <li><b>Ten misericordia de nosotros.</b></li>
+            <br></br>
             <li>Santa María Inmaculada, </li>
             <li><b>Ruega por nosotros.</b></li>
             <li>Santa Madre de Dios, </li>
@@ -667,11 +693,14 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li><b>Ruega por nosotros.</b></li>
             <li>Todas las santas Vírgenes, y Viudas, </li>
             <li><b>Rueguen por nosotros.</b></li>
+            <br></br>
             <li>Todos los santos y santas de Dios, intercedan por nosotros,</li>
             <li>Sed propicios, perdónanos, Señor.</li>
             <li><b>Perdónanos, Señor.</b></li>
+            <br></br>
             <li>Sed propicio, Óyenos, Señor.</li>
             <li><b>Óyenos, Señor.</b></li>
+            <br></br>
             <li>De todo mal, líbranos Señor.</li>
             <li><b>Líbranos Señor.</b></li>
             <li>De todo pecado,</li>
@@ -708,6 +737,7 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li><b>Líbranos Señor.</b></li>
             <li>Por la venida del Espíritu Santo Consolador,</li>
             <li><b>Líbranos Señor.</b></li>
+            <br></br>
             <li>Que levantes nuestros corazones a desear las cosas celestiales, te rogamos Señor.</li>
             <li><b>Te rogamos Señor.</b></li>
             <li>Que te dignes recompensar con bienes eternos a todos nuestros bienhechores,</li>
@@ -720,23 +750,33 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li><b>Te rogamos Señor.</b></li>
             <li>Que te dignes oírnos,</li>
             <li><b>Te rogamos Señor.</b></li>
+            <br></br>
             <li>Cordero de Dios, que quitas los pecados del mundo, perdónanos Señor.</li>
             <li><b> Perdónanos Señor.</b></li>
+            <br></br>
             <li>Cordero de Dios, que quitas los pecados del mundo, óyenos Señor.</li>
             <li><b>Óyenos, Señor.</b></li>
+            <br></br>
             <li>Cordero de Dios, que quitas los pecados del mundo, ten misericordia de nosotros.</li>
             <li><b>Ten misericordia de nosotros.</b></li>
+            <br></br>
             <li>Cristo óyenos.</li>
             <li><b>Cristo óyenos.</b></li>
+            <br></br>
             <li>Cristo, escuchadnos.</li>
             <li><b>Cristo, escuchadnos.</b></li>
+            <br></br>
             <li>¡Oh Dios! ten piedad de nosotros.</li>
             <li><b>Ten misericordia de nosotros.</b></li>
+            <br></br>
             <li>Cristo, apiádate de nosotros.</li>
             <li><b>Apiádate de nosotros.</b></li>
+            <br></br>
             <li>¡Oh Dios! compadécete de nosotros.</li>
             <li><b>Compadécete de nosotros.</b></li>
+            <br></br>
             <li><b>Padre nuestro...</b></li>
+            <br></br>
             <li><b>Amen.</b></li>
     
              </ul>
@@ -785,6 +825,7 @@ Te rogamos que nuestras oraciones les permitan obtener la liberación por la que
             <li> <b> Líbrame Jesús. </b></li>
             <li>Del desánimo. </li>
             <li> <b> Líbrame Jesús. </b></li>
+            <br></br>
             <li>Que Tú estás continuamente sosteniéndome, apoyándome, amándome. Jesús, en Ti confío.</li>
             <li> <b> Jesús, en Ti confío. </b></li>
             <li>Que Tu amor va más allá de mis pecados y mis defectos, y me transforma.</li>

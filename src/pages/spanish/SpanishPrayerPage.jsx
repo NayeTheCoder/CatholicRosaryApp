@@ -30,31 +30,31 @@ const SpanishPrayersPage = () => {
         </Link>
         <Link href="/">
         <div className='prayer-box'>
-         <i><h1 className="prayer-name">Coming soon...</h1></i>
+         <i><h1 className="prayer-name">Próximamente...</h1></i>
         </div>
         </Link>
         </div>
         <div className="prayers-row">
-          <Link to="/">
+          {/* <Link to="/">
         <div className='prayer-box'>
           <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
-        </Link>
-        <Link to="/">
+        </Link> */}
+        {/* <Link to="/">
         <div className='prayer-box'>
           <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
-         </Link>
-        <Link to="/">
+         </Link> */}
+        {/* <Link to="/">
         <div className='prayer-box'>
           <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
-        </Link>
-        <Link to="/">
+        </Link> */}
+        {/* <Link to="/">
         <div className='prayer-box'>
          <i><h1 className="prayer-name">Coming soon...</h1></i>
         </div>
-        </Link>
+        </Link> */}
         </div>
     </div>
   );
