@@ -940,7 +940,7 @@ const LongRosary = () => {
           <p>
             {" "}
             O God whose only begotten Son by His Life has purchased for us the
-            rewards of eternal life, Grant that we beseech Thee while meditating
+            rewards of eternal life, Grant we beseech Thee while meditating
             upon these mysteries of the Most Holy Rosary of the Blessed Virgin
             Mary, we may both imitate what they contain and obtain what they
             promise, through the same Christ our Lord Amen.

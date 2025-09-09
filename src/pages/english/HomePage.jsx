@@ -26,8 +26,11 @@ const HomePage = () => {
   return (
     <>
     <h1 style={{ color: "white", fontFamily: "Ariel", fontSize: "3rem" }}>
-      Welcome to A Catholic Resource.
+      Welcome to A Catholic Resource!
     </h1>
+    <h3 style={{ color: "white", fontFamily: "Lucida Console", fontSize: "1.5rem" }}>
+      Designed to help you learn to pray the Rosary STEP BY STEP</h3>
+
       <img src="./images/deepimg-1748482512937.png" height="500em" />
       <h1 style={{ color: "white", fontFamily: "Ariel" }} align="center">
         {quotes[randNum]}{" "}
