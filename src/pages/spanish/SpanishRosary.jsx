@@ -37,10 +37,11 @@ const SpanishRosary = () => {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <button>Escuchar Rosario en Audio AQUI</button>
+  <button>El Santo Rosario AUDIO AQUI</button>
 </a>
+</div>
 
-
+<div>
         <img
           src="https://catholic-link.com/wp-content/uploads/2017/03/7-1-2.jpg"
           alt="El Santo Rosario"
