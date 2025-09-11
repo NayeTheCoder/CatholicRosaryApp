@@ -32,6 +32,14 @@ const SpanishRosary = () => {
     <>
       <div className="el-rosario-container">
         <h1>El Santo Rosario</h1>
+        <a
+  href="https://oloadsm.com/recemos-el-rosario/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>Escuchar Rosario en Audio AQUI</button>
+</a>
+
 
         <img
           src="https://catholic-link.com/wp-content/uploads/2017/03/7-1-2.jpg"
@@ -112,7 +120,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(0)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gozosos (lunes y sábado)
+            Misterios Gozosos (Lunes y Sábado)
           </h2>
 
           {/* The Glorious Mystery clickable*/}
@@ -131,7 +139,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(1)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Dolorosos(martes y viernes)
+            Misterios Dolorosos(Martes y Viernes)
           </h2>
 
           {visibleMysteries.includes(1) && (
@@ -149,13 +157,13 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(2)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gloriosos(miercoles y domingos)
+            Misterios Gloriosos(Miercoles y Domingos)
           </h2>
 
           {visibleMysteries.includes(2) && (
             <div>
               <h2>
-                El primer misterio Glorioso: La Resurreccion de Nuestro Senor
+                El primer misterio Glorioso: La Resurreccion de Nuestro Señor
                 Jesucristo
               </h2>
               <p>Fruto del misterio: La fe </p>
@@ -167,7 +175,7 @@ const SpanishRosary = () => {
             style={{ cursor: "pointer" }}
           >
             {/* The 1st Luminous Mystery clickable*/}
-            Misterios Luminosos(jueves)
+            Misterios Luminosos(Jueves)
           </h2>
 
           {visibleMysteries.includes(3) && (
@@ -240,7 +248,7 @@ const SpanishRosary = () => {
         <div className="el-rosario">
           <h2>
             {" "}
-            Oración del Perdón <input type="checkbox" />
+            Oración del Perdón(opcional) <input type="checkbox" />
           </h2>
           <p>
             ¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que
@@ -257,7 +265,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(4)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gozosos (lunes y sábado)
+            Misterios Gozosos (Lunes y Sábado)
           </h2>
 
           {/* The 2nd Glorious Mystery clickable*/}
@@ -277,7 +285,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(5)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Dolorosos(martes y viernes)
+            Misterios Dolorosos(Martes y Viernes)
           </h2>
 
           {visibleMysteries.includes(5) && (
@@ -296,7 +304,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(6)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gloriosos(miercoles y domingos)
+            Misterios Gloriosos(Miercoles y Domingos)
           </h2>
 
           {visibleMysteries.includes(6) && (
@@ -314,7 +322,7 @@ const SpanishRosary = () => {
             style={{ cursor: "pointer" }}
           >
             {/* The 2nd Luminous Mystery clickable*/}
-            Misterios Luminosos(jueves)
+            Misterios Luminosos(Jueves)
           </h2>
 
           {visibleMysteries.includes(7) && (
@@ -387,7 +395,7 @@ const SpanishRosary = () => {
         <div className="el-rosario">
           <h2>
             {" "}
-            Oración del Perdón <input type="checkbox" />
+            Oración del Perdón(opcional) <input type="checkbox" />
           </h2>
           <p>
             ¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que
@@ -404,7 +412,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(8)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gozosos (lunes y sábado)
+            Misterios Gozosos (Lunes y Sábado)
           </h2>
 
           {/* The 3rd Glorious Mystery clickable*/}
@@ -423,7 +431,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(9)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Dolorosos(martes y viernes)
+            Misterios Dolorosos(Martes y Viernes)
           </h2>
 
           {visibleMysteries.includes(9) && (
@@ -442,7 +450,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(10)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gloriosos(miercoles y domingos)
+            Misterios Gloriosos(Miercoles y Domingos)
           </h2>
 
           {visibleMysteries.includes(10) && (
@@ -457,7 +465,7 @@ const SpanishRosary = () => {
             style={{ cursor: "pointer" }}
           >
             {/* The 3rd Luminous Mystery clickable*/}
-            Misterios Luminosos(jueves)
+            Misterios Luminosos(Jueves)
           </h2>
 
           {visibleMysteries.includes(11) && (
@@ -492,7 +500,7 @@ const SpanishRosary = () => {
           <input type="checkbox" />
           <p>
             Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-            Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu
+            Bendita eres entre todas las mujeres, y bendito es el fruto de tu
             vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros,
             pecadores, ahora y en la hora de nuestra muerte. Amén
           </p>
@@ -531,7 +539,7 @@ const SpanishRosary = () => {
         <div className="el-rosario">
           <h2>
             {" "}
-            Oración del Perdón <input type="checkbox" />
+            Oración del Perdón(opcional) <input type="checkbox" />
           </h2>
           <p>
             ¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que
@@ -548,7 +556,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(12)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gozosos (lunes y sábado)
+            Misterios Gozosos (Lunes y Sábado)
           </h2>
 
           {/* The 4th Glorious Mystery clickable*/}
@@ -567,7 +575,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(13)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Dolorosos(martes y viernes)
+            Misterios Dolorosos(Martes y Viernes)
           </h2>
 
           {visibleMysteries.includes(13) && (
@@ -586,7 +594,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(14)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gloriosos(miercoles y domingos)
+            Misterios Gloriosos(Miercoles y Domingos)
           </h2>
 
           {visibleMysteries.includes(14) && (
@@ -603,7 +611,7 @@ const SpanishRosary = () => {
             style={{ cursor: "pointer" }}
           >
             {/* The 4th Luminous Mystery clickable*/}
-            Misterios Luminosos(jueves)
+            Misterios Luminosos(Jueves)
           </h2>
 
           {visibleMysteries.includes(15) && (
@@ -635,7 +643,7 @@ const SpanishRosary = () => {
           <input type="checkbox" />
           <p>
             Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-            Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu
+            Bendita eres entre todas las mujeres, y bendito es el fruto de tu
             vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros,
             pecadores, ahora y en la hora de nuestra muerte. Amén
           </p>
@@ -674,7 +682,7 @@ const SpanishRosary = () => {
         <div className="el-rosario">
           <h2>
             {" "}
-            Oración del Perdón <input type="checkbox" />
+            Oración del Perdón(opcional) <input type="checkbox" />
           </h2>
           <p>
             ¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que
@@ -691,7 +699,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(16)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gozosos (lunes y sábado)
+            Misterios Gozosos (Lunes y Sábado)
           </h2>
 
           {/* The 5th Glorious Mystery clickable*/}
@@ -711,7 +719,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(17)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Dolorosos(martes y viernes)
+            Misterios Dolorosos(Martes y Viernes)
           </h2>
 
           {visibleMysteries.includes(17) && (
@@ -730,7 +738,7 @@ const SpanishRosary = () => {
             onClick={() => toggleVisibility(18)}
             style={{ cursor: "pointer" }}
           >
-            Misterios Gloriosos(miercoles y domingos)
+            Misterios Gloriosos(Miercoles y Domingos)
           </h2>
 
           {visibleMysteries.includes(18) && (
@@ -749,7 +757,7 @@ const SpanishRosary = () => {
             style={{ cursor: "pointer" }}
           >
             {/* The 5th Luminous Mystery clickable*/}
-            Misterios Luminosos(jueves)
+            Misterios Luminosos(Jueves)
           </h2>
 
           {visibleMysteries.includes(19) && (
@@ -783,7 +791,7 @@ const SpanishRosary = () => {
           <input type="checkbox" />
           <p>
             Dios te salve, María, llena eres de gracia, el Seńor es contigo.
-            Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu
+            Bendita eres entre todas las mujeres, y bendito es el fruto de tu
             vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros,
             pecadores, ahora y en la hora de nuestra muerte. Amén
           </p>
@@ -822,7 +830,7 @@ const SpanishRosary = () => {
         <div className="el-rosario">
           <h2>
             {" "}
-            Oración del Perdón <input type="checkbox" />
+            Oración del Perdón(opcional) <input type="checkbox" />
           </h2>
           <p>
             ¡Jesus, yo creo, adoro, espero y te amo! Te pido perdón por los que
