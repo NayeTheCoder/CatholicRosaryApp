@@ -3,6 +3,7 @@ import '../../styles/DailyReading.css';
 export default function DailyReading() {
 	const [dailyReading, setDailyReading] = useState({reading_title:"Loading..."});
 	const currentDate = new Date();
+	const [ isSunday, setSunday ] = useState(false);
 	async function getDailyReading(){
    			await fetch("https://backend-opal-seven-58.vercel.app/getDailyReading")
 			// await fetch("http://localhost:3000/getDailyReading")
@@ -24,12 +25,14 @@ export default function DailyReading() {
 	}
 	useEffect(()=>
 		{
+			setSunday(currentDate.getDay === 0 ? true : false);
 			getDailyReading();
+			
 		},[]
 	)
 
 	return (
-
+	
 		<div>
 			<h1 className='title'>{currentDate.getMonth()+1}-{currentDate.getDate()}-{currentDate.getFullYear()}</h1>
 			<h1 style={{border:"1px solid white"}}className='title'>{dailyReading.reading_title}</h1>
@@ -40,7 +43,12 @@ export default function DailyReading() {
 			<h3 className='heading'>{dailyReading.responsorial_psalm_heading}</h3>
 			<p className='content'>{dailyReading.responsorial_psalm_content}</p>
 			<h4 className='address'>-{dailyReading.responsorial_psalm_address}</h4>
-			<hr/>
+			{!isSunday && <hr/>}
+			{isSunday && <hr/>}
+			{isSunday && <h3 className='heading'>{dailyReading.reading_2_heading}</h3>}
+			{isSunday && <p className='content'>{dailyReading.reading_2_content}</p>}
+			{isSunday && <h4 className='address'>-{dailyReading.reading_2_address}</h4>}
+			{isSunday && <hr/>}
 			<h3 className='heading'>{dailyReading.alleluia_heading}</h3>
 			<p className='content'>{dailyReading.alleluia_content}</p>
 			<h4 className='address'>-{dailyReading.alleluia_address}</h4>
