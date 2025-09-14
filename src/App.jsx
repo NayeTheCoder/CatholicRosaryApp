@@ -28,6 +28,7 @@ import SpanishDailyReading from './pages/spanish/SpanishDailyReading'
 import PsalmsPageSpanish from './pages/spanish/PsalmsPageSpanish';
 import CommonPrayersSpanish from './pages/spanish/CommonPrayersSpanish';
 import MapPage from './pages/english/MapPage';
+import LongRosaryPaginated from './pages/english/LongRosaryPaginated';
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/prayers/psalms-page-spanish" element={<PsalmsPageSpanish/>}/>
         <Route path="/prayers/common-prayers-spanish" element={<CommonPrayersSpanish/>}/>
         <Route path="/resources/shrine-map" element={<MapPage/>}/>
+        <Route path="/long-rosary-pages" element={<LongRosaryPaginated/>}/>
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>
