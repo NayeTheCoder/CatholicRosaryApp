@@ -19,8 +19,8 @@ const LongRosaryPaginated = () => {
 	  };
 
 	  const handlers = useSwipeable({
-		onSwipeLeft: () => {nextPage()},
-		onSwipeRight: () => {prevPage()},
+		onSwipedLeft: () => {nextPage()},
+		onSwipedRight: () => {prevPage()},
 		preventDefaultTouchmoveEvent: true,
 		trackMouse: true,
 	  })
