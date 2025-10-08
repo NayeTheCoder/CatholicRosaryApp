@@ -81,7 +81,7 @@ const DivineMercy = () => {
         </Prayer>
         <Prayer title="">
           O Blood and Water, which gushed forth from the Heart of Jesus as a
-          fountain of mercy for us, I trust in You! (Repeat 3X)
+          fount of mercy for us, I trust in You! (Repeat 3X)
         </Prayer>
         <Prayer title="Our Father">
           Our Father, Who art in heaven, Hallowed be Thy Name. Thy Kingdom come.
