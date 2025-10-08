@@ -480,7 +480,7 @@ Amen.</b></li>
           <li> <b> Deliver me, Jesus</b></li> 
           <li> From all suspicion of Your words and promises,</li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From the rebellion against childlike depency on You,</li>
+          <li> From the rebellion against childlike dependency on You,</li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From refusals and reluctances in accepting Your will,</li>
           <li> <b> Deliver me, Jesus</b></li>
@@ -488,7 +488,7 @@ Amen.</b></li>
           <li> <b> Deliver me, Jesus</b></li>
           <li> From resentment or excessive preoccupation with the past,</li>
           <li> <b> Deliver me, Jesus</b></li>
-          <li> From disbelief in Your love and presense </li> 
+          <li> From disbelief in Your love and presence </li> 
           <li> <b> Deliver me, Jesus</b></li>
           <li> From the fear of being asked to give more than I have, </li>
           <li> <b> Deliver me, Jesus</b></li>
@@ -499,9 +499,9 @@ Amen.</b></li>
           <li>From discouragement,</li>
           <li> <b> Deliver me, Jesus</b></li>
           <br></br>
-          <li> That you are continually holding me, sustaining me, loving me </li>
+          <li> That you are continually holding me, sustaining me, loving me, </li>
           <li> <b> Jesus, I trust in You.</b></li>
-          <li> That your love goes deeper than my sins and failings and transforms me.</li> 
+          <li> That your love goes deeper than my sins and failings and transforms me,</li> 
           <li> <b> Jesus, I trust in You.</b></li>
           <li> That not knowing what tomorrow brings is an invitation to lean on You,</li>
           <li> <b> Jesus, I trust in You.</b></li>
