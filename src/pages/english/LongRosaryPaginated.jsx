@@ -80,7 +80,7 @@ const LongRosaryPaginated = () => {
 	<div className="rosary-prayer">
           <h2>
             {" "}
-            The Apostle's Creed <input type="checkbox" />{" "}
+            The Apostles' Creed <input type="checkbox" />{" "}
           </h2>
           <p>
             {" "}
