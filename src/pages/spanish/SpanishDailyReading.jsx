@@ -60,8 +60,9 @@ export default function DailyReading() {
 			<h3 className='heading'>Homilías Diarias/Semanales</h3>
 				<ul className='homilies-list'>
 					<li>P. Fabian - Iowa, EEUU: <a target="_blank" rel="noopener norefferer" href='https://be-not-afraid-in-spanish.simplecast.com/episodes'>https://be-not-afraid-in-spanish.simplecast.com/episodes</a></li>
-					<li>P. Ignacio Fernández González - Mexico: <a target="_blank" rel="noopener norefferer" href='http://igfergon.com.mx/homilia-diaria/'>http://igfergon.com.mx/homilia-diaria/</a></li>
-					<li>P. Miguel Martinez  - Paraguay: <a target="_blank" rel="noopener norefferer" href='https://formacioncatolica.org/categoria/programas/homilia-diaria/'>https://formacioncatolica.org/categoria/programas/homilia-diaria/</a></li>
+					<li>P. Carlos Yepes - Columbia: <a target="_blank" rel="noopener norefferer" href='https://padrecarlosyepes.com/categorias/1-evangelio-de-hoy/'>https://padrecarlosyepes.com/categorias/1-evangelio-de-hoy/</a></li>
+					<li>P. Ignacio Fernández González - Mexico: <a target="_blank" rel="noopener norefferer" href='http://igfergon.com.mx/?page_id=26'>http://igfergon.com.mx/?page_id=26/</a></li>
+					<li>P. Miguel Martinez  - Paraguay: <a target="_blank" rel="noopener norefferer" href='https://formacioncatolica.org/homilia-diaria/'>https://formacioncatolica.org/homilia-diaria/</a></li>
 				</ul></>}
 
 		</div>);

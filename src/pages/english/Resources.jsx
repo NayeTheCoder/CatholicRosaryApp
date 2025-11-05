@@ -83,7 +83,16 @@ const Resources = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Hail Mary in different Languages Link
+        Hail Mary Multiple Languages Link
+      </a>
+      <p>Litany of Trust - Sisters of Life (Multiple Languages)</p>
+      <a
+        className="resource-links"
+        href="https://sistersoflife.org/litany-of-trust/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Litany of Trust Link
       </a>
       <p> Interactive Map of Shrines around the US</p>
       <Link
