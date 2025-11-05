@@ -96,7 +96,7 @@ const DivineMercy = () => {
           Mother of God, pray for us sinners now and at the hour of our death.
           Amen.
         </Prayer>
-        <Prayer title="The Apostle's Creed">
+        <Prayer title="The Apostles' Creed">
           I believe in God, the Father Almighty, Creator of heaven and earth,
           and in Jesus Christ, His only Son, our Lord, who was conceived by the
           Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate,
