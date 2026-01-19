@@ -5,7 +5,7 @@ export default function DailyReading() {
 	const currentDate = new Date();
 	const [ isSunday, setSunday ] = useState(false);
 	async function getDailyReading(){
-   			await fetch("https://backend-opal-seven-58.vercel.app/getDailyReading")
+   			await fetch("https://backend-oscar-nazarits-projects.vercel.app/getDailyReading")
 			// await fetch("http://localhost:3000/getDailyReading")
   			.then(async response => {
     			// Check if the request was successful (e.g., status code 200)
