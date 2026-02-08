@@ -15,7 +15,7 @@ export default function DailyReading() {
     			return await response.json(); 
   			})
   			.then(data => {
-    		console.log(data)
+    		// console.log(data)
 			setDailyReading(data)
   		})
   		.catch(error => {
@@ -24,8 +24,9 @@ export default function DailyReading() {
 	}
 	useEffect(()=>
 		{
-			setSunday(currentDate.getDay === 0 ? true : false);
+			setSunday(currentDate.getDay() === 0 ? true : false);
 			getDailyReading();
+			// console.log("SUNDAY: " + isSunday)
 		},[]
 	)
 

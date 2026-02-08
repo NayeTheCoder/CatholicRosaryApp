@@ -5,17 +5,8 @@ import { useNavigate } from "react-router-dom";
 import Switch from "react-switch";
 
 const LongRosary = () => {
-  const [isPageOne, setIsPageOne] = useState(false);
   const navigate = useNavigate();
 
-  const handleToggle = () => {
-    setIsPageOne(!isPageOne);
-    if (isPageOne) {
-      navigate("/long-rosary"); // Navigate to long-rosary
-    } else {
-      navigate("/spanish-rosary"); // Navigate to spanish rosary
-    }
-  };
   // State to control visibility of specific mysteries (each with a unique index)
   const [visibleMysteries, setVisibleMysteries] = useState([]);
 
