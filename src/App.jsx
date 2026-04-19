@@ -29,6 +29,7 @@ import PsalmsPageSpanish from './pages/spanish/PsalmsPageSpanish';
 import CommonPrayersSpanish from './pages/spanish/CommonPrayersSpanish';
 import MapPage from './pages/english/MapPage';
 import LongRosaryPaginated from './pages/english/LongRosaryPaginated';
+import MeditationsPage from './pages/english/MeditationsPage';
 
 const App = () => {
   return (
@@ -61,6 +62,7 @@ const App = () => {
         <Route path="/prayers/common-prayers-spanish" element={<CommonPrayersSpanish/>}/>
         <Route path="/resources/shrine-map" element={<MapPage/>}/>
         <Route path="/long-rosary-pages" element={<LongRosaryPaginated/>}/>
+        <Route path="/meditations" element={<MeditationsPage/>}></Route>
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>

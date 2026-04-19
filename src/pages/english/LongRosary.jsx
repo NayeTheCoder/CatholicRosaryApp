@@ -7,6 +7,7 @@ import Switch from "react-switch";
 const LongRosary = () => {
   const [isPageOne, setIsPageOne] = useState(false);
   const navigate = useNavigate();
+  const [showMeditations, setShowMeditations] = useState(false);
 
   const handleToggle = () => {
     setIsPageOne(!isPageOne);
@@ -32,7 +33,7 @@ const LongRosary = () => {
     <>
       <div className="long-rosary-container">
         <h1 className="textInContainer">The Holy Rosary</h1>
-
+        <button className="meditations" onClick={()=>{setShowMeditations(!showMeditations)}}> With Meditation<span>⬇️</span></button>
         <p className="textInContainer">
           This is a longer version of the Holy Rosary designed to help you
           meditate and learn from each mystery. The Holy Rosary is meant to
@@ -159,7 +160,12 @@ const LongRosary = () => {
               <p>Fruit of the mystery: Obedience to God’s Will</p>
             </div>
           )}
-
+          {
+            showMeditations && <div className="meditationtext">
+              Reflection: Jesus felt "sorrowful even to death". His human side showed here but despite that he went through with it out of Obedience to God. 
+              May God grant us this grace of obedience to God's will.   
+              </div>
+          }
           {/* The 1st Glorious Mystery clickable*/}
           <h2
             id="glorious"
